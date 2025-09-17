@@ -1,0 +1,324 @@
+Receiver Resolver Table:
+  Full MIME Types:
+      application/vnd.syncml.notification:
+        b7248b0 com.android.omadm.service/.DMWapPushReceiver filter 9eec329
+          Action: "android.provider.Telephony.WAP_PUSH_RECEIVED"
+          StaticType: "application/vnd.syncml.notification"
+
+  Base MIME Types:
+      application:
+        b7248b0 com.android.omadm.service/.DMWapPushReceiver filter 9eec329
+          Action: "android.provider.Telephony.WAP_PUSH_RECEIVED"
+          StaticType: "application/vnd.syncml.notification"
+
+  Non-Data Actions:
+      com.google.android.carrier.action.APP_ENABLED:
+        f61c899 com.android.omadm.service/.TelephonyBroadcastReceiver filter ffd5555
+          Action: "com.google.android.carrier.action.APP_ENABLED"
+      com.android.omadm.service.WAP_PUSH_RECEIVED_INTERNAL:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter a22cc4f
+          Action: "com.android.omadm.service.WAP_PUSH_RECEIVED_INTERNAL"
+      com.android.omadm.service.start_up:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter 33dae74
+          Action: "com.android.omadm.service.start_up"
+          mPriority=1, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.android.phone.settings.TRIGGER_CARRIER_PROVISIONING:
+        f61c899 com.android.omadm.service/.TelephonyBroadcastReceiver filter 875673f
+          Action: "com.android.phone.settings.TRIGGER_CARRIER_PROVISIONING"
+      com.android.omadm.service.cancel_dm_session:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter 5c13de0
+          Action: "com.android.omadm.service.cancel_dm_session"
+      com.android.omadm.service.apn_state_active:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter 41a7dc8
+          Action: "com.android.omadm.service.apn_state_active"
+      com.android.omadm.service.Result:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter e22cf9d
+          Action: "com.android.omadm.service.Result"
+          mPriority=1, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.android.omadm.service.notify_result_to_server:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter 24aae61
+          Action: "com.android.omadm.service.notify_result_to_server"
+      com.android.omadm.service.set_server_config:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter af3fd86
+          Action: "com.android.omadm.service.set_server_config"
+      com.android.omadm.service.call_and_data_state_ready:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter 1e9de6b
+          Action: "com.android.omadm.service.call_and_data_state_ready"
+      com.android.omadm.service.InjectPackage0_Internal:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter f2b3fdc
+          Action: "com.android.omadm.service.InjectPackage0_Internal"
+      com.android.omadm.service.user_confirmed_dm_session:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter cc5f647
+          Action: "com.android.omadm.service.user_confirmed_dm_session"
+      com.android.omadm.service.CONFIGURATION_UPDATE:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter 30768e5
+          Action: "com.android.omadm.service.CONFIGURATION_UPDATE"
+      com.android.omadm.service.client_initiated_fota:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter c61afe3
+          Action: "com.android.omadm.service.client_initiated_fota"
+      android.intent.action.BOOT_COMPLETED:
+        f61c899 com.android.omadm.service/.TelephonyBroadcastReceiver filter 92c580c
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.android.phone.settings.CARRIER_PROVISIONING:
+        f61c899 com.android.omadm.service/.TelephonyBroadcastReceiver filter 717375e
+          Action: "com.android.phone.settings.CARRIER_PROVISIONING"
+      com.android.omadm.service.close_notification_info:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter 23b9fba
+          Action: "com.android.omadm.service.close_notification_info"
+      com.android.omadm.service.pending_notification:
+        4d5c6ae com.android.omadm.service/.DMIntentReceiver filter 826c12
+          Action: "com.android.omadm.service.pending_notification"
+
+  MIME Typed Actions:
+      android.provider.Telephony.WAP_PUSH_RECEIVED:
+        b7248b0 com.android.omadm.service/.DMWapPushReceiver filter 9eec329
+          Action: "android.provider.Telephony.WAP_PUSH_RECEIVED"
+          StaticType: "application/vnd.syncml.notification"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.android.omadm.plugin.dev.DevPlugin:
+        a4ce8f8 com.android.omadm.service/com.android.omadm.plugin.dev.DevService filter 98af1d1
+          Action: "com.android.omadm.plugin.dev.DevPlugin"
+      android.provider.Telephony.SMS_CARRIER_PROVISION:
+        39b6b6a com.android.omadm.service/.DMClientService filter 1e3385b permission com.android.permission.WRITE_OMADM_SETTINGS
+          Action: "android.provider.Telephony.SMS_CARRIER_PROVISION"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.android.permission.READ_OMADM_SETTINGS] (6367ff8):
+    sourcePackage=com.android.omadm.service
+    uid=10121 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{8ae0d2d com.android.permission.READ_OMADM_SETTINGS}
+    flags=0x0
+
+Permissions:
+  Permission [com.android.permission.WRITE_OMADM_SETTINGS] (2023cd1):
+    sourcePackage=com.android.omadm.service
+    uid=10121 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{fdac663 com.android.permission.WRITE_OMADM_SETTINGS}
+    flags=0x0
+
+Permissions:
+  Permission [com.android.permission.INJECT_OMADM_SETTINGS] (421c336):
+    sourcePackage=com.android.omadm.service
+    uid=10121 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{2973a19 com.android.permission.INJECT_OMADM_SETTINGS}
+    flags=0x0
+
+Permissions:
+  Permission [com.android.permission.OMADM_CONFIGURE_DONE] (d9ec237):
+    sourcePackage=com.android.omadm.service
+    uid=10121 gids=[] type=0 prot=signature
+    perm=PermissionInfo{2cd3fff com.android.permission.OMADM_CONFIGURE_DONE}
+    flags=0x0
+
+Key Set Manager:
+  [com.android.omadm.service]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.android.omadm.service] (256067c):
+    appId=10121
+    sharedUser=SharedUserSetting{2d8e5d7 com.android.uid.omadm.service/10121}
+    pkg=Package{7ab8ec4 com.android.omadm.service}
+    codePath=/product/priv-app/DMService
+    resourcePath=/product/priv-app/DMService
+    legacyNativeLibraryDir=/product/priv-app/DMService/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1 minSdk=36 targetSdk=35
+    minExtensionVersions=[]
+    versionName=1.0.0
+    hiddenApiEnforcementPolicy=0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    pageSizeCompat=0
+    queriesIntents=[Intent { act=com.google.android.apps.carrier.log.action.LOG }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2008-12-31 18:00:00
+    lastUpdateTime=2025-06-25 15:00:31
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{923b1ad version:3, signatures:[377bfcc7], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.android.permission.READ_OMADM_SETTINGS: prot=signature|privileged
+      com.android.permission.WRITE_OMADM_SETTINGS: prot=signature|privileged
+      com.android.permission.INJECT_OMADM_SETTINGS: prot=signature|privileged
+      com.android.permission.OMADM_CONFIGURE_DONE: prot=signature
+    requested permissions:
+      android.permission.WRITE_SETTINGS
+      android.permission.POST_NOTIFICATIONS
+      com.android.permission.READ_OMADM_SETTINGS
+      android.permission.RECEIVE_WAP_PUSH
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.RECEIVE_SMS
+      android.permission.INTERNET
+      com.android.permission.CONNMO_SETTINGS
+      android.permission.WRITE_SECURE_SETTINGS
+      com.android.permission.WRITE_OMADM_SETTINGS
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      android.permission.WRITE_APN_SETTINGS
+      android.permission.CHANGE_WIFI_STATE
+      com.android.permission.INJECT_OMADM_SETTINGS
+      com.google.android.apps.carrier.log.permission.SEND_LOGS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.DISABLE_KEYGUARD
+      android.permission.CHANGE_CONFIGURATION
+      com.android.permission.OMADM_CONFIGURE_DONE
+      android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS
+      android.permission.CONNECTIVITY_INTERNAL
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND
+      com.android.permission.USCCDM
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.MODIFY_PHONE_STATE
+      android.permission.WAKE_LOCK
+      com.android.permission.DCMO_SETTINGS
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true, flags=[ USER_SET]
+      android.permission.WRITE_SETTINGS: granted=true, userId=10
+      com.android.permission.READ_OMADM_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.permission.CONNMO_SETTINGS: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.android.permission.WRITE_OMADM_SETTINGS: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.WRITE_APN_SETTINGS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true, flags=[ USER_SET]
+      android.permission.CHANGE_WIFI_STATE: granted=true, userId=10
+      com.android.permission.INJECT_OMADM_SETTINGS: granted=true
+      com.google.android.apps.carrier.log.permission.SEND_LOGS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.CHANGE_CONFIGURATION: granted=true
+      com.android.permission.OMADM_CONFIGURE_DONE: granted=true
+      android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS: granted=true
+      android.permission.CONNECTIVITY_INTERNAL: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.MODIFY_PHONE_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=4995 deDataInode=2535 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.android.omadm.service
+      firstInstallTime=2025-06-25 15:00:31
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-LHu4.frro
+        /data/resource-cache/com.android.systemui-accent-TGSZ.frro
+        /data/resource-cache/com.android.systemui-dynamic-7Pxr.frro
+        /vendor/overlay/DMService__tegu__auto_generated_rro_vendor.apk
+        /product/overlay/DMService__tegu__auto_generated_rro_product.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /vendor/overlay/DMService__tegu__auto_generated_rro_vendor.apk
+        /product/overlay/DMService__tegu__auto_generated_rro_product.apk
+    User 10: ceDataInode=146310 deDataInode=137142 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/10/com.android.omadm.service
+      firstInstallTime=2025-09-09 20:52:48
+      uninstallReason=0
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-LHu4.frro
+        /data/resource-cache/com.android.systemui-accent-TGSZ.frro
+        /data/resource-cache/com.android.systemui-dynamic-7Pxr.frro
+        /vendor/overlay/DMService__tegu__auto_generated_rro_vendor.apk
+        /product/overlay/DMService__tegu__auto_generated_rro_product.apk
+      legacy overlay paths:
+        /vendor/overlay/DMService__tegu__auto_generated_rro_vendor.apk
+        /product/overlay/DMService__tegu__auto_generated_rro_product.apk
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.android.omadm.service
+  queries via package name:
+  queries via component:
+    com.android.omadm.service:
+      com.google.android.apps.carrier.log
+  queryable via interaction:
+    User 0:
+      [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]:
+        com.android.omadm.service
+      com.android.sdm.plugins.connmo:
+        com.android.omadm.service
+      com.android.sdm.plugins.dcmo:
+        com.android.omadm.service
+    User 10:
+  queryable via uses-library:
+
+Shared users:
+  SharedUser [com.android.uid.omadm.service] (2d8e5d7):
+    appId=10121
+    Packages
+      PackageSetting{256067c com.android.omadm.service/10121}
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true, flags=[ USER_SET]
+      android.permission.WRITE_SETTINGS: granted=true, userId=10
+      com.android.permission.READ_OMADM_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.permission.CONNMO_SETTINGS: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.android.permission.WRITE_OMADM_SETTINGS: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.WRITE_APN_SETTINGS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true, flags=[ USER_SET]
+      android.permission.CHANGE_WIFI_STATE: granted=true, userId=10
+      com.android.permission.INJECT_OMADM_SETTINGS: granted=true
+      com.google.android.apps.carrier.log.permission.SEND_LOGS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.CHANGE_CONFIGURATION: granted=true
+      com.android.permission.OMADM_CONFIGURE_DONE: granted=true
+      android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS: granted=true
+      android.permission.CONNECTIVITY_INTERNAL: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.MODIFY_PHONE_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: 
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.RECEIVE_WAP_PUSH: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.RECEIVE_SMS: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+    User 10: 
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.RECEIVE_WAP_PUSH: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.RECEIVE_SMS: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+
+Dexopt state:
+  [com.android.omadm.service]
+    path: /product/priv-app/DMService/DMService.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/product@priv-app@DMService@DMService.apk@classes.vdex]
+
+Compiler stats:
+  [com.android.omadm.service]
+    (No recorded stats)

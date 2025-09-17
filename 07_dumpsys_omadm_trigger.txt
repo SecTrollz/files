@@ -1,0 +1,163 @@
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MASTER_CLEAR_NOTIFICATION:
+        1190a09 com.google.omadm.trigger/.NvRestoreReceiver filter 4ae340e
+          Action: "android.intent.action.MASTER_CLEAR_NOTIFICATION"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        9eee4b com.google.omadm.trigger/androidx.profileinstaller.ProfileInstallReceiver filter 900b6e6
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      com.android.omadm.config.update.done:
+        2dc9e2f com.google.omadm.trigger/.DMConfigDoneReceiver filter 77bdc3c
+          Action: "com.android.omadm.config.update.done"
+      com.android.sdm.plugins.dcmo.UPDATE_NRSTATUS:
+        f3f3dc5 com.google.omadm.trigger/.NRStatusReceiver filter e1d831a
+          Action: "com.android.sdm.plugins.dcmo.UPDATE_NRSTATUS"
+      android.intent.action.SIM_STATE_CHANGED:
+        739fdc2 com.google.omadm.trigger/.SIMChangedReceiver filter 60fdf10
+          Action: "android.intent.action.SIM_STATE_CHANGED"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        9eee4b com.google.omadm.trigger/androidx.profileinstaller.ProfileInstallReceiver filter 9488028
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        9eee4b com.google.omadm.trigger/androidx.profileinstaller.ProfileInstallReceiver filter 1daf141
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        9eee4b com.google.omadm.trigger/androidx.profileinstaller.ProfileInstallReceiver filter 8ec2427
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        739fdc2 com.google.omadm.trigger/.SIMChangedReceiver filter 50e57d3
+          Action: "android.intent.action.BOOT_COMPLETED"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.google.omadm.trigger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (d664234):
+    sourcePackage=com.google.omadm.trigger
+    uid=10165 gids=[] type=0 prot=signature
+    perm=PermissionInfo{5885a7 com.google.omadm.trigger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  com.google.omadm.trigger/androidx.startup.InitializationProvider:
+    Provider{9e3f14 com.google.omadm.trigger/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.google.omadm.trigger.androidx-startup]:
+    Provider{9e3f14 com.google.omadm.trigger/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{4ee385d com.google.omadm.trigger}
+
+Key Set Manager:
+  [com.google.omadm.trigger]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.google.omadm.trigger] (18c9b29):
+    appId=10165
+    pkg=Package{adabeae com.google.omadm.trigger}
+    codePath=/product/priv-app/OemDmTrigger
+    resourcePath=/product/priv-app/OemDmTrigger
+    legacyNativeLibraryDir=/product/priv-app/OemDmTrigger/lib
+    extractNativeLibs=true
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1 minSdk=36 targetSdk=35
+    minExtensionVersions=[]
+    versionName=1.0
+    hiddenApiEnforcementPolicy=0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    pageSizeCompat=0
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      com.android.omadm.radioconfig
+    usesLibraryFiles:
+      /system_ext/framework/RadioConfigLib.jar
+    timeStamp=2008-12-31 18:00:00
+    lastUpdateTime=2025-06-25 15:00:31
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{dd0644f version:3, signatures:[377bfcc7], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.google.omadm.trigger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.google.omadm.trigger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      com.qualcomm.permission.USE_QCRIL_MSG_TUNNEL
+      com.android.permission.WRITE_OMADM_SETTINGS
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      com.android.permission.OMADM_CONFIGURE_DONE
+      android.permission.SCHEDULE_EXACT_ALARM
+      android.permission.MODIFY_PHONE_STATE
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.google.omadm.trigger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.android.permission.WRITE_OMADM_SETTINGS: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      com.android.permission.OMADM_CONFIGURE_DONE: granted=true
+      android.permission.SCHEDULE_EXACT_ALARM: granted=true
+      android.permission.MODIFY_PHONE_STATE: granted=true
+    User 0: ceDataInode=3856 deDataInode=1308 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.google.omadm.trigger
+      firstInstallTime=2025-06-25 15:00:31
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-LHu4.frro
+        /data/resource-cache/com.android.systemui-accent-TGSZ.frro
+        /data/resource-cache/com.android.systemui-dynamic-7Pxr.frro
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      runtime permissions:
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+    User 10: ceDataInode=144643 deDataInode=136047 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/10/com.google.omadm.trigger
+      firstInstallTime=2025-09-09 20:52:48
+      uninstallReason=0
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-LHu4.frro
+        /data/resource-cache/com.android.systemui-accent-TGSZ.frro
+        /data/resource-cache/com.android.systemui-dynamic-7Pxr.frro
+      runtime permissions:
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.google.omadm.trigger
+  queries via package name:
+  queries via component:
+  queryable via interaction:
+    User 0:
+      com.google.omadm.trigger:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+    User 10:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.google.omadm.trigger]
+    path: /product/priv-app/OemDmTrigger/OemDmTrigger.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/product@priv-app@OemDmTrigger@OemDmTrigger.apk@classes.vdex]
+
+Compiler stats:
+  [com.google.omadm.trigger]
+    (No recorded stats)

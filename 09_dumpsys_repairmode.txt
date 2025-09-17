@@ -1,0 +1,948 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      com.google.android.intent.action.REPAIR_MODE_SETTINGS:
+        d538912 com.google.android.repairmode/.RepairModeSettingsActivity filter 64108e3
+          Action: "com.google.android.intent.action.REPAIR_MODE_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        bd3286a com.google.android.repairmode/androidx.profileinstaller.ProfileInstallReceiver filter bf92d1
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      android.intent.action.LOCKED_BOOT_COMPLETED:
+        cf822e0 com.google.android.repairmode/.BootCompletedReceiver filter 9874999
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.app.action.DEVICE_ADMIN_ENABLED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          mPriority=999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.google.android.apps.diagnosticstool.intent.action.LOGIN_SUCCESS:
+        d6c8d0c com.google.android.repairmode/.DiagnosticsToolReceiver filter d79e655
+          Action: "com.google.android.apps.diagnosticstool.intent.action.LOGIN_SUCCESS"
+      android.app.action.DEVICE_ADMIN_ENABLED:
+        cf822e0 com.google.android.repairmode/.BootCompletedReceiver filter 9874999
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.app.action.DEVICE_ADMIN_ENABLED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          mPriority=999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.intent.action.LOCALE_CHANGED:
+        c5d245e com.google.android.repairmode/.LocaleChangedReceiver filter 371503f
+          Action: "android.intent.action.LOCALE_CHANGED"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        bd3286a com.google.android.repairmode/androidx.profileinstaller.ProfileInstallReceiver filter b34b15b
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        bd3286a com.google.android.repairmode/androidx.profileinstaller.ProfileInstallReceiver filter adb6df8
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        bd3286a com.google.android.repairmode/androidx.profileinstaller.ProfileInstallReceiver filter ef36136
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        cf822e0 com.google.android.repairmode/.BootCompletedReceiver filter 9874999
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Action: "android.app.action.DEVICE_ADMIN_ENABLED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          mPriority=999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+
+Permissions:
+  Permission [com.google.android.repairmode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (2f4cbfd):
+    sourcePackage=com.google.android.repairmode
+    uid=1000 gids=[] type=0 prot=signature
+    perm=PermissionInfo{f5062e7 com.google.android.repairmode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Permissions:
+  Permission [com.google.android.repairmode.permission.DIAGNOSTICS_TOOL_BROADCAST] (b1020f2):
+    sourcePackage=com.google.android.repairmode
+    uid=1000 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{77aaf97 com.google.android.repairmode.permission.DIAGNOSTICS_TOOL_BROADCAST}
+    flags=0x0
+
+Registered ContentProviders:
+  com.google.android.repairmode/.RepairModeProvider:
+    Provider{be0faa6 com.google.android.repairmode/.RepairModeProvider}
+  com.google.android.repairmode/androidx.startup.InitializationProvider:
+    Provider{2fe7d2d com.google.android.repairmode/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.google.android.repairmode.androidx-startup]:
+    Provider{2fe7d2d com.google.android.repairmode/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{d13f343 com.google.android.repairmode}
+  [com.google.android.repairmode]:
+    Provider{be0faa6 com.google.android.repairmode/.RepairModeProvider}
+      applicationInfo=ApplicationInfo{e6f2dc0 com.google.android.repairmode}
+
+Key Set Manager:
+  [com.google.android.repairmode]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.google.android.repairmode] (a773420):
+    appId=1000
+    sharedUser=SharedUserSetting{b509d96 android.uid.system/1000}
+    pkg=Package{e3039c com.google.android.repairmode}
+    codePath=/system_ext/app/RepairMode
+    resourcePath=/system_ext/app/RepairMode
+    legacyNativeLibraryDir=/system_ext/app/RepairMode/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=36 minSdk=36 targetSdk=36
+    minExtensionVersions=[]
+    versionName=16
+    hiddenApiEnforcementPolicy=0
+    usesNonSdkApi=true
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE SYSTEM_EXT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    pageSizeCompat=0
+    queriesPackages=[androidx.test.orchestrator, androidx.test.services, com.google.android.apps.common.testing.services]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2008-12-31 18:00:00
+    lastUpdateTime=2025-06-25 15:00:32
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{26a41a5 version:3, signatures:[377bfcc7], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE SYSTEM_EXT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.google.android.repairmode.permission.DIAGNOSTICS_TOOL_BROADCAST: prot=signature|privileged
+      com.google.android.repairmode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.FOREGROUND_SERVICE
+      android.permission.MANAGE_DYNAMIC_SYSTEM
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.INTERACT_ACROSS_USERS_FULL
+      android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      android.permission.INSTALL_DYNAMIC_SYSTEM
+      android.permission.REBOOT
+      com.google.android.repairmode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    install permissions:
+      android.permission.QUERY_ADVANCED_PROTECTION_MODE: granted=true
+      android.permission.FOREGROUND_SERVICE_CAMERA: granted=true
+      android.permission.ACCESS_GPU_SERVICE: granted=true
+      android.permission.BIND_INCALL_SERVICE: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      android.permission.CONFIGURE_DISPLAY_COLOR_MODE: granted=true
+      android.permission.RECOVERY: granted=true
+      android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS: granted=true
+      com.android.keychain.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.LIST_ENABLED_CREDENTIAL_PROVIDERS: granted=true
+      android.permission.BIND_ATTENTION_SERVICE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.RESOLVE_COMPONENT_FOR_UID: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.MANAGE_EXTERNAL_STORAGE: granted=true
+      android.permission.ACCESS_CHECKIN_PROPERTIES: granted=true
+      android.permission.REMAP_MODIFIER_KEYS: granted=true
+      com.google.SSRestartDetector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.MODIFY_AUDIO_ROUTING: granted=true
+      com.google.android.settings.future.biometrics.faceenroll.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.READ_SAFETY_CENTER_STATUS: granted=true
+      android.permission.QUERY_AUDIO_STATE: granted=true
+      android.permission.INSTALL_LOCATION_PROVIDER: granted=true
+      android.permission.USE_RESERVED_DISK: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.BROADCAST_PHONE_ACCOUNT_REGISTRATION: granted=true
+      com.google.android.wildlife.permission.ADVANCED_VPN_CONFIG: granted=true
+      android.permission.CLEAR_APP_USER_DATA: granted=true
+      android.permission.BROADCAST_CALLLOG_INFO: granted=true
+      android.permission.CONTROL_UI_TRACING: granted=true
+      android.permission.NFC: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS_PRIVILEGED: granted=true
+      android.permission.BIND_ROTATION_RESOLVER_SERVICE: granted=true
+      android.permission.NETWORK_SETTINGS: granted=true
+      android.permission.CALL_PRIVILEGED: granted=true
+      android.permission.MANAGE_ADVANCED_PROTECTION_MODE: granted=true
+      com.android.DeviceAsWebcam.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.MASTER_CLEAR: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.READ_INSTALLED_SESSION_PATHS: granted=true
+      android.permission.ALLOW_PLACE_IN_MULTI_PANE_SETTINGS: granted=true
+      android.permission.MANAGE_DYNAMIC_SYSTEM: granted=true
+      android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK: granted=true
+      android.permission.MANAGE_ACTIVITY_TASKS: granted=true
+      android.permission.READ_INTRUSION_DETECTION_STATE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.MANAGE_ROLE_HOLDERS: granted=true
+      android.permission.PEERS_MAC_ADDRESS: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      android.permission.ENFORCE_UPDATE_OWNERSHIP: granted=true
+      android.permission.READ_PRINT_SERVICES: granted=true
+      android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS: granted=true
+      android.permission.USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER: granted=true
+      android.permission.RESTART_WIFI_SUBSYSTEM: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.WRITE_MEDIA_STORAGE: granted=true
+      android.permission.WRITE_BLOCKED_NUMBERS: granted=true
+      android.permission.BIND_REMOTE_LOCKSCREEN_VALIDATION_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CONTROL_VPN: granted=true
+      android.permission.UPDATE_DEVICE_STATS: granted=true
+      android.permission.MANAGE_FINGERPRINT: granted=true
+      android.permission.READ_PROJECTION_STATE: granted=true
+      android.permission.SEND_SAFETY_CENTER_UPDATE: granted=true
+      android.permission.ACCESS_INSTANT_APPS: granted=true
+      android.permission.MANAGE_COMPANION_DEVICES: granted=true
+      android.permission.USE_EXACT_ALARM: granted=true
+      com.google.android.settings.intelligence.BATTERY_DATA: granted=true
+      android.permission.ACCESS_CONTEXT_HUB: granted=true
+      android.permission.MANAGE_USB: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.STOP_APP_SWITCHES: granted=true
+      android.permission.ACCESS_LAST_KNOWN_CELL_ID: granted=true
+      android.permission.BATTERY_STATS: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS: granted=true
+      android.permission.TETHER_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED: granted=true
+      android.permission.MANAGE_DEBUGGING: granted=true
+      android.permission.MOVE_PACKAGE: granted=true
+      android.permission.READ_BLOCKED_NUMBERS: granted=true
+      android.permission.SATELLITE_COMMUNICATION: granted=true
+      android.permission.STATUS_BAR_SERVICE: granted=true
+      android.permission.READ_SEARCH_INDEXABLES: granted=true
+      com.google.android.settings.setup.dock.RUN_DOCK_SETUP: granted=true
+      android.permission.USE_FULL_SCREEN_INTENT: granted=true
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.ACCESS_DOWNLOAD_MANAGER: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.permission.HARDWARE_TEST: granted=true
+      android.permission.USE_BIOMETRIC_INTERNAL: granted=true
+      android.permission.INSTALL_DYNAMIC_SYSTEM: granted=true
+      android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME: granted=true
+      android.intent.category.MASTER_CLEAR.permission.C2D_MESSAGE: granted=true
+      android.permission.ACCESS_KEYGUARD_SECURE_STORAGE: granted=true
+      android.permission.BIND_JOB_SERVICE: granted=true
+      android.permission.CONFIRM_FULL_BACKUP: granted=true
+      android.permission.WRITE_APN_SETTINGS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.CAMERA_OPEN_CLOSE_LISTENER: granted=true
+      android.permission.MANAGE_IPSEC_TUNNELS: granted=true
+      android.permission.MANAGE_BIOMETRIC: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.BACKUP: granted=true
+      android.permission.CHANGE_CONFIGURATION: granted=true
+      android.permission.USER_ACTIVITY: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.READ_LOGS: granted=true
+      android.permission.COPY_PROTECTED_DATA: granted=true
+      android.permission.GET_BACKGROUND_INSTALLED_PACKAGES: granted=true
+      android.permission.RESTART_TELEPHONY_PROCESS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      com.google.android.settings.biometrics.face.POSTURE_GUIDANCE: granted=true
+      android.permission.SET_KEYBOARD_LAYOUT: granted=true
+      android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS: granted=true
+      android.permission.READ_DREAM_STATE: granted=true
+      android.permission.START_VIEW_APP_FEATURES: granted=true
+      android.permission.MANAGE_ENHANCED_CONFIRMATION_STATES: granted=true
+      android.permission.HANDLE_QUERY_PACKAGE_RESTART: granted=true
+      android.permission.MANAGE_APP_OPS_RESTRICTIONS: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.MANAGE_USER_OEM_UNLOCK_STATE: granted=true
+      android.permission.REQUEST_NETWORK_SCORES: granted=true
+      android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS: granted=true
+      android.permission.WRITE_USER_DICTIONARY: granted=true
+      android.permission.BIND_INTRUSION_DETECTION_EVENT_TRANSPORT_SERVICE: granted=true
+      android.permission.READ_DREAM_SUPPRESSION: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.REBOOT: granted=true
+      android.permission.SCHEDULE_EXACT_ALARM: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      android.permission.OEM_UNLOCK_STATE: granted=true
+      android.permission.MANAGE_DEVICE_ADMINS: granted=true
+      android.permission.CHANGE_APP_IDLE_STATE: granted=true
+      android.permission.BIND_SETTINGS_SUGGESTIONS_SERVICE: granted=true
+      android.permission.TEST_BLACKLISTED_PASSWORD: granted=true
+      android.permission.MANAGE_NETWORK_POLICY: granted=true
+      android.permission.MANAGE_NOTIFICATION_LISTENERS: granted=true
+      android.permission.SET_POINTER_SPEED: granted=true
+      android.permission.MANAGE_NOTIFICATIONS: granted=true
+      android.permission.USE_COLORIZED_NOTIFICATIONS: granted=true
+      com.google.android.repairmode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.MANAGE_GAME_MODE: granted=true
+      com.google.android.permission.USE_GRIL: granted=true
+      android.permission.SEND_SHOW_SUSPENDED_APP_DETAILS: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.CAMERA_INJECT_EXTERNAL_CAMERA: granted=true
+      android.permission.BIND_CELL_BROADCAST_SERVICE: granted=true
+      android.permission.LOADER_USAGE_STATS: granted=true
+      android.permission.OVERRIDE_WIFI_CONFIG: granted=true
+      android.permission.FORCE_STOP_PACKAGES: granted=true
+      android.permission.SUGGEST_MANUAL_TIME_AND_ZONE: granted=true
+      android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS: granted=true
+      android.permission.ACCESS_NOTIFICATIONS: granted=true
+      android.permission.HANDLE_CALL_INTENT: granted=true
+      android.permission.MEDIA_RESOURCE_OVERRIDE_PID: granted=true
+      android.permission.CUSTOMIZE_SYSTEM_UI: granted=true
+      android.permission.VIBRATE: granted=true
+      com.android.certinstaller.INSTALL_AS_USER: granted=true
+      android.permission.MANAGE_APP_HIBERNATION: granted=true
+      android.permission.HANDLE_CAR_MODE_CHANGES: granted=true
+      android.permission.READ_USER_DICTIONARY: granted=true
+      com.android.server.telecom.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS: granted=true
+      com.google.android.wildlife.permission.VPN_APP_EXCLUSION_LAUNCH: granted=true
+      android.permission.READ_SYSTEM_GRAMMATICAL_GENDER: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.READ_APP_SPECIFIC_LOCALES: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.MANAGE_APP_OPS_MODES: granted=true
+      com.android.settings.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.MODIFY_PHONE_STATE: granted=true
+      android.permission.STATUS_BAR: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.google.android.settings.routines.ROUTINES_ACTIONS: granted=true
+      android.permission.READ_DEVICE_CONFIG: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.UNLIMITED_TOASTS: granted=true
+      android.permission.QUERY_ADMIN_POLICY: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.BIND_NETWORK_RECOMMENDATION_SERVICE: granted=true
+      android.permission.UPDATE_APP_OPS_STATS: granted=true
+      android.permission.READ_OEM_UNLOCK_STATE: granted=true
+      android.permission.MANAGE_INTRUSION_DETECTION_STATE: granted=true
+      android.permission.MEDIA_CONTENT_CONTROL: granted=true
+      android.permission.DELETE_PACKAGES: granted=true
+    User 0: ceDataInode=4199 deDataInode=1767 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.google.android.repairmode
+      firstInstallTime=2025-06-25 15:00:32
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-LHu4.frro
+        /data/resource-cache/com.android.systemui-accent-TGSZ.frro
+        /data/resource-cache/com.android.systemui-dynamic-7Pxr.frro
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+    User 10: ceDataInode=0 deDataInode=0 installed=false hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=null
+      firstInstallTime=1969-12-31 18:00:00
+      uninstallReason=1
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-LHu4.frro
+        /data/resource-cache/com.android.systemui-accent-TGSZ.frro
+        /data/resource-cache/com.android.systemui-dynamic-7Pxr.frro
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+  queries via package name:
+  queries via component:
+    [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]:
+      com.google.android.pixel.setupwizard
+  queryable via interaction:
+    User 0:
+      [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]:
+        [com.android.telephony.imsmedia,com.android.mms.service,com.samsung.slsi.telephony.oem.oemrilhookservice,com.android.stk,com.android.providers.telephony,com.google.android.telephony,com.android.phone,com.android.ons,com.google.RilConfigService]
+        com.google.android.bluetooth
+        [com.android.nfc,com.google.android.nfc]
+        [com.google.android.cellbroadcastservice,com.google.android.networkstack,com.google.android.networkstack.tethering]
+        [com.android.soundpicker,com.android.providers.downloads.ui,com.android.providers.media,com.android.providers.downloads,com.android.mtp]
+        com.google.android.packageinstaller
+        [com.android.providers.userdictionary,com.android.providers.contactkeys,com.android.calllogbackup,com.android.providers.blockednumber,com.android.providers.contacts]
+        com.google.android.documentsui
+        com.android.managedprovisioning
+        com.android.externalstorage
+        com.android.providers.calendar
+        com.android.intentresolver
+        com.android.vpndialogs
+        com.android.carrierdefaultapp
+        com.android.traceur
+        com.android.angle
+        com.google.android.wfcactivation
+        com.android.omadm.service
+        com.google.assistant.hubui
+        com.google.android.apps.carrier.carrierwifi
+        com.google.android.apps.turbo
+        com.google.android.apps.diagnosticstool
+        com.google.android.apps.dreamliner
+        com.google.android.configupdater
+        com.google.android.dialer
+        com.google.android.apps.pixel.creativeassistant
+        com.google.android.apps.setupwizard.searchselector
+        com.google.android.apps.nbu.files
+        com.google.android.apps.privacy.wildlife
+        com.google.android.apps.tips
+        com.google.android.as
+        com.google.android.carrier
+        com.google.android.as.oss
+        com.google.android.apps.restore
+        com.google.android.apps.scone
+        com.google.android.apps.work.oobconfig
+        com.google.android.apps.weather
+        com.google.android.apps.wellbeing
+        com.google.android.hardwareinfo
+        com.google.android.euicc
+        com.google.android.odad
+        com.google.android.GoogleCamera
+        com.google.android.apps.safetyhub
+        com.google.android.apps.messaging
+        com.google.android.deskclock
+        com.google.android.settings.intelligence
+        com.google.android.partnersetup
+        com.android.vending
+        com.google.android.setupwizard
+        com.google.android.apps.pixel.support
+        com.google.android.gms
+        com.google.android.apps.recorder
+        com.google.android.googlequicksearchbox
+        com.google.ar.core
+        com.google.android.calendar
+        com.google.android.inputmethod.latin
+        com.google.android.videos
+        com.google.android.apps.youtube.music
+        com.google.android.apps.photos
+        com.google.android.apps.docs
+        com.google.android.apps.tachyon
+        com.google.android.marvin.talkback
+        com.google.android.gm
+        com.google.android.youtube
+        com.google.android.contacts
+        com.android.chrome
+        com.google.android.tts
+        com.google.android.webview
+        com.google.android.apps.maps
+        com.samsung.slsi.telephony.oemril
+        com.google.android.connectivitythermalpowermanager
+        com.google.euiccpixel
+        com.android.pixeldisplayservice
+        com.google.android.apps.pixel.dcservice
+        com.shannon.imsservice
+        com.google.android.turboadapter
+        com.google.android.carriersetup
+        com.verizon.mips.services
+        com.shannon.rcsservice
+        com.google.android.apps.nexuslauncher
+        com.google.android.apps.wallpaper
+        com.android.systemui
+        com.google.android.pixelsystemservice
+        com.google.android.flipendo
+        com.google.android.devicelockcontroller
+        com.google.android.cellbroadcastreceiver
+        com.google.android.ext.services
+        com.google.android.photopicker
+        com.google.android.providers.media.module
+        com.google.android.ondevicepersonalization.services
+        com.google.android.federatedcompute
+        com.google.android.permissioncontroller
+        com.google.android.rkpdapp
+        com.google.android.adservices.api
+        com.google.android.apps.docs.editors.docs
+        org.fdroid.fdroid
+        cellmapper.net.cellmapper
+        dev.imranr.obtainium.fdroid
+        me.lyft.android
+        com.duckduckgo.mobile.android
+        com.google.android.safetycore
+        com.google.android.contactkeys
+        com.grindrapp.android
+        com.google.android.apps.labs.language.tailwind
+        com.deepseek.chat
+        com.anthropic.claude
+        ai.notes.notebook
+        net.wigle.wigleandroid
+        com.facebook.orca
+        kik.android
+        com.termux
+        com.openai.chatgpt
+        com.google.android.apps.walletnfcrel
+        ch.protonmail.android
+        io.ente.auth
+        com.github.android
+        org.mozilla.firefox
+        com.ubercab
+        com.google.android.apps.docs.editors.sheets
+        ch.protonvpn.android
+        org.telegram.messenger
+        com.discord
+        com.replit.app
+        pan.alexander.tordnscrypt.gp
+      [com.android.telephony.imsmedia,com.android.mms.service,com.samsung.slsi.telephony.oem.oemrilhookservice,com.android.stk,com.android.providers.telephony,com.google.android.telephony,com.android.phone,com.android.ons,com.google.RilConfigService]:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.bluetooth:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      [com.google.android.cellbroadcastservice,com.google.android.networkstack,com.google.android.networkstack.tethering]:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      [com.android.soundpicker,com.android.providers.downloads.ui,com.android.providers.media,com.android.providers.downloads,com.android.mtp]:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      [com.android.providers.userdictionary,com.android.providers.contactkeys,com.android.calllogbackup,com.android.providers.blockednumber,com.android.providers.contacts]:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.android.providers.calendar:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.android.printspooler:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.wfcactivation:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.carrier.carrierwifi:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.turbo:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.android.sdm.plugins.connmo:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.dreamliner:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.configupdater:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.dialer:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.nbu.files:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.privacy.wildlife:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.tips:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.as:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.carrier:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.pixel.livewallpaper:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.as.oss:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.camera.services:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.scone:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.work.oobconfig:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.weather:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.carrier.log:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.wellbeing:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.hardwareinfo:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.omadm.trigger:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.euicc:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.odad:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.android.imsserviceentitlement:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.safetyhub:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.messaging:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.settings.intelligence:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.partnersetup:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.android.vending:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.setupwizard:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.pixel.support:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.gms:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.recorder:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.googlequicksearchbox:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.calendar:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.inputmethod.latin:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.videos:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.youtube.music:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.photos:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.docs:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.tachyon:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.gm:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.youtube:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.contacts:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.android.chrome:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.tts:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.webview:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.maps:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.grilservice:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.euiccpixel:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.pixel.dcservice:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.verizon.mips.services:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.android.systemui:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.flipendo:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.devicelockcontroller:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.ext.services:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.providers.media.module:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.permissioncontroller:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.rkpdapp:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.adservices.api:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.docs.editors.docs:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      org.fdroid.fdroid:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      dev.imranr.obtainium.fdroid:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.duckduckgo.mobile.android:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.grindrapp.android:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.anthropic.claude:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      ai.notes.notebook:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.facebook.orca:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      kik.android:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.openai.chatgpt:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.google.android.apps.walletnfcrel:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      ch.protonmail.android:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.github.android:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      org.mozilla.firefox:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      ch.protonvpn.android:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      org.telegram.messenger:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      com.discord:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+      pan.alexander.tordnscrypt.gp:
+        [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]
+    User 10:
+  queryable via uses-library:
+
+Shared users:
+  SharedUser [android.uid.system] (b509d96):
+    appId=1000
+    Packages
+      PackageSetting{e987 com.android.localtransport/1000}
+      PackageSetting{5bb79e com.google.SSRestartDetector/1000}
+      PackageSetting{e01dab com.android.location.fused/1000}
+      PackageSetting{3eb724c com.android.providers.settings/1000}
+      PackageSetting{5789723 com.google.pixel.iwlan/1000}
+      PackageSetting{5b8ec08 com.android.keychain/1000}
+      PackageSetting{62514dd com.android.dynsystem/1000}
+      PackageSetting{76321d9 com.android.inputdevices/1000}
+      PackageSetting{7c1b5c6 com.google.pixel.camera.services/1000}
+      PackageSetting{a136852 com.android.server.telecom/1000}
+      PackageSetting{a773420 com.google.android.repairmode/1000}
+      PackageSetting{ab253fa android/1000}
+      PackageSetting{adb0295 com.android.qns/1000}
+      PackageSetting{b33827f com.android.DeviceAsWebcam/1000}
+      PackageSetting{cf4c0b4 com.google.android.settings.future.biometrics.faceenroll/1000}
+      PackageSetting{dd71fa1 com.android.settings/1000}
+      PackageSetting{e47afaa com.google.android.iwlan/1000}
+    install permissions:
+      android.permission.QUERY_ADVANCED_PROTECTION_MODE: granted=true
+      android.permission.FOREGROUND_SERVICE_CAMERA: granted=true
+      android.permission.ACCESS_GPU_SERVICE: granted=true
+      android.permission.BIND_INCALL_SERVICE: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      android.permission.CONFIGURE_DISPLAY_COLOR_MODE: granted=true
+      android.permission.RECOVERY: granted=true
+      android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS: granted=true
+      com.android.keychain.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.LIST_ENABLED_CREDENTIAL_PROVIDERS: granted=true
+      android.permission.BIND_ATTENTION_SERVICE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.RESOLVE_COMPONENT_FOR_UID: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.MANAGE_EXTERNAL_STORAGE: granted=true
+      android.permission.ACCESS_CHECKIN_PROPERTIES: granted=true
+      android.permission.REMAP_MODIFIER_KEYS: granted=true
+      com.google.SSRestartDetector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.MODIFY_AUDIO_ROUTING: granted=true
+      com.google.android.settings.future.biometrics.faceenroll.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.READ_SAFETY_CENTER_STATUS: granted=true
+      android.permission.QUERY_AUDIO_STATE: granted=true
+      android.permission.INSTALL_LOCATION_PROVIDER: granted=true
+      android.permission.USE_RESERVED_DISK: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.BROADCAST_PHONE_ACCOUNT_REGISTRATION: granted=true
+      com.google.android.wildlife.permission.ADVANCED_VPN_CONFIG: granted=true
+      android.permission.CLEAR_APP_USER_DATA: granted=true
+      android.permission.BROADCAST_CALLLOG_INFO: granted=true
+      android.permission.CONTROL_UI_TRACING: granted=true
+      android.permission.NFC: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS_PRIVILEGED: granted=true
+      android.permission.BIND_ROTATION_RESOLVER_SERVICE: granted=true
+      android.permission.NETWORK_SETTINGS: granted=true
+      android.permission.CALL_PRIVILEGED: granted=true
+      android.permission.MANAGE_ADVANCED_PROTECTION_MODE: granted=true
+      com.android.DeviceAsWebcam.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.MASTER_CLEAR: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.READ_INSTALLED_SESSION_PATHS: granted=true
+      android.permission.ALLOW_PLACE_IN_MULTI_PANE_SETTINGS: granted=true
+      android.permission.MANAGE_DYNAMIC_SYSTEM: granted=true
+      android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK: granted=true
+      android.permission.MANAGE_ACTIVITY_TASKS: granted=true
+      android.permission.READ_INTRUSION_DETECTION_STATE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.MANAGE_ROLE_HOLDERS: granted=true
+      android.permission.PEERS_MAC_ADDRESS: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      android.permission.ENFORCE_UPDATE_OWNERSHIP: granted=true
+      android.permission.READ_PRINT_SERVICES: granted=true
+      android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS: granted=true
+      android.permission.USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER: granted=true
+      android.permission.RESTART_WIFI_SUBSYSTEM: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.WRITE_MEDIA_STORAGE: granted=true
+      android.permission.WRITE_BLOCKED_NUMBERS: granted=true
+      android.permission.BIND_REMOTE_LOCKSCREEN_VALIDATION_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CONTROL_VPN: granted=true
+      android.permission.UPDATE_DEVICE_STATS: granted=true
+      android.permission.MANAGE_FINGERPRINT: granted=true
+      android.permission.READ_PROJECTION_STATE: granted=true
+      android.permission.SEND_SAFETY_CENTER_UPDATE: granted=true
+      android.permission.ACCESS_INSTANT_APPS: granted=true
+      android.permission.MANAGE_COMPANION_DEVICES: granted=true
+      android.permission.USE_EXACT_ALARM: granted=true
+      com.google.android.settings.intelligence.BATTERY_DATA: granted=true
+      android.permission.ACCESS_CONTEXT_HUB: granted=true
+      android.permission.MANAGE_USB: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.STOP_APP_SWITCHES: granted=true
+      android.permission.ACCESS_LAST_KNOWN_CELL_ID: granted=true
+      android.permission.BATTERY_STATS: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS: granted=true
+      android.permission.TETHER_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED: granted=true
+      android.permission.MANAGE_DEBUGGING: granted=true
+      android.permission.MOVE_PACKAGE: granted=true
+      android.permission.READ_BLOCKED_NUMBERS: granted=true
+      android.permission.SATELLITE_COMMUNICATION: granted=true
+      android.permission.STATUS_BAR_SERVICE: granted=true
+      android.permission.READ_SEARCH_INDEXABLES: granted=true
+      com.google.android.settings.setup.dock.RUN_DOCK_SETUP: granted=true
+      android.permission.USE_FULL_SCREEN_INTENT: granted=true
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.ACCESS_DOWNLOAD_MANAGER: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.permission.HARDWARE_TEST: granted=true
+      android.permission.USE_BIOMETRIC_INTERNAL: granted=true
+      android.permission.INSTALL_DYNAMIC_SYSTEM: granted=true
+      android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME: granted=true
+      android.intent.category.MASTER_CLEAR.permission.C2D_MESSAGE: granted=true
+      android.permission.ACCESS_KEYGUARD_SECURE_STORAGE: granted=true
+      android.permission.BIND_JOB_SERVICE: granted=true
+      android.permission.CONFIRM_FULL_BACKUP: granted=true
+      android.permission.WRITE_APN_SETTINGS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.CAMERA_OPEN_CLOSE_LISTENER: granted=true
+      android.permission.MANAGE_IPSEC_TUNNELS: granted=true
+      android.permission.MANAGE_BIOMETRIC: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.BACKUP: granted=true
+      android.permission.CHANGE_CONFIGURATION: granted=true
+      android.permission.USER_ACTIVITY: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.READ_LOGS: granted=true
+      android.permission.COPY_PROTECTED_DATA: granted=true
+      android.permission.GET_BACKGROUND_INSTALLED_PACKAGES: granted=true
+      android.permission.RESTART_TELEPHONY_PROCESS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      com.google.android.settings.biometrics.face.POSTURE_GUIDANCE: granted=true
+      android.permission.SET_KEYBOARD_LAYOUT: granted=true
+      android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS: granted=true
+      android.permission.READ_DREAM_STATE: granted=true
+      android.permission.START_VIEW_APP_FEATURES: granted=true
+      android.permission.MANAGE_ENHANCED_CONFIRMATION_STATES: granted=true
+      android.permission.HANDLE_QUERY_PACKAGE_RESTART: granted=true
+      android.permission.MANAGE_APP_OPS_RESTRICTIONS: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.MANAGE_USER_OEM_UNLOCK_STATE: granted=true
+      android.permission.REQUEST_NETWORK_SCORES: granted=true
+      android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS: granted=true
+      android.permission.WRITE_USER_DICTIONARY: granted=true
+      android.permission.BIND_INTRUSION_DETECTION_EVENT_TRANSPORT_SERVICE: granted=true
+      android.permission.READ_DREAM_SUPPRESSION: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.REBOOT: granted=true
+      android.permission.SCHEDULE_EXACT_ALARM: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      android.permission.OEM_UNLOCK_STATE: granted=true
+      android.permission.MANAGE_DEVICE_ADMINS: granted=true
+      android.permission.CHANGE_APP_IDLE_STATE: granted=true
+      android.permission.BIND_SETTINGS_SUGGESTIONS_SERVICE: granted=true
+      android.permission.TEST_BLACKLISTED_PASSWORD: granted=true
+      android.permission.MANAGE_NETWORK_POLICY: granted=true
+      android.permission.MANAGE_NOTIFICATION_LISTENERS: granted=true
+      android.permission.SET_POINTER_SPEED: granted=true
+      android.permission.MANAGE_NOTIFICATIONS: granted=true
+      android.permission.USE_COLORIZED_NOTIFICATIONS: granted=true
+      com.google.android.repairmode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.MANAGE_GAME_MODE: granted=true
+      com.google.android.permission.USE_GRIL: granted=true
+      android.permission.SEND_SHOW_SUSPENDED_APP_DETAILS: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.CAMERA_INJECT_EXTERNAL_CAMERA: granted=true
+      android.permission.BIND_CELL_BROADCAST_SERVICE: granted=true
+      android.permission.LOADER_USAGE_STATS: granted=true
+      android.permission.OVERRIDE_WIFI_CONFIG: granted=true
+      android.permission.FORCE_STOP_PACKAGES: granted=true
+      android.permission.SUGGEST_MANUAL_TIME_AND_ZONE: granted=true
+      android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS: granted=true
+      android.permission.ACCESS_NOTIFICATIONS: granted=true
+      android.permission.HANDLE_CALL_INTENT: granted=true
+      android.permission.MEDIA_RESOURCE_OVERRIDE_PID: granted=true
+      android.permission.CUSTOMIZE_SYSTEM_UI: granted=true
+      android.permission.VIBRATE: granted=true
+      com.android.certinstaller.INSTALL_AS_USER: granted=true
+      android.permission.MANAGE_APP_HIBERNATION: granted=true
+      android.permission.HANDLE_CAR_MODE_CHANGES: granted=true
+      android.permission.READ_USER_DICTIONARY: granted=true
+      com.android.server.telecom.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS: granted=true
+      com.google.android.wildlife.permission.VPN_APP_EXCLUSION_LAUNCH: granted=true
+      android.permission.READ_SYSTEM_GRAMMATICAL_GENDER: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.READ_APP_SPECIFIC_LOCALES: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.MANAGE_APP_OPS_MODES: granted=true
+      com.android.settings.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.MODIFY_PHONE_STATE: granted=true
+      android.permission.STATUS_BAR: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.google.android.settings.routines.ROUTINES_ACTIONS: granted=true
+      android.permission.READ_DEVICE_CONFIG: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.UNLIMITED_TOASTS: granted=true
+      android.permission.QUERY_ADMIN_POLICY: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.BIND_NETWORK_RECOMMENDATION_SERVICE: granted=true
+      android.permission.UPDATE_APP_OPS_STATS: granted=true
+      android.permission.READ_OEM_UNLOCK_STATE: granted=true
+      android.permission.MANAGE_INTRUSION_DETECTION_STATE: granted=true
+      android.permission.MEDIA_CONTENT_CONTROL: granted=true
+      android.permission.DELETE_PACKAGES: granted=true
+    User 0: 
+      gids=[1065, 3002, 3003, 3001, 3007, 1007, 1096]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_CALL_LOG: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.READ_PHONE_NUMBERS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|REVOKE_WHEN_REQUESTED]
+        android.permission.READ_PHONE_STATE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.SEND_SMS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CALL_PHONE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_CONTACTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.WRITE_CALL_LOG: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.GET_ACCOUNTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_CONTACTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+    User 10: 
+      gids=[1065, 3002, 3003, 3001, 3007, 1007, 1096]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_CALL_LOG: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.READ_PHONE_NUMBERS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|REVOKE_WHEN_REQUESTED]
+        android.permission.READ_PHONE_STATE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.SEND_SMS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CALL_PHONE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_CONTACTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.WRITE_CALL_LOG: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VIDEO: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.GET_ACCOUNTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_CONTACTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+
+Dexopt state:
+  [com.google.android.repairmode]
+    path: /system_ext/app/RepairMode/RepairMode.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system_ext@app@RepairMode@RepairMode.apk@classes.vdex]
+
+Compiler stats:
+  [com.google.android.repairmode]
+    (No recorded stats)

@@ -1,0 +1,12 @@
+ANDROID FORENSIC EVIDENCE DUMP
+================================
+Date: Wed Sep 17 06:00:53 CDT 2025
+Device Serial: 127.0.0.1:42085
+
+Total packages found: 376
+
+Suspicious Packages Status:
+ - com.android.omadm.service: PRESENT
+ - com.google.omadm.trigger: PRESENT
+ - com.google.android.apps.work.clouddpc: PRESENT
+ - com.google.android.repairmode: PRESENT

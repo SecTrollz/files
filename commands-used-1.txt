@@ -1,0 +1,23 @@
+evidence_dir="android_forensic_evidence_$(date +%Y-%m-%d_%H-%M-%S)" && mkdir -p "$evidence_dir" && cd "$evidence_dir" &&
+adb shell pm list packages > 01_packages_list.txt &&
+adb shell pm list packages -f > 02_packages_list_with_paths.txt &&
+adb shell pm list users > 03_users_list.txt &&
+adb shell "for u in \$(pm list users | awk -F'[^0-9]*' '{print \$2}'); do echo \"=== User \$u ===\"; pm list packages --user \$u; done" > 04_packages_per_user.txt &&
+adb shell dumpsys package > 05_full_dumpsys_package.txt &&
+adb shell dumpsys package com.android.omadm.service > 06_dumpsys_omadm.txt 2>/dev/null || echo "Package com.android.omadm.service not found or inaccessible" > 06_dumpsys_omadm.txt &&
+adb shell dumpsys package com.google.omadm.trigger > 07_dumpsys_omadm_trigger.txt 2>/dev/null || echo "Package com.google.omadm.trigger not found or inaccessible" > 07_dumpsys_omadm_trigger.txt &&
+adb shell dumpsys package com.google.android.apps.work.clouddpc > 08_dumpsys_clouddpc.txt 2>/dev/null || echo "Package com.google.android.apps.work.clouddpc not found or inaccessible" > 08_dumpsys_clouddpc.txt &&
+adb shell dumpsys package com.google.android.repairmode > 09_dumpsys_repairmode.txt 2>/dev/null || echo "Package com.google.android.repairmode not found or inaccessible" > 09_dumpsys_repairmode.txt &&
+adb shell getprop > 10_device_properties.txt &&
+adb shell ip addr show > 11_network_interfaces.txt &&
+adb shell netstat -tunap > 12_network_connections.txt 2>/dev/null || echo "netstat command not available on this device" > 12_network_connections.txt &&
+adb shell dumpsys activity services > 13_running_services.txt &&
+adb shell dumpsys account > 14_device_accounts.txt &&
+mkdir pulled_apks &&
+adb shell pm path com.android.omadm.service 2>/dev/null | grep -o '/.*\.apk' | while read apk; do adb pull "$apk" pulled_apks/omadm_service.apk; done &&
+adb shell pm path com.google.omadm.trigger 2>/dev/null | grep -o '/.*\.apk' | while read apk; do adb pull "$apk" pulled_apks/omadm_trigger.apk; done &&
+adb shell pm path com.google.android.apps.work.clouddpc 2>/dev/null | grep -o '/.*\.apk' | while read apk; do adb pull "$apk" pulled_apks/clouddpc.apk; done &&
+{
+    echo "ANDROID FORENSIC EVIDENCE DUMP"; echo "================================"; echo "Date: $(date)"; echo "Device Serial: $(adb get-serialno)"; echo ""; echo "Total packages found: $(wc -l < 01_packages_list.txt)"; echo ""; echo "Suspicious Packages Status:"; echo " - com.android.omadm.service: $(grep -q 'package:com.android.omadm.service' 01_packages_list.txt && echo 'PRESENT' || echo 'NOT FOUND')"; echo " - com.google.omadm.trigger: $(grep -q 'package:com.google.omadm.trigger' 01_packages_list.txt && echo 'PRESENT' || echo 'NOT FOUND')"; echo " - com.google.android.apps.work.clouddpc: $(grep -q 'package:com.google.android.apps.work.clouddpc' 01_packages_list.txt && echo 'PRESENT' || echo 'NOT FOUND')"; echo " - com.google.android.repairmode: $(grep -q 'package:com.google.android.repairmode' 01_packages_list.txt && echo 'PRESENT' || echo 'NOT FOUND')";
+} > 00_evidence_summary.txt &&
+echo "Evidence collection complete. All files saved to: $(pwd)"
