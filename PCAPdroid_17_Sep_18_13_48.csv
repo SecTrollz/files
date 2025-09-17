@@ -1,0 +1,19 @@
+IPProto,SrcIP,SrcPort,DstIp,DstPort,UID,App,PackageName,Proto,Status,Info,BytesSent,BytesRcvd,PktsSent,PktsRcvd,FirstSeen,LastSeen
+17,10.215.173.1,56743,10.215.173.2,53,1073,Cell Broadcast Service,com.google.android.cellbroadcastservice,DNS,Closed,dns11.quad9.net,61,93,1,1,2025-09-17T18:11:10.267-05:00,2025-09-17T18:11:10.337-05:00
+17,10.215.173.1,8314,10.215.173.2,53,1073,Cell Broadcast Service,com.google.android.cellbroadcastservice,DNS,Closed,dns11.quad9.net,61,117,1,1,2025-09-17T18:11:10.269-05:00,2025-09-17T18:11:10.337-05:00
+6,10.215.173.1,54324,142.250.115.95,443,10137,VPN by Google,com.google.android.apps.privacy.wildlife,HTTPS,Closed,phosphor-pa.googleapis.com,8777,1799,12,13,2025-09-17T18:11:10.295-05:00,2025-09-17T18:11:46.356-05:00
+6,10.215.173.1,47822,9.9.9.11,853,1051,netd,netd,TLS,Closed,dns11.quad9.net,938,4500,12,13,2025-09-17T18:11:10.350-05:00,2025-09-17T18:11:10.506-05:00
+6,10.215.173.1,56898,149.112.112.11,853,1051,netd,netd,TLS,Closed,dns11.quad9.net,938,4500,12,13,2025-09-17T18:11:10.351-05:00,2025-09-17T18:11:10.520-05:00
+6,10.215.173.1,47826,9.9.9.11,853,1051,netd,netd,TLS,Closed,dns11.quad9.net,1092,4645,12,14,2025-09-17T18:11:10.490-05:00,2025-09-17T18:11:20.877-05:00
+6,10.215.173.1,47544,34.89.151.119,443,10167,SIM Manager,com.google.android.euicc,HTTPS,Closed,lpa.ds.gsma.com,1158,2875,8,8,2025-09-17T18:11:10.505-05:00,2025-09-17T18:11:18.113-05:00
+6,10.215.173.1,56802,142.251.186.188,5228,10181,Google Play services,com.google.android.gms,TLS,Closed,mtalk.google.com,1361,1224,8,9,2025-09-17T18:11:10.601-05:00,2025-09-17T18:12:11.185-05:00
+6,10.215.173.1,47546,34.89.151.119,443,10167,SIM Manager,com.google.android.euicc,HTTPS,Closed,lpa.ds.gsma.com,3083,1739,8,8,2025-09-17T18:11:11.807-05:00,2025-09-17T18:11:18.112-05:00
+6,10.215.173.1,41882,9.9.9.11,853,1051,netd,netd,TLS,Closed,dns11.quad9.net,1244,4809,14,15,2025-09-17T18:11:18.995-05:00,2025-09-17T18:11:34.722-05:00
+17,10.215.173.1,53912,142.250.114.95,443,10181,Google Play services,com.google.android.gms,QUIC,Closed,,77258,14026,71,49,2025-09-17T18:11:19.198-05:00,2025-09-17T18:11:22.582-05:00
+6,10.215.173.1,48926,216.239.38.223,443,10178,Google Play Store,com.android.vending,HTTPS,Closed,play.googleapis.com,5237,6419,10,12,2025-09-17T18:11:23.931-05:00,2025-09-17T18:11:24.238-05:00
+6,10.215.173.1,41218,216.239.38.223,443,10178,Google Play Store,com.android.vending,HTTPS,Closed,play.googleapis.com,4994,2064,9,9,2025-09-17T18:11:26.445-05:00,2025-09-17T18:11:26.822-05:00
+17,10.215.173.1,56695,10.215.173.2,53,10178,Google Play Store,com.android.vending,DNS,Closed,play.googleapis.com,65,129,1,1,2025-09-17T18:11:42.595-05:00,2025-09-17T18:11:42.674-05:00
+6,10.215.173.1,54962,216.239.32.223,443,10178,Google Play Store,com.android.vending,HTTPS,Closed,play.googleapis.com,2472,1978,9,10,2025-09-17T18:11:42.679-05:00,2025-09-17T18:11:43.012-05:00
+17,10.215.173.1,45627,10.215.173.2,53,10181,Google Play services,com.google.android.gms,DNS,Closed,mtalk.google.com,62,107,1,1,2025-09-17T18:12:11.224-05:00,2025-09-17T18:12:11.407-05:00
+6,10.215.173.1,48698,142.251.116.188,5228,10181,Google Play services,com.google.android.gms,TLS,Closed,mtalk.google.com,1324,1184,7,8,2025-09-17T18:12:11.445-05:00,2025-09-17T18:13:11.625-05:00
+6,10.215.173.1,44770,142.251.116.188,5228,10181,Google Play services,com.google.android.gms,TLS,Closed,mtalk.google.com,1325,1104,7,6,2025-09-17T18:13:11.666-05:00,2025-09-17T18:13:12.387-05:00
