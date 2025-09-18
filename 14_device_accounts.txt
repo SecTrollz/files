@@ -78,9 +78,9 @@ User UserInfo{0:Guy:4c13}:
   Account visibility:
     finishfaces@gmail.com
       com.google.android.apps.maps, 2
-      com.google.android.apps.docs.editors.docs, 2
       com.google.android.apps.tachyon, 2
       com.google.android.apps.wellbeing, 2
+      com.google.android.apps.docs.editors.docs, 2
       com.google.android.apps.pixel.dcservice, 2
       com.google.ar.core, 2
       com.google.android.apps.privacy.wildlife, 2

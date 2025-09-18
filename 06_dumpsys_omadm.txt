@@ -87,28 +87,28 @@ Service Resolver Table:
 Domain verification status:
 
 Permissions:
-  Permission [com.android.permission.READ_OMADM_SETTINGS] (6367ff8):
+  Permission [com.android.permission.READ_OMADM_SETTINGS] (b1cdbbc):
     sourcePackage=com.android.omadm.service
     uid=10121 gids=[] type=0 prot=signature|privileged
     perm=PermissionInfo{8ae0d2d com.android.permission.READ_OMADM_SETTINGS}
     flags=0x0
 
 Permissions:
-  Permission [com.android.permission.WRITE_OMADM_SETTINGS] (2023cd1):
+  Permission [com.android.permission.WRITE_OMADM_SETTINGS] (5a50745):
     sourcePackage=com.android.omadm.service
     uid=10121 gids=[] type=0 prot=signature|privileged
     perm=PermissionInfo{fdac663 com.android.permission.WRITE_OMADM_SETTINGS}
     flags=0x0
 
 Permissions:
-  Permission [com.android.permission.INJECT_OMADM_SETTINGS] (421c336):
+  Permission [com.android.permission.INJECT_OMADM_SETTINGS] (3d94e9a):
     sourcePackage=com.android.omadm.service
     uid=10121 gids=[] type=0 prot=signature|privileged
     perm=PermissionInfo{2973a19 com.android.permission.INJECT_OMADM_SETTINGS}
     flags=0x0
 
 Permissions:
-  Permission [com.android.permission.OMADM_CONFIGURE_DONE] (d9ec237):
+  Permission [com.android.permission.OMADM_CONFIGURE_DONE] (e9593cb):
     sourcePackage=com.android.omadm.service
     uid=10121 gids=[] type=0 prot=signature
     perm=PermissionInfo{2cd3fff com.android.permission.OMADM_CONFIGURE_DONE}
@@ -119,9 +119,9 @@ Key Set Manager:
       Signing KeySets: 2
 
 Packages:
-  Package [com.android.omadm.service] (256067c):
+  Package [com.android.omadm.service] (9f2df4c):
     appId=10121
-    sharedUser=SharedUserSetting{2d8e5d7 com.android.uid.omadm.service/10121}
+    sharedUser=SharedUserSetting{c67c289 com.android.uid.omadm.service/10121}
     pkg=Package{7ab8ec4 com.android.omadm.service}
     codePath=/product/priv-app/DMService
     resourcePath=/product/priv-app/DMService
@@ -260,7 +260,7 @@ Queries:
       com.google.android.apps.carrier.log
   queryable via interaction:
     User 0:
-      [com.android.localtransport,com.google.SSRestartDetector,com.android.location.fused,com.android.providers.settings,com.google.pixel.iwlan,com.android.keychain,com.android.dynsystem,com.android.inputdevices,com.google.pixel.camera.services,com.android.server.telecom,com.google.android.repairmode,android,com.android.qns,com.android.DeviceAsWebcam,com.google.android.settings.future.biometrics.faceenroll,com.android.settings,com.google.android.iwlan]:
+      [com.google.android.repairmode,com.google.android.iwlan,com.google.android.settings.future.biometrics.faceenroll,com.android.qns,com.android.settings,com.android.keychain,com.android.dynsystem,com.android.DeviceAsWebcam,com.android.location.fused,android,com.android.server.telecom,com.android.providers.settings,com.android.localtransport,com.google.pixel.iwlan,com.google.pixel.camera.services,com.google.SSRestartDetector,com.android.inputdevices]:
         com.android.omadm.service
       com.android.sdm.plugins.connmo:
         com.android.omadm.service
@@ -270,10 +270,10 @@ Queries:
   queryable via uses-library:
 
 Shared users:
-  SharedUser [com.android.uid.omadm.service] (2d8e5d7):
+  SharedUser [com.android.uid.omadm.service] (c67c289):
     appId=10121
     Packages
-      PackageSetting{256067c com.android.omadm.service/10121}
+      PackageSetting{9f2df4c com.android.omadm.service/10121}
     install permissions:
       android.permission.WRITE_SETTINGS: granted=true, flags=[ USER_SET]
       android.permission.WRITE_SETTINGS: granted=true, userId=10

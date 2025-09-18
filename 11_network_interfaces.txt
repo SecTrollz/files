@@ -38,7 +38,7 @@
     link/[519] 
 17: rmnet3: <POINTOPOINT,MULTICAST,NOARP> mtu 1428 qdisc mq state DOWN group default qlen 1000
     link/[519] 
-18: rmnet4: <POINTOPOINT,MULTICAST,NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+18: rmnet4: <POINTOPOINT,MULTICAST,NOARP> mtu 1428 qdisc mq state DOWN group default qlen 1000
     link/[519] 
 19: rmnet5: <POINTOPOINT,MULTICAST,NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
     link/[519] 
@@ -102,13 +102,13 @@
        valid_lft forever preferred_lft forever
 48: wlan1: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
     link/ether b2:a1:9f:02:5c:f9 brd ff:ff:ff:ff:ff:ff
-85: radiotap0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+115: radiotap0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
     link/ieee802.11/radiotap 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff
-92: tun1: <POINTOPOINT,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 500
+120: tun0: <POINTOPOINT,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN group default qlen 500
     link/none 
-    inet 10.1.10.1/32 scope global tun1
+    inet 10.1.10.1/32 scope global tun0
        valid_lft forever preferred_lft forever
     inet6 fd00:1:fd00:1:fd00:1:fd00:1/128 scope global 
        valid_lft forever preferred_lft forever
-    inet6 fe80::79a9:68be:4b34:bec4/64 scope link stable-privacy 
+    inet6 fe80::e981:b7e3:ade4:2724/64 scope link stable-privacy 
        valid_lft forever preferred_lft forever
