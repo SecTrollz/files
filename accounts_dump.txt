@@ -1,0 +1,162 @@
+User UserInfo{0:Guy:4c13}:
+  Accounts: 5
+    Account {name=finishfaces@gmail.com, type=com.google}
+    Account {name=sunofva.gun@gmail.com, type=com.google}
+    Account {name=swiliviliws@gmail.com, type=com.google}
+    Account {name=Messenger, type=com.facebook.messenger}
+    Account {name=8224964119, type=org.telegram.messenger}
+  
+  AccountId, Action_Type, timestamp, UID, TableName, Key
+  Accounts History
+  -1,action_called_account_add,2025-09-05 15:47:54,10179,accounts,0
+  -1,action_called_account_add,2025-09-05 15:48:20,10179,accounts,1
+  -1,action_called_account_remove,2025-09-05 15:54:01,10196,accounts,2
+  -1,action_called_account_add,2025-09-05 18:43:04,10178,accounts,3
+  -1,action_called_account_add,2025-09-05 18:59:01,1000,accounts,11
+  -1,action_called_account_add,2025-09-05 19:19:57,10178,accounts,4
+  -1,action_called_account_add,2025-09-05 19:20:17,10178,accounts,5
+  -1,action_called_account_add,2025-09-05 19:34:55,1000,accounts,6
+  -1,action_called_account_add,2025-09-05 21:28:06,10150,accounts,12
+  -1,action_called_account_add,2025-09-05 21:32:09,10181,accounts,13
+  -1,action_called_account_add,2025-09-05 21:51:33,10137,accounts,7
+  -1,action_called_account_add,2025-09-05 22:29:45,10137,accounts,14
+  -1,action_called_account_add,2025-09-05 22:30:26,10181,accounts,15
+  -1,action_called_account_add,2025-09-05 22:30:33,10181,accounts,16
+  1,action_account_add,2025-09-05 22:33:33,10181,accounts,17
+  1,action_clear_password,2025-09-05 22:33:33,10181,accounts,18
+  -1,action_called_account_add,2025-09-05 22:44:21,10211,accounts,8
+  -1,action_called_account_add,2025-09-05 22:45:28,10211,accounts,9
+  -1,action_called_account_add,2025-09-05 23:09:16,10137,accounts,10
+  -1,action_called_account_add,2025-09-05 23:39:11,10202,accounts,19
+  2,action_account_add,2025-09-05 23:41:02,10181,accounts,20
+  2,action_clear_password,2025-09-05 23:41:02,10181,accounts,21
+  -1,action_called_account_add,2025-09-05 23:41:12,10202,accounts,22
+  -1,action_called_account_add,2025-09-06 00:18:19,10211,accounts,23
+  3,action_account_add,2025-09-06 00:20:34,10181,accounts,24
+  3,action_clear_password,2025-09-06 00:20:35,10181,accounts,25
+  -1,action_called_account_add,2025-09-06 00:34:25,1000,accounts,26
+  -1,action_called_account_add,2025-09-06 00:34:49,1000,accounts,27
+  3,action_clear_password,2025-09-06 20:35:38,10181,accounts,28
+  3,action_clear_password,2025-09-07 12:05:04,10181,accounts,29
+  4,action_account_add,2025-09-07 18:35:08,10315,accounts,30
+  -1,action_called_account_remove,2025-09-08 17:57:53,10196,accounts,31
+  -1,action_called_account_remove,2025-09-08 17:57:55,10196,accounts,32
+  -1,action_called_account_add,2025-09-09 09:03:07,10286,accounts,33
+  -1,action_called_account_add,2025-09-09 09:03:08,10286,accounts,34
+  -1,action_called_account_add,2025-09-09 09:03:09,10286,accounts,35
+  -1,action_called_account_add,2025-09-09 10:00:09,10286,accounts,36
+  -1,action_called_account_add,2025-09-09 10:00:12,10286,accounts,37
+  -1,action_called_account_add,2025-09-09 10:00:13,10286,accounts,38
+  -1,action_called_account_add,2025-09-09 10:02:19,10286,accounts,39
+  1,action_clear_password,2025-09-09 11:51:43,10181,accounts,40
+  2,action_clear_password,2025-09-09 13:50:25,10181,accounts,41
+  3,action_clear_password,2025-09-09 13:50:25,10181,accounts,42
+  -1,action_called_account_add,2025-09-09 16:20:25,10202,accounts,43
+  2,action_clear_password,2025-09-09 16:28:26,10181,accounts,44
+  3,action_clear_password,2025-09-10 16:22:38,10181,accounts,45
+  5,action_account_add,2025-09-12 04:59:11,10336,accounts,46
+  -1,action_called_account_add,2025-09-14 12:39:06,10178,accounts,47
+  -1,action_called_account_add,2025-09-14 12:44:36,10178,accounts,48
+  -1,action_called_account_add,2025-09-14 12:54:20,10178,accounts,49
+  -1,action_called_account_add,2025-09-14 12:54:21,10178,accounts,50
+  1,action_clear_password,2025-09-14 21:17:09,10181,accounts,51
+  2,action_clear_password,2025-09-14 21:18:51,10181,accounts,52
+  3,action_clear_password,2025-09-14 22:38:03,10181,accounts,53
+  -1,action_called_account_add,2025-09-15 20:28:00,10137,accounts,54
+  
+  Active Sessions: 0
+  
+  RegisteredServicesCache: 8 services
+    ServiceInfo: AuthenticatorDescription {type=com.google.android.gm.pop3}, ComponentInfo{com.google.android.gm/com.android.email.service.Pop3AuthenticatorService}, uid 10202, lastUpdateTime 1757298288929
+    ServiceInfo: AuthenticatorDescription {type=com.google}, ComponentInfo{com.google.android.gms/com.google.android.gms.auth.account.authenticator.GoogleAccountAuthenticatorService}, uid 10181, lastUpdateTime 1758010903599
+    ServiceInfo: AuthenticatorDescription {type=com.google.android.apps.tachyon}, ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.contacts.sync.DuoAccountService}, uid 10196, lastUpdateTime 1757372271584
+    ServiceInfo: AuthenticatorDescription {type=com.facebook.messenger}, ComponentInfo{com.facebook.orca/com.facebook.messaging.phonebookintegration.account.MessengerAuthenticatorService}, uid 10315, lastUpdateTime 1757697028937
+    ServiceInfo: AuthenticatorDescription {type=org.telegram.messenger}, ComponentInfo{org.telegram.messenger/org.telegram.messenger.AuthenticatorService}, uid 10336, lastUpdateTime 1757671087474
+    ServiceInfo: AuthenticatorDescription {type=com.google.android.gm.exchange}, ComponentInfo{com.google.android.gm/com.android.email.service.EasAuthenticatorService}, uid 10202, lastUpdateTime 1757298288929
+    ServiceInfo: AuthenticatorDescription {type=com.github.android}, ComponentInfo{com.github.android/com.github.service.auth.AuthenticatorService}, uid 10328, lastUpdateTime 1757697308418
+    ServiceInfo: AuthenticatorDescription {type=com.google.android.gm.legacyimap}, ComponentInfo{com.google.android.gm/com.android.email.service.LegacyImapAuthenticatorService}, uid 10202, lastUpdateTime 1757298288929
+  
+  Account visibility:
+    finishfaces@gmail.com
+      com.google.android.apps.maps, 2
+      com.google.android.apps.tachyon, 2
+      com.google.android.apps.wellbeing, 2
+      com.google.android.apps.pixel.dcservice, 2
+      com.google.android.apps.adm, 2
+      com.google.ar.core, 2
+      com.google.android.apps.pixel.support, 2
+      com.google.android.apps.messaging, 2
+      com.google.android.googlequicksearchbox, 2
+      com.google.android.apps.pixel.creativeassistant, 2
+      com.google.android.apps.recorder, 2
+      com.google.android.apps.restore, 2
+      com.google.android.apps.labs.language.tailwind, 2
+      com.google.android.apps.walletnfcrel, 2
+      com.google.android.apps.docs.editors.docs, 2
+      com.google.android.apps.privacy.wildlife, 2
+      com.google.android.apps.photos, 2
+      com.google.android.apps.docs.editors.sheets, 2
+      com.google.android.apps.pixel.relationships, 2
+      com.google.assistant.hubui, 2
+      com.google.android.apps.safetyhub, 2
+      com.google.android.apps.docs, 2
+      com.google.android.apps.tips, 2
+      com.google.android.apps.weather, 2
+      com.google.android.calendar, 2
+    sunofva.gun@gmail.com
+      com.google.android.apps.maps, 2
+      com.google.android.apps.tachyon, 2
+      com.google.android.apps.wellbeing, 2
+      com.google.android.apps.pixel.dcservice, 2
+      com.google.android.apps.adm, 2
+      com.google.ar.core, 2
+      com.google.android.apps.pixel.support, 2
+      com.google.android.apps.messaging, 2
+      com.google.android.googlequicksearchbox, 2
+      com.google.android.apps.pixel.creativeassistant, 2
+      com.google.android.apps.recorder, 2
+      com.google.android.apps.restore, 2
+      com.google.android.apps.labs.language.tailwind, 2
+      com.google.android.apps.walletnfcrel, 2
+      com.google.android.apps.docs.editors.docs, 2
+      com.google.android.apps.privacy.wildlife, 2
+      com.google.android.apps.photos, 2
+      com.google.android.apps.docs.editors.sheets, 2
+      com.google.android.apps.pixel.relationships, 2
+      com.google.assistant.hubui, 2
+      com.anthropic.claude, 2
+      com.google.android.apps.safetyhub, 2
+      com.google.android.apps.docs, 2
+      com.google.android.apps.tips, 2
+      com.google.android.apps.weather, 2
+      com.google.android.calendar, 2
+    swiliviliws@gmail.com
+      com.google.android.apps.maps, 2
+      com.google.android.apps.tachyon, 2
+      com.google.android.apps.wellbeing, 2
+      com.google.android.apps.pixel.dcservice, 2
+      com.google.android.apps.adm, 2
+      com.google.ar.core, 2
+      com.google.android.apps.pixel.support, 2
+      com.google.android.apps.messaging, 2
+      com.google.android.googlequicksearchbox, 2
+      com.google.android.apps.pixel.creativeassistant, 2
+      ai.mistral.chat, 2
+      com.google.android.apps.recorder, 2
+      com.google.android.apps.restore, 2
+      com.google.android.apps.labs.language.tailwind, 2
+      com.google.android.apps.walletnfcrel, 2
+      com.google.android.apps.docs.editors.docs, 2
+      com.google.android.apps.privacy.wildlife, 2
+      com.google.android.apps.photos, 2
+      com.google.android.apps.docs.editors.sheets, 2
+      com.google.android.apps.pixel.relationships, 2
+      com.google.assistant.hubui, 2
+      com.anthropic.claude, 2
+      com.google.android.apps.safetyhub, 2
+      com.google.android.apps.docs, 2
+      com.deepseek.chat, 2
+      com.google.android.apps.tips, 2
+      com.google.android.apps.weather, 2
+      com.google.android.calendar, 2
+  

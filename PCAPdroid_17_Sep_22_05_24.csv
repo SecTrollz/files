@@ -1,0 +1,179 @@
+IPProto,SrcIP,SrcPort,DstIp,DstPort,UID,App,PackageName,Proto,Status,Info,BytesSent,BytesRcvd,PktsSent,PktsRcvd,FirstSeen,LastSeen
+17,10.215.173.1,21114,10.215.173.2,53,10181,Google Play services,com.google.android.gms,DNS,Closed,mtalk.google.com,62,117,1,1,2025-09-17T22:01:00.599-05:00,2025-09-17T22:01:00.607-05:00
+6,10.215.173.1,41420,74.125.136.188,5228,10181,Google Play services,com.google.android.gms,TCP,Error,mtalk.google.com,60,40,1,1,2025-09-17T22:01:00.613-05:00,2025-09-17T22:01:00.614-05:00
+17,10.215.173.1,53571,10.215.173.2,53,10181,Google Play services,com.google.android.gms,DNS,Closed,locationhistory-pa.googleapis.com,79,239,1,1,2025-09-17T22:01:00.666-05:00,2025-09-17T22:01:00.721-05:00
+6,10.215.173.1,42038,74.125.136.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,locationhistory-pa.googleapis.com,807,2021,6,5,2025-09-17T22:01:00.733-05:00,2025-09-17T22:01:00.953-05:00
+6,10.215.173.1,41428,74.125.136.188,5228,10181,Google Play services,com.google.android.gms,TLS,Error,mtalk.google.com,822,4147,6,5,2025-09-17T22:01:00.884-05:00,2025-09-17T22:01:01.034-05:00
+6,10.215.173.1,35728,172.253.124.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,locationhistory-pa.googleapis.com,807,2021,6,5,2025-09-17T22:01:00.960-05:00,2025-09-17T22:01:01.131-05:00
+6,10.215.173.1,48064,142.250.105.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,locationhistory-pa.googleapis.com,807,2021,6,5,2025-09-17T22:01:01.144-05:00,2025-09-17T22:01:01.430-05:00
+6,10.215.173.1,48784,172.217.215.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,locationhistory-pa.googleapis.com,807,2021,6,5,2025-09-17T22:01:01.437-05:00,2025-09-17T22:01:01.620-05:00
+6,10.215.173.1,45984,142.250.9.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,locationhistory-pa.googleapis.com,807,2021,6,5,2025-09-17T22:01:01.627-05:00,2025-09-17T22:01:01.784-05:00
+6,10.215.173.1,52756,64.233.176.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,locationhistory-pa.googleapis.com,807,2021,6,5,2025-09-17T22:01:01.791-05:00,2025-09-17T22:01:01.960-05:00
+6,10.215.173.1,36150,64.233.177.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,locationhistory-pa.googleapis.com,807,2021,6,5,2025-09-17T22:01:01.967-05:00,2025-09-17T22:01:02.145-05:00
+6,10.215.173.1,40902,64.233.185.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,locationhistory-pa.googleapis.com,807,2021,6,5,2025-09-17T22:01:02.163-05:00,2025-09-17T22:01:02.360-05:00
+6,10.215.173.1,53510,74.125.138.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,locationhistory-pa.googleapis.com,807,2021,6,5,2025-09-17T22:01:02.366-05:00,2025-09-17T22:01:02.542-05:00
+6,10.215.173.1,33610,108.177.122.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,locationhistory-pa.googleapis.com,807,2021,6,5,2025-09-17T22:01:02.551-05:00,2025-09-17T22:01:02.723-05:00
+6,10.215.173.1,42052,74.125.136.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,locationhistory-pa.googleapis.com,807,2021,6,5,2025-09-17T22:01:02.742-05:00,2025-09-17T22:01:02.934-05:00
+17,10.215.173.1,14466,10.215.173.2,53,10323,ChatGPT,com.openai.chatgpt,DNS,Closed,o33249.ingest.sentry.io,69,85,1,1,2025-09-17T22:01:44.957-05:00,2025-09-17T22:01:45.016-05:00
+6,10.215.173.1,52622,34.120.195.249,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Closed,o33249.ingest.sentry.io,1987,5069,9,10,2025-09-17T22:01:45.020-05:00,2025-09-17T22:01:45.172-05:00
+17,10.215.173.1,52047,10.215.173.2,53,10323,ChatGPT,com.openai.chatgpt,DNS,Closed,android.chat.openai.com,69,157,1,1,2025-09-17T22:01:45.074-05:00,2025-09-17T22:01:45.128-05:00
+17,10.215.173.1,18792,10.215.173.2,53,10323,ChatGPT,com.openai.chatgpt,DNS,Closed,0.datadog.pool.ntp.org,68,132,1,1,2025-09-17T22:01:45.090-05:00,2025-09-17T22:01:45.158-05:00
+17,10.215.173.1,31242,10.215.173.2,53,10323,ChatGPT,com.openai.chatgpt,DNS,Closed,browser-intake-datadoghq.com,74,90,1,1,2025-09-17T22:01:45.102-05:00,2025-09-17T22:01:45.109-05:00
+6,10.215.173.1,56492,172.64.155.214,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Closed,android.chat.openai.com,1184,4841,8,8,2025-09-17T22:01:45.131-05:00,2025-09-17T22:01:54.710-05:00
+6,10.215.173.1,56500,172.64.155.214,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Error,android.chat.openai.com,1023,3075,7,6,2025-09-17T22:01:45.133-05:00,2025-09-17T22:01:45.220-05:00
+6,10.215.173.1,56516,172.64.155.214,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Closed,android.chat.openai.com,68111,40537,40,52,2025-09-17T22:01:45.133-05:00,2025-09-17T22:01:54.709-05:00
+6,10.215.173.1,56530,172.64.155.214,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Error,android.chat.openai.com,1023,3075,7,6,2025-09-17T22:01:45.134-05:00,2025-09-17T22:01:45.218-05:00
+6,10.215.173.1,56544,172.64.155.214,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Error,android.chat.openai.com,1023,3076,7,6,2025-09-17T22:01:45.135-05:00,2025-09-17T22:01:45.218-05:00
+6,10.215.173.1,56548,172.64.155.214,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Closed,android.chat.openai.com,1183,3812,11,11,2025-09-17T22:01:45.149-05:00,2025-09-17T22:01:45.254-05:00
+17,10.215.173.1,51500,10.215.173.2,53,10323,ChatGPT,com.openai.chatgpt,DNS,Closed,ab.chatgpt.com,60,92,1,1,2025-09-17T22:01:45.157-05:00,2025-09-17T22:01:45.204-05:00
+17,10.215.173.1,44970,198.137.202.56,123,10323,ChatGPT,com.openai.chatgpt,NTP,Closed,0.datadog.pool.ntp.org,76,76,1,1,2025-09-17T22:01:45.162-05:00,2025-09-17T22:01:45.235-05:00
+6,10.215.173.1,50104,172.64.155.209,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Closed,ab.chatgpt.com,9088,7329,12,11,2025-09-17T22:01:45.209-05:00,2025-09-17T22:01:54.710-05:00
+6,10.215.173.1,50106,172.64.155.209,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Closed,ab.chatgpt.com,7259,7251,12,11,2025-09-17T22:01:45.212-05:00,2025-09-17T22:01:54.708-05:00
+17,10.215.173.1,59131,10.215.173.2,53,10323,ChatGPT,com.openai.chatgpt,DNS,Closed,api.revenuecat.com,64,192,1,1,2025-09-17T22:01:45.216-05:00,2025-09-17T22:01:45.274-05:00
+6,10.215.173.1,50122,172.64.155.209,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Closed,ab.chatgpt.com,3931,455706,32,56,2025-09-17T22:01:45.219-05:00,2025-09-17T22:01:54.709-05:00
+6,10.215.173.1,33506,34.192.120.183,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Closed,api.revenuecat.com,1844,4383,8,8,2025-09-17T22:01:45.276-05:00,2025-09-17T22:01:54.707-05:00
+17,10.215.173.1,7413,10.215.173.2,53,10323,ChatGPT,com.openai.chatgpt,DNS,Closed,ws.chatgpt.com,60,92,1,1,2025-09-17T22:01:46.396-05:00,2025-09-17T22:01:46.451-05:00
+6,10.215.173.1,50938,172.64.148.235,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Closed,ws.chatgpt.com,2241,5643,9,8,2025-09-17T22:01:46.454-05:00,2025-09-17T22:01:54.709-05:00
+6,10.215.173.1,38502,172.64.148.235,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Closed,ws.chatgpt.com,2195,1474,8,7,2025-09-17T22:01:55.762-05:00,2025-09-17T22:01:59.824-05:00
+17,10.215.173.1,8730,10.215.173.2,53,10181,Google Play services,com.google.android.gms,DNS,Closed,playgateway-pa.googleapis.com,75,235,1,1,2025-09-17T22:02:11.185-05:00,2025-09-17T22:02:11.245-05:00
+6,10.215.173.1,34542,142.251.15.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,playgateway-pa.googleapis.com,2562,2057,6,6,2025-09-17T22:02:11.265-05:00,2025-09-17T22:02:11.636-05:00
+17,10.215.173.1,6691,10.215.173.2,53,10306,DeepSeek,com.deepseek.chat,DNS,Closed,chat.deepseek.com,63,145,1,1,2025-09-17T22:02:11.924-05:00,2025-09-17T22:02:12.586-05:00
+17,10.215.173.1,50091,10.215.173.2,53,10306,DeepSeek,com.deepseek.chat,DNS,Closed,static.deepseek.com,65,231,1,1,2025-09-17T22:02:11.959-05:00,2025-09-17T22:02:13.631-05:00
+6,10.215.173.1,35316,104.18.26.90,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,chat.deepseek.com,1895,12173,16,17,2025-09-17T22:02:12.588-05:00,2025-09-17T22:02:17.082-05:00
+6,10.215.173.1,35318,104.18.26.90,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,chat.deepseek.com,1223,4151,12,12,2025-09-17T22:02:12.590-05:00,2025-09-17T22:02:13.125-05:00
+6,10.215.173.1,35322,104.18.26.90,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,chat.deepseek.com,1183,3550,11,11,2025-09-17T22:02:12.591-05:00,2025-09-17T22:02:13.012-05:00
+6,10.215.173.1,35324,104.18.26.90,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,chat.deepseek.com,1183,3552,11,11,2025-09-17T22:02:12.591-05:00,2025-09-17T22:02:13.013-05:00
+17,10.215.173.1,24866,10.215.173.2,53,10306,DeepSeek,com.deepseek.chat,DNS,Closed,fp-it.fengkongcloud.com,69,85,1,1,2025-09-17T22:02:13.408-05:00,2025-09-17T22:02:13.631-05:00
+17,10.215.173.1,18999,10.215.173.2,53,10306,DeepSeek,com.deepseek.chat,DNS,Closed,apmplus.volces.com,64,319,1,1,2025-09-17T22:02:13.421-05:00,2025-09-17T22:02:14.716-05:00
+17,10.215.173.1,38349,10.215.173.2,53,10306,DeepSeek,com.deepseek.chat,DNS,Closed,tab.volces.com,60,281,1,1,2025-09-17T22:02:13.465-05:00,2025-09-17T22:02:14.291-05:00
+6,10.215.173.1,47264,98.98.253.38,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,static.deepseek.com,1322,7492,11,12,2025-09-17T22:02:13.637-05:00,2025-09-17T22:02:17.103-05:00
+6,10.215.173.1,59364,163.181.246.206,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,tab.volces.com,2141,9225,9,9,2025-09-17T22:02:14.304-05:00,2025-09-17T22:02:17.109-05:00
+6,10.215.173.1,48914,47.246.20.195,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,apmplus.volces.com,1617,7199,9,9,2025-09-17T22:02:14.730-05:00,2025-09-17T22:02:17.082-05:00
+6,10.215.173.1,48930,47.246.20.195,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,apmplus.volces.com,2282,5961,9,9,2025-09-17T22:02:14.897-05:00,2025-09-17T22:02:17.082-05:00
+6,10.215.173.1,48928,47.246.20.195,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,apmplus.volces.com,2266,5962,9,9,2025-09-17T22:02:14.898-05:00,2025-09-17T22:02:17.083-05:00
+6,10.215.173.1,48944,47.246.20.195,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,apmplus.volces.com,1708,7326,9,9,2025-09-17T22:02:15.282-05:00,2025-09-17T22:02:17.090-05:00
+17,10.215.173.1,37760,10.215.173.2,53,10306,DeepSeek,com.deepseek.chat,DNS,Closed,gator.volces.com,62,78,1,1,2025-09-17T22:02:15.283-05:00,2025-09-17T22:02:15.891-05:00
+17,10.215.173.1,54785,10.215.173.2,53,10306,DeepSeek,com.deepseek.chat,DNS,Closed,api-fp-retry-bj.fengkongcloud.com,79,95,1,1,2025-09-17T22:02:15.763-05:00,2025-09-17T22:02:15.932-05:00
+6,10.215.173.1,47526,142.251.15.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,playgateway-pa.googleapis.com,2562,2017,6,5,2025-09-17T22:02:25.955-05:00,2025-09-17T22:02:26.204-05:00
+17,10.215.173.1,50197,10.215.173.2,53,10327,Ente Auth,io.ente.auth,DNS,Closed,api.ente.io,57,89,1,1,2025-09-17T22:02:28.266-05:00,2025-09-17T22:02:28.416-05:00
+6,10.215.173.1,50386,104.18.7.241,443,10327,Ente Auth,io.ente.auth,HTTPS,Closed,api.ente.io,1410,4070,10,11,2025-09-17T22:02:28.419-05:00,2025-09-17T22:02:33.968-05:00
+6,10.215.173.1,46258,104.18.26.90,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,chat.deepseek.com,1063,3432,8,8,2025-09-17T22:02:45.298-05:00,2025-09-17T22:02:45.411-05:00
+6,10.215.173.1,46270,104.18.26.90,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,chat.deepseek.com,2015,12403,19,21,2025-09-17T22:02:45.301-05:00,2025-09-17T22:02:49.468-05:00
+6,10.215.173.1,46284,104.18.26.90,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,chat.deepseek.com,1023,3392,7,7,2025-09-17T22:02:45.303-05:00,2025-09-17T22:02:45.418-05:00
+6,10.215.173.1,55906,98.98.253.38,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,static.deepseek.com,1362,7554,12,13,2025-09-17T22:02:45.330-05:00,2025-09-17T22:02:49.490-05:00
+6,10.215.173.1,46286,104.18.26.90,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,chat.deepseek.com,1107,580,9,9,2025-09-17T22:02:45.381-05:00,2025-09-17T22:02:45.475-05:00
+6,10.215.173.1,52434,163.181.246.206,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,tab.volces.com,2197,9265,10,10,2025-09-17T22:02:46.347-05:00,2025-09-17T22:02:49.494-05:00
+17,10.215.173.1,4048,10.215.173.2,53,10183,Google,com.google.android.googlequicksearchbox,DNS,Closed,geller-pa.googleapis.com,70,230,1,1,2025-09-17T22:02:46.724-05:00,2025-09-17T22:02:46.786-05:00
+6,10.215.173.1,60316,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4585,4967,14,15,2025-09-17T22:02:46.853-05:00,2025-09-17T22:02:48.569-05:00
+6,10.215.173.1,60322,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4869,4911,15,15,2025-09-17T22:02:46.856-05:00,2025-09-17T22:02:48.487-05:00
+6,10.215.173.1,60332,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4837,4525,14,14,2025-09-17T22:02:46.859-05:00,2025-09-17T22:02:47.391-05:00
+6,10.215.173.1,60342,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4668,4494,13,14,2025-09-17T22:02:46.862-05:00,2025-09-17T22:02:47.407-05:00
+6,10.215.173.1,60354,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4831,5435,14,14,2025-09-17T22:02:46.863-05:00,2025-09-17T22:02:48.556-05:00
+6,10.215.173.1,60370,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4794,4902,14,14,2025-09-17T22:02:46.865-05:00,2025-09-17T22:02:48.495-05:00
+6,10.215.173.1,60378,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4905,4906,16,16,2025-09-17T22:02:46.867-05:00,2025-09-17T22:02:48.496-05:00
+6,10.215.173.1,60388,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4852,26280,15,18,2025-09-17T22:02:46.869-05:00,2025-09-17T22:02:48.537-05:00
+6,10.215.173.1,60396,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4781,5743,14,14,2025-09-17T22:02:46.871-05:00,2025-09-17T22:02:48.547-05:00
+6,10.215.173.1,60408,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4855,4814,15,13,2025-09-17T22:02:46.875-05:00,2025-09-17T22:02:48.537-05:00
+6,10.215.173.1,60414,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4825,4852,14,14,2025-09-17T22:02:46.878-05:00,2025-09-17T22:02:48.569-05:00
+6,10.215.173.1,60420,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4863,4912,15,15,2025-09-17T22:02:46.881-05:00,2025-09-17T22:02:48.529-05:00
+6,10.215.173.1,60432,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4812,5245,14,15,2025-09-17T22:02:46.883-05:00,2025-09-17T22:02:48.480-05:00
+6,10.215.173.1,60446,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4819,4892,14,15,2025-09-17T22:02:46.886-05:00,2025-09-17T22:02:48.529-05:00
+6,10.215.173.1,60448,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4832,1272,12,14,2025-09-17T22:02:47.388-05:00,2025-09-17T22:02:47.782-05:00
+6,10.215.173.1,60458,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4752,3343,11,13,2025-09-17T22:02:47.419-05:00,2025-09-17T22:02:48.573-05:00
+6,10.215.173.1,36750,47.246.20.195,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,apmplus.volces.com,2266,5962,9,9,2025-09-17T22:02:48.310-05:00,2025-09-17T22:02:49.461-05:00
+6,10.215.173.1,36758,47.246.20.195,443,10306,DeepSeek,com.deepseek.chat,HTTPS,Closed,apmplus.volces.com,2282,5962,9,9,2025-09-17T22:02:48.312-05:00,2025-09-17T22:02:49.468-05:00
+6,10.215.173.1,44092,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4895,1617,13,14,2025-09-17T22:02:48.492-05:00,2025-09-17T22:02:48.820-05:00
+6,10.215.173.1,44094,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4902,1615,14,15,2025-09-17T22:02:48.513-05:00,2025-09-17T22:02:48.896-05:00
+6,10.215.173.1,44106,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4889,1992,14,15,2025-09-17T22:02:48.518-05:00,2025-09-17T22:02:48.871-05:00
+6,10.215.173.1,44110,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4818,1649,12,14,2025-09-17T22:02:48.520-05:00,2025-09-17T22:02:48.901-05:00
+6,10.215.173.1,44116,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Error,geller-pa.googleapis.com,4858,1580,13,13,2025-09-17T22:02:48.543-05:00,2025-09-17T22:02:48.841-05:00
+6,10.215.173.1,44118,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4745,1559,11,13,2025-09-17T22:02:48.554-05:00,2025-09-17T22:02:48.894-05:00
+6,10.215.173.1,44130,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4884,2531,14,15,2025-09-17T22:02:48.565-05:00,2025-09-17T22:02:48.918-05:00
+6,10.215.173.1,44146,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4889,23057,14,18,2025-09-17T22:02:48.579-05:00,2025-09-17T22:02:48.986-05:00
+6,10.215.173.1,44158,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4743,1560,11,13,2025-09-17T22:02:48.596-05:00,2025-09-17T22:02:48.968-05:00
+6,10.215.173.1,44164,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4893,2265,13,16,2025-09-17T22:02:48.601-05:00,2025-09-17T22:02:48.971-05:00
+6,10.215.173.1,44180,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4819,1559,12,13,2025-09-17T22:02:48.606-05:00,2025-09-17T22:02:48.952-05:00
+17,10.215.173.1,58015,10.215.173.2,53,10312,Taskly,com.dylan.dalle3.pro,DNS,Closed,firebaseinstallations.googleapis.com,82,258,1,1,2025-09-17T22:02:49.893-05:00,2025-09-17T22:02:49.953-05:00
+6,10.215.173.1,36700,142.251.15.95,443,10312,Taskly,com.dylan.dalle3.pro,HTTPS,Closed,firebaseinstallations.googleapis.com,2115,4973,8,8,2025-09-17T22:02:49.959-05:00,2025-09-17T22:02:57.761-05:00
+6,10.215.173.1,44192,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,5040,1953,12,14,2025-09-17T22:02:50.025-05:00,2025-09-17T22:02:50.356-05:00
+6,10.215.173.1,44198,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,5093,1272,12,14,2025-09-17T22:02:50.032-05:00,2025-09-17T22:02:50.435-05:00
+6,10.215.173.1,44206,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,5058,2186,12,14,2025-09-17T22:02:50.038-05:00,2025-09-17T22:02:50.397-05:00
+6,10.215.173.1,44220,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4973,1561,11,13,2025-09-17T22:02:50.043-05:00,2025-09-17T22:02:50.449-05:00
+6,10.215.173.1,44236,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,5118,2531,14,15,2025-09-17T22:02:50.045-05:00,2025-09-17T22:02:50.449-05:00
+6,10.215.173.1,44240,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4988,1576,11,13,2025-09-17T22:02:50.052-05:00,2025-09-17T22:02:50.402-05:00
+6,10.215.173.1,44254,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,5053,1600,12,14,2025-09-17T22:02:50.055-05:00,2025-09-17T22:02:50.463-05:00
+6,10.215.173.1,44262,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,5052,1574,12,14,2025-09-17T22:02:50.056-05:00,2025-09-17T22:02:50.398-05:00
+6,10.215.173.1,44272,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,5050,1690,12,15,2025-09-17T22:02:50.057-05:00,2025-09-17T22:02:50.457-05:00
+6,10.215.173.1,44282,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,5119,22949,14,16,2025-09-17T22:02:50.058-05:00,2025-09-17T22:02:50.457-05:00
+6,10.215.173.1,44286,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4981,1581,11,13,2025-09-17T22:02:50.059-05:00,2025-09-17T22:02:50.397-05:00
+6,10.215.173.1,44300,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4814,1634,12,13,2025-09-17T22:02:50.066-05:00,2025-09-17T22:02:50.398-05:00
+6,10.215.173.1,44316,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,5058,1598,13,14,2025-09-17T22:02:50.071-05:00,2025-09-17T22:02:50.398-05:00
+6,10.215.173.1,44318,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Error,geller-pa.googleapis.com,5045,1203,14,13,2025-09-17T22:02:50.073-05:00,2025-09-17T22:02:50.392-05:00
+17,10.215.173.1,39373,10.215.173.2,53,10312,Taskly,com.dylan.dalle3.pro,DNS,Closed,firebaseremoteconfig.googleapis.com,81,257,1,1,2025-09-17T22:02:50.223-05:00,2025-09-17T22:02:50.282-05:00
+17,10.215.173.1,62919,10.215.173.2,53,10181,Google Play services,com.google.android.gms,DNS,Closed,android.apis.google.com,69,189,1,1,2025-09-17T22:02:50.225-05:00,2025-09-17T22:02:50.282-05:00
+17,10.215.173.1,38954,142.251.15.100,443,10181,Google Play services,com.google.android.gms,QUIC,Closed,android.apis.google.com,0,0,0,0,2025-09-17T22:02:50.285-05:00,2025-09-17T22:02:54.286-05:00
+6,10.215.173.1,41846,142.250.105.95,443,10312,Taskly,com.dylan.dalle3.pro,HTTPS,Closed,firebaseremoteconfig.googleapis.com,2539,4674,8,8,2025-09-17T22:02:50.287-05:00,2025-09-17T22:02:57.761-05:00
+6,10.215.173.1,44330,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4810,1955,12,14,2025-09-17T22:02:50.313-05:00,2025-09-17T22:02:50.719-05:00
+6,10.215.173.1,44340,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4838,2185,13,14,2025-09-17T22:02:50.374-05:00,2025-09-17T22:02:50.714-05:00
+6,10.215.173.1,44356,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4813,1600,12,14,2025-09-17T22:02:50.375-05:00,2025-09-17T22:02:50.707-05:00
+6,10.215.173.1,44370,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4749,1582,11,13,2025-09-17T22:02:50.376-05:00,2025-09-17T22:02:50.714-05:00
+6,10.215.173.1,44386,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4906,1656,14,15,2025-09-17T22:02:50.390-05:00,2025-09-17T22:02:50.756-05:00
+6,10.215.173.1,44400,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4752,1535,11,13,2025-09-17T22:02:50.393-05:00,2025-09-17T22:02:50.756-05:00
+6,10.215.173.1,44414,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4861,1273,12,14,2025-09-17T22:02:50.407-05:00,2025-09-17T22:02:50.742-05:00
+6,10.215.173.1,44430,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4805,2491,12,14,2025-09-17T22:02:50.421-05:00,2025-09-17T22:02:50.811-05:00
+6,10.215.173.1,44432,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,5049,23098,18,19,2025-09-17T22:02:50.431-05:00,2025-09-17T22:02:50.802-05:00
+6,10.215.173.1,44436,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4902,3424,14,15,2025-09-17T22:02:50.432-05:00,2025-09-17T22:02:50.825-05:00
+6,10.215.173.1,44440,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4819,1609,12,13,2025-09-17T22:02:50.434-05:00,2025-09-17T22:02:50.826-05:00
+6,10.215.173.1,44454,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4892,1641,14,15,2025-09-17T22:02:50.439-05:00,2025-09-17T22:02:50.818-05:00
+6,10.215.173.1,44470,172.217.215.95,443,10183,Google,com.google.android.googlequicksearchbox,TLS,Closed,geller-pa.googleapis.com,4821,1599,12,14,2025-09-17T22:02:50.441-05:00,2025-09-17T22:02:50.830-05:00
+6,10.215.173.1,43622,172.64.155.209,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Closed,ab.chatgpt.com,4730,5807,10,10,2025-09-17T22:02:52.332-05:00,2025-09-17T22:02:54.462-05:00
+6,10.215.173.1,57688,172.64.155.214,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Closed,android.chat.openai.com,5001,6008,9,10,2025-09-17T22:02:52.373-05:00,2025-09-17T22:02:52.749-05:00
+17,10.215.173.1,41599,10.215.173.2,53,10323,ChatGPT,com.openai.chatgpt,DNS,Closed,0.datadog.pool.ntp.org,68,132,1,1,2025-09-17T22:02:52.635-05:00,2025-09-17T22:02:52.689-05:00
+17,10.215.173.1,58665,216.229.0.50,123,10323,ChatGPT,com.openai.chatgpt,NTP,Closed,0.datadog.pool.ntp.org,76,76,1,1,2025-09-17T22:02:52.699-05:00,2025-09-17T22:02:52.746-05:00
+6,10.215.173.1,57702,172.64.155.214,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Error,android.chat.openai.com,1063,3114,8,7,2025-09-17T22:02:52.936-05:00,2025-09-17T22:02:53.058-05:00
+6,10.215.173.1,57704,172.64.155.214,443,10323,ChatGPT,com.openai.chatgpt,HTTPS,Closed,android.chat.openai.com,21042,9219,21,22,2025-09-17T22:02:52.942-05:00,2025-09-17T22:02:54.458-05:00
+17,10.215.173.1,54893,142.251.15.100,443,10181,Google Play services,com.google.android.gms,QUIC,Closed,android.apis.google.com,0,0,0,0,2025-09-17T22:02:54.305-05:00,2025-09-17T22:02:58.306-05:00
+6,10.215.173.1,59006,142.251.15.100,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,android.apis.google.com,2119,1638,6,5,2025-09-17T22:02:54.308-05:00,2025-09-17T22:02:54.485-05:00
+17,10.215.173.1,48518,10.215.173.2,53,10181,Google Play services,com.google.android.gms,DNS,Closed,app-measurement.com,65,81,1,1,2025-09-17T22:03:00.163-05:00,2025-09-17T22:03:00.367-05:00
+17,10.215.173.1,12900,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,chat.com,54,86,1,1,2025-09-17T22:03:04.894-05:00,2025-09-17T22:03:04.991-05:00
+17,10.215.173.1,26169,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,accounts.google.com,65,81,1,1,2025-09-17T22:03:05.171-05:00,2025-09-17T22:03:05.230-05:00
+17,10.215.173.1,56200,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,accounts.google.com,65,115,1,1,2025-09-17T22:03:05.174-05:00,2025-09-17T22:03:05.236-05:00
+17,10.215.173.1,53925,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,accounts.google.com,65,81,1,1,2025-09-17T22:03:05.193-05:00,2025-09-17T22:03:05.230-05:00
+17,10.215.173.1,41159,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,accounts.google.com,65,115,1,1,2025-09-17T22:03:05.194-05:00,2025-09-17T22:03:05.236-05:00
+17,10.215.173.1,30420,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,chat.com,54,86,1,1,2025-09-17T22:03:05.200-05:00,2025-09-17T22:03:05.207-05:00
+17,10.215.173.1,61606,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,chat.com,54,115,1,1,2025-09-17T22:03:05.201-05:00,2025-09-17T22:03:05.257-05:00
+6,10.215.173.1,57432,64.233.176.84,443,10211,Chrome,com.android.chrome,HTTPS,Closed,accounts.google.com,2307,5384,9,8,2025-09-17T22:03:05.240-05:00,2025-09-17T22:03:05.439-05:00
+6,10.215.173.1,60558,172.64.146.196,443,10211,Chrome,com.android.chrome,HTTPS,Closed,chat.com,2817,5037,10,11,2025-09-17T22:03:05.249-05:00,2025-09-17T22:03:05.416-05:00
+17,10.215.173.1,56051,10.215.173.2,53,10181,Google Play services,com.google.android.gms,DNS,Closed,google-ohttp-relay-safebrowsing.fastly-edge.com,93,109,1,1,2025-09-17T22:03:05.397-05:00,2025-09-17T22:03:05.611-05:00
+17,10.215.173.1,40717,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,chatgpt.com,57,89,1,1,2025-09-17T22:03:05.400-05:00,2025-09-17T22:03:05.467-05:00
+17,10.215.173.1,33727,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,chatgpt.com,57,118,1,1,2025-09-17T22:03:05.404-05:00,2025-09-17T22:03:05.581-05:00
+6,10.215.173.1,39508,172.64.155.209,443,10211,Chrome,com.android.chrome,HTTPS,Closed,chatgpt.com,31811,84432,29,35,2025-09-17T22:03:05.485-05:00,2025-09-17T22:03:12.168-05:00
+17,10.215.173.1,41656,146.75.33.91,443,10181,Google Play services,com.google.android.gms,QUIC,Closed,google-ohttp-relay-safebrowsing.fastly-edge.com,0,0,0,0,2025-09-17T22:03:05.617-05:00,2025-09-17T22:03:09.618-05:00
+6,10.215.173.1,59572,146.75.33.91,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,google-ohttp-relay-safebrowsing.fastly-edge.com,2143,1654,6,5,2025-09-17T22:03:05.678-05:00,2025-09-17T22:03:05.837-05:00
+17,10.215.173.1,21782,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,cdn.oaistatic.com,63,95,1,1,2025-09-17T22:03:05.860-05:00,2025-09-17T22:03:05.906-05:00
+17,10.215.173.1,40850,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,cdn.oaistatic.com,63,125,1,1,2025-09-17T22:03:05.862-05:00,2025-09-17T22:03:05.918-05:00
+17,10.215.173.1,55110,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,ab.chatgpt.com,60,92,1,1,2025-09-17T22:03:05.889-05:00,2025-09-17T22:03:05.896-05:00
+17,10.215.173.1,46130,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,ab.chatgpt.com,60,121,1,1,2025-09-17T22:03:05.891-05:00,2025-09-17T22:03:05.947-05:00
+6,10.215.173.1,39516,172.64.155.209,443,10211,Chrome,com.android.chrome,HTTPS,Closed,ab.chatgpt.com,2192,3994,8,7,2025-09-17T22:03:05.905-05:00,2025-09-17T22:03:12.159-05:00
+17,10.215.173.1,40450,172.64.146.98,443,10211,Chrome,com.android.chrome,QUIC,Closed,cdn.oaistatic.com,0,0,0,0,2025-09-17T22:03:05.924-05:00,2025-09-17T22:03:09.926-05:00
+17,10.215.173.1,44292,172.64.146.98,443,10211,Chrome,com.android.chrome,QUIC,Closed,cdn.oaistatic.com,0,0,0,0,2025-09-17T22:03:05.925-05:00,2025-09-17T22:03:09.931-05:00
+6,10.215.173.1,42182,172.64.146.98,443,10211,Chrome,com.android.chrome,HTTPS,Closed,cdn.oaistatic.com,3154,106175,18,24,2025-09-17T22:03:06.305-05:00,2025-09-17T22:03:12.168-05:00
+6,10.215.173.1,42188,172.64.146.98,443,10211,Chrome,com.android.chrome,HTTPS,Closed,cdn.oaistatic.com,10005,1838677,129,216,2025-09-17T22:03:06.310-05:00,2025-09-17T22:03:12.167-05:00
+17,10.215.173.1,44357,64.233.176.84,443,10211,Chrome,com.android.chrome,QUIC,Closed,accounts.google.com,0,0,0,0,2025-09-17T22:03:06.399-05:00,2025-09-17T22:03:10.400-05:00
+6,10.215.173.1,57440,64.233.176.84,443,10211,Chrome,com.android.chrome,HTTPS,Closed,accounts.google.com,5624,8575,12,11,2025-09-17T22:03:06.400-05:00,2025-09-17T22:03:12.168-05:00
+17,10.215.173.1,3407,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,content-autofill.googleapis.com,77,221,1,1,2025-09-17T22:03:06.963-05:00,2025-09-17T22:03:07.024-05:00
+17,10.215.173.1,54441,10.215.173.2,53,10211,Chrome,com.android.chrome,DNS,Closed,content-autofill.googleapis.com,77,134,1,1,2025-09-17T22:03:06.965-05:00,2025-09-17T22:03:07.028-05:00
+6,10.215.173.1,39532,172.64.155.209,443,10211,Chrome,com.android.chrome,HTTPS,Closed,chatgpt.com,2884,5675,12,11,2025-09-17T22:03:06.972-05:00,2025-09-17T22:03:12.157-05:00
+6,10.215.173.1,39538,172.64.155.209,443,10211,Chrome,com.android.chrome,HTTPS,Closed,ab.chatgpt.com,8560,5911,15,14,2025-09-17T22:03:07.008-05:00,2025-09-17T22:03:12.159-05:00
+17,10.215.173.1,55549,64.233.177.95,443,10211,Chrome,com.android.chrome,QUIC,Closed,content-autofill.googleapis.com,0,0,0,0,2025-09-17T22:03:07.048-05:00,2025-09-17T22:03:11.049-05:00
+6,10.215.173.1,60670,64.233.177.95,443,10211,Chrome,com.android.chrome,HTTPS,Closed,content-autofill.googleapis.com,3025,6416,13,13,2025-09-17T22:03:07.082-05:00,2025-09-17T22:03:12.160-05:00
+6,10.215.173.1,41608,142.251.15.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,playgateway-pa.googleapis.com,2061,2057,6,6,2025-09-17T22:03:11.709-05:00,2025-09-17T22:03:11.995-05:00
+6,10.215.173.1,55160,142.251.15.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,playgateway-pa.googleapis.com,2093,2017,6,5,2025-09-17T22:04:00.122-05:00,2025-09-17T22:04:00.427-05:00
+6,10.215.173.1,55172,142.251.15.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,playgateway-pa.googleapis.com,2029,2017,6,5,2025-09-17T22:04:01.789-05:00,2025-09-17T22:04:01.979-05:00
+17,10.215.173.1,62920,10.215.173.2,53,10183,Google,com.google.android.googlequicksearchbox,DNS,Closed,www.google.com,60,156,1,1,2025-09-17T22:04:01.957-05:00,2025-09-17T22:04:02.009-05:00
+17,10.215.173.1,42766,172.253.124.105,443,10183,Google,com.google.android.googlequicksearchbox,QUIC,Closed,www.google.com,0,0,0,0,2025-09-17T22:04:02.016-05:00,2025-09-17T22:04:06.018-05:00
+6,10.215.173.1,38722,172.253.124.105,443,10183,Google,com.google.android.googlequicksearchbox,HTTPS,Closed,www.google.com,14816,10252,15,16,2025-09-17T22:04:02.018-05:00,2025-09-17T22:04:02.381-05:00
+6,10.215.173.1,38738,172.253.124.105,443,10183,Google,com.google.android.googlequicksearchbox,HTTPS,Closed,www.google.com,2202,5383,8,7,2025-09-17T22:04:02.023-05:00,2025-09-17T22:04:02.253-05:00
+6,10.215.173.1,38746,172.253.124.105,443,10183,Google,com.google.android.googlequicksearchbox,HTTPS,Closed,www.google.com,2202,5382,8,7,2025-09-17T22:04:02.028-05:00,2025-09-17T22:04:02.253-05:00
+6,10.215.173.1,55188,142.251.15.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,playgateway-pa.googleapis.com,2093,2057,6,6,2025-09-17T22:04:02.031-05:00,2025-09-17T22:04:02.181-05:00
+6,10.215.173.1,55200,142.251.15.95,443,10181,Google Play services,com.google.android.gms,HTTPS,Error,playgateway-pa.googleapis.com,2125,2057,6,6,2025-09-17T22:04:02.220-05:00,2025-09-17T22:04:02.402-05:00
