@@ -1,0 +1,1 @@
+Permission Denial: can't dump NetworkStats from from pid=22115, uid=10318 due to missing android.permission.DUMP permission

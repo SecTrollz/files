@@ -1,0 +1,5 @@
+Collector: unknown
+Device model: Pixel 9a
+Device serial: 
+Collection start: 2025-09-20T07:41:44Z
+Notes: Collected via cellular hotspot / burner device when possible.

@@ -1,0 +1,1 @@
+Permission Denial: can't dump ConnectivityService from from pid=22117, uid=10318 due to missing android.permission.DUMP permission

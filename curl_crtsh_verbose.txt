@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+  <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <TITLE>crt.sh | Certificate Search</TITLE>
+  <META name="description" content="Free CT Log Certificate Search Tool from Sectigo (formerly Comodo CA)">
+  <META name="keywords" content="crt.sh, CT, Certificate Transparency, Certificate Search, SSL Certificate, Sectigo, Comodo CA">
+  <LINK href="//fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,400i,700,700i" rel="stylesheet">
+  <STYLE type="text/css">
+    a {
+      white-space: nowrap;
+    }
+    body {
+      color: #888888;
+      font: 12pt Roboto, sans-serif;
+      padding-top: 10px;
+      text-align: center
+    }
+    form {
+      margin: 0px
+    }
+    span {
+      border-radius: 10px
+    }
+    span.heading {
+      color: #888888;
+      font: 12pt Roboto, sans-serif
+    }
+    span.title {
+      background-color: #00B373;
+      color: #FFFFFF;
+      font: bold 18pt Roboto, sans-serif;
+      padding: 0px 5px
+    }
+    span.text {
+      color: #888888;
+      font: 10pt Roboto, sans-serif
+    }
+    span.whiteongrey {
+      background-color: #D9D9D6;
+      color: #FFFFFF;
+      font: bold 18pt Roboto, sans-serif;
+      padding: 0px 5px
+    }
+    table {
+      border-collapse: collapse;
+      color: #222222;
+      font: 10pt Roboto, sans-serif;
+      margin-left: auto;
+      margin-right: auto
+    }
+    table.options {
+      border: none;
+      margin-left: 10px
+    }
+    td, th {
+      border: 1px solid #CCCCCC;
+      padding: 0px 2px;
+      text-align: left;
+      vertical-align: top
+    }
+    td.outer, th.outer {
+      border: 1px solid #CCCCCC;
+      padding: 2px 20px;
+      text-align: left
+    }
+    th.heading {
+      color: #888888;
+      font: bold italic 12pt Roboto, sans-serif;
+      padding: 20px 0px 0px;
+      text-align: center
+    }
+    th.options, td.options {
+      border: none;
+      vertical-align: middle
+    }
+    td.text {
+      font: 10pt "Roboto Mono", sans-serif;
+      padding: 2px 20px
+    }
+    td.heading {
+      border: none;
+      color: #888888;
+      font: 12pt Roboto, sans-serif;
+      padding-top: 20px;
+      text-align: center
+    }
+    table.lint td, th {
+      text-align: center
+    }
+    .button {
+      background-color: #00B373;
+      border-radius: 10px;
+      color: #FFFFFF;
+      font: bold 13pt Roboto, sans-serif
+    }
+    .copyright {
+      font: 8pt Roboto, sans-serif;
+      color: #00B373
+    }
+    .input {
+      border: 1px solid #888888;
+      font-weight: bold;
+      text-align: center
+    }
+    .small {
+      font: 8pt Roboto, sans-serif;
+      color: #888888
+    }
+    .error {
+      background-color: #FFDFDF;
+      color: #CC0000;
+      font-weight: bold
+    }
+    .fatal {
+      background-color: #0000AA;
+      color: #FFFFFF;
+      font-weight: bold
+    }
+    .notice {
+      background-color: #FFFFDF;
+      color: #606000
+    }
+    .warning {
+      background-color: #FFEFDF;
+      color: #DF6000
+    }
+    *:focus {
+      outline: 0px transparent !important
+    }
+  </STYLE>
+</HEAD>
+<BODY>
+  <A style="text-decoration:none" href="/"><SPAN class="title">crt.sh</SPAN></A>&nbsp; <SPAN class="whiteongrey">Certificate Search</SPAN>
+  <BR><BR><BR><BR>
+  Enter an <B>Identity</B> (Domain Name, Organization Name, etc),
+  <BR>a <B>Certificate Fingerprint</B> (SHA-1 or SHA-256) or a <B>crt.sh ID</B>:
+  <BR><BR>
+  <FORM name="search_form" method="GET" onsubmit="return (this.q.value != '')">
+    <INPUT type="text" class="input" name="q" size="64" maxlength="255">
+    <BR><BR><BR>
+    <INPUT type="submit" class="button" value="Search">
+    <SPAN style="position:absolute">
+      &nbsp; &nbsp; &nbsp;
+      <A style="font-size:8pt;vertical-align:sub" href="?a=1">Advanced...</A>
+    </SPAN>
+  </FORM>
+  <SCRIPT type="text/javascript">
+    document.search_form.q.focus();
+  </SCRIPT>
+  <BR><BR><BR>
+
+  <P class="copyright">&copy; <A href="//sectigo.com/">Sectigo</A> Limited 2015-2025. All rights reserved.</P>
+  <DIV>
+    <A href="https://sectigo.com/"><IMG src="/sectigo_s.png"></A>
+    &nbsp;<A href="https://github.com/crtsh"><IMG src="/GitHub-Mark-32px.png"></A>
+  </DIV>
+</BODY>
+</HTML>

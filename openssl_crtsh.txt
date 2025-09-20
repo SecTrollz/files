@@ -1,0 +1,110 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:C=GB, ST=Manchester, O=Sectigo Limited, CN=crt.sh
+   i:C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36
+   a:PKEY: RSA, 4096 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Jul 22 00:00:00 2025 GMT; NotAfter: Oct 20 23:59:59 2025 GMT
+ 1 s:C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36
+   i:C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication Root R46
+   a:PKEY: RSA, 3072 (bit); sigalg: sha384WithRSAEncryption
+   v:NotBefore: Mar 22 00:00:00 2021 GMT; NotAfter: Mar 21 23:59:59 2036 GMT
+ 2 s:C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication Root R46
+   i:C=US, ST=New Jersey, L=Jersey City, O=The USERTRUST Network, CN=USERTrust RSA Certification Authority
+   a:PKEY: RSA, 4096 (bit); sigalg: sha384WithRSAEncryption
+   v:NotBefore: Mar 22 00:00:00 2021 GMT; NotAfter: Jan 18 23:59:59 2038 GMT
+ 3 s:C=US, ST=New Jersey, L=Jersey City, O=The USERTRUST Network, CN=USERTrust RSA Certification Authority
+   i:C=US, ST=New Jersey, L=Jersey City, O=The USERTRUST Network, CN=USERTrust RSA Certification Authority
+   a:PKEY: RSA, 4096 (bit); sigalg: sha384WithRSAEncryption
+   v:NotBefore: Feb  1 00:00:00 2010 GMT; NotAfter: Jan 18 23:59:59 2038 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIHgDCCBeigAwIBAgIRAPbi3m6+G5WoKm17ZyV1yoowDQYJKoZIhvcNAQELBQAw
+YDELMAkGA1UEBhMCR0IxGDAWBgNVBAoTD1NlY3RpZ28gTGltaXRlZDE3MDUGA1UE
+AxMuU2VjdGlnbyBQdWJsaWMgU2VydmVyIEF1dGhlbnRpY2F0aW9uIENBIE9WIFIz
+NjAeFw0yNTA3MjIwMDAwMDBaFw0yNTEwMjAyMzU5NTlaME0xCzAJBgNVBAYTAkdC
+MRMwEQYDVQQIEwpNYW5jaGVzdGVyMRgwFgYDVQQKEw9TZWN0aWdvIExpbWl0ZWQx
+DzANBgNVBAMTBmNydC5zaDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIB
+AJqpNSMZ/UxPXeGC92N2cXExA/x8/53IrBOnQrnaqkKs6m6N2zPPOPMaezSlw5Zj
+9YcMLiJB9kPui+avvmnzUtYToyKUR5njiXapVBTCYCciPjxxFr7191L+hHfmIkEh
+exMdxeSbzOUX0KowL5U7av0c0f1MnWy43l7Zmc7WyIfkOBnhX+ZMrhkteIozl7dg
+uxfJv0QCzVThNOj22yKieH6JpKQxr6mXpf1aYhQdcg3fLxyyg3ituEaOLN/9fgt+
+NFPUOuxsBUcK57KRnZvhEWeQupkK0EnIchlHExYHuX2pm2fMxMeylux//tnERHka
+tdrMlTUfJMx2ezfalRf0eGqiEj35hd5z0e4pBkq9dNGrFXK1NtlPvoCUUkeYz610
+39c0rv31dgP0soJC53g2ea3tnBDvMAEwA0pxwp7kj20nUbMzismZb11qvqkbe00Q
+QCfvNhCCBCGgjB++doaZtD+xgXskku6NVaR4fbP2jDd78nrTSTkJdqbmuxqrwJGv
+onwg5+jAnfC+kPhbgFLMMY3p7ZlQpiumZjVpUqJeta6sO2PDuRMBc75Ifp0pqsLL
+GEFx8mftmzcWSQVeexkvOnTpTuHAcaJPzXBAmiRvtgENhLSEhCxyNEk7K+Xrg4lM
+PA6mWc1sYpn4OGYsVEbq2aJ+RGC59Ul/RyuR33MKJmxHAgMBAAGjggLGMIICwjAf
+BgNVHSMEGDAWgBTjZnS7cGiNLF1ODqZKj5s3IpyCkjAdBgNVHQ4EFgQUZXGknrAn
+vxQPZ/FoPPcvbVcufLwwDgYDVR0PAQH/BAQDAgWgMAwGA1UdEwEB/wQCMAAwHQYD
+VR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMEoGA1UdIARDMEEwNQYMKwYBBAGy
+MQECAQMEMCUwIwYIKwYBBQUHAgEWF2h0dHBzOi8vc2VjdGlnby5jb20vQ1BTMAgG
+BmeBDAECAjBUBgNVHR8ETTBLMEmgR6BFhkNodHRwOi8vY3JsLnNlY3RpZ28uY29t
+L1NlY3RpZ29QdWJsaWNTZXJ2ZXJBdXRoZW50aWNhdGlvbkNBT1ZSMzYuY3JsMIGE
+BggrBgEFBQcBAQR4MHYwTwYIKwYBBQUHMAKGQ2h0dHA6Ly9jcnQuc2VjdGlnby5j
+b20vU2VjdGlnb1B1YmxpY1NlcnZlckF1dGhlbnRpY2F0aW9uQ0FPVlIzNi5jcnQw
+IwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLnNlY3RpZ28uY29tMIIBBQYKKwYBBAHW
+eQIEAgSB9gSB8wDxAHcA3dzKNJXX4RYF55Uy+sef+D0cUN/bADoUEnYKLKy7yCoA
+AAGYMIQ5lQAABAMASDBGAiEAolLz/0XUAIKyhgDqoD4vkNMpHmDk1UWJ3rjsJfyh
+SHQCIQCHuGR7dKqq1HhWqQP/OEywHUXYlGQR6tuoaeNarQQOmgB2AA3h8jAr0w3B
+QGISCepVLvxHdHyx1+kw7w5CHrR+Tqo0AAABmDCEOYkAAAQDAEcwRQIhAJ86XU9O
+i4+6lW9RA248FQc1wiNgR9Q2Ig8wkvqQ6i/xAiAzjQgTsMZRKWg5YBEjzNOicNY0
+ONZRkfT4DB1DNP3U6TARBgNVHREECjAIggZjcnQuc2gwDQYJKoZIhvcNAQELBQAD
+ggGBAEJs6/J6mJrOZLTEkNHcbb75wvDPpbLpD50QGKI8mK4Ps3HEunsKTi/OeNvl
+wtWwCRiJoDHJl+nZ0JykNvsFzSAPWCibKfSxShTezodfk/b/fSwsCRtYdIntwoIB
+tsofeKB1dOFiRMDEDMJVYW3nGX44OqiCu3BcSYRh12o/jmxUDwrLvBoXbtMz+76r
+uyGj7ctyrQE0CdLT8c+B2oft2QEWCMUxxaurOtKejG8VptdDqrSrrzTaAcAurwx0
+f44aJAcpiZkF1zapy3fCmrpTgkjpgIdeHesBSfv2b7ADKK8x7mTBTM5lrpFqqpgq
+jeHokQjtzIT0KWFnKFZf32ItL8al0EFlczBxLlbPiLcexFAM9M7j1V1UL59kITD7
+O35vuzGEdz3vqZYyfZ3gBcqBjXkDW8lheSaiOzzJsne5VoIE+kV673jdC5dOKAEG
+ab+beNWBdYvcJIt61W/u4g2CJlxEhmJK7FV76EyvNZcBqCdbFgumQe/JLmZcLmP+
+RpTk0g==
+-----END CERTIFICATE-----
+subject=C=GB, ST=Manchester, O=Sectigo Limited, CN=crt.sh
+issuer=C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Peer Temp Key: X25519, 253 bits
+---
+SSL handshake has read 7653 bytes and written 1631 bytes
+Verification: OK
+---
+New, TLSv1.2, Cipher is ECDHE-RSA-CHACHA20-POLY1305
+Protocol: TLSv1.2
+Server public key is 4096 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-CHACHA20-POLY1305
+    Session-ID: 01CA09771DD3B9A9F89DC971892FB2BCD3BF2419F8F1347900653CC28EF6CBFB
+    Session-ID-ctx: 
+    Master-Key: C157CAD71404577FBFE6364A53CC6ADDA00CB1ABB4958A2AF02456FADC10D411D24EA9F7A68E9AFB25B8A5DB3E432517
+    PSK identity: None
+    PSK identity hint: None
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 9b 5b b5 1f 1a c6 e8 b4-3e 7f 60 54 8d de f9 77   .[......>.`T...w
+    0010 - f3 51 0d 8b 13 ee 7f c1-3f 6b 3d 93 46 6b 62 5e   .Q......?k=.Fkb^
+    0020 - be 1f 02 46 26 56 f4 42-e4 1e ff aa 5e 45 57 92   ...F&V.B....^EW.
+    0030 - 87 90 0c ee 3a 85 62 dc-27 97 ff 9c 24 91 85 e6   ....:.b.'...$...
+    0040 - 78 d9 b0 4a 1b a4 19 63-c3 a1 ea a2 6f a9 4a 8f   x..J...c....o.J.
+    0050 - 26 e8 09 3d 28 0c 86 7a-ba fe d0 9a 87 c4 b0 5a   &..=(..z.......Z
+    0060 - 54 52 f7 47 84 97 04 03-19 cb be 6f b5 32 5e 1b   TR.G.......o.2^.
+    0070 - d0 5e 49 d0 76 c9 fe 71-78 47 0a 72 c1 8c 71 1c   .^I.v..qxG.r..q.
+    0080 - e2 c2 50 1d e2 bc c3 8f-37 2d c4 72 73 f0 37 81   ..P.....7-.rs.7.
+    0090 - 4e 61 25 c0 d0 a9 9a 8c-81 be f5 76 35 80 d2 0a   Na%........v5...
+    00a0 - 4d 08 fa ad b5 c9 8b 93-c5 00 c5 35 73 9a 03 88   M..........5s...
+    00b0 - 94 77 83 0b 67 50 a7 b9-4e 3f bc 19 10 0a 03 e5   .w..gP..N?......
+
+    Start Time: 1758354018
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: yes
+---

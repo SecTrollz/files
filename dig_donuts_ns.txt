@@ -1,0 +1,4 @@
+donuts.email.		172800	IN	NS	ns-1057.awsdns-04.org.
+donuts.email.		172800	IN	NS	ns-1860.awsdns-40.co.uk.
+donuts.email.		172800	IN	NS	ns-70.awsdns-08.com.
+donuts.email.		172800	IN	NS	ns-778.awsdns-33.net.

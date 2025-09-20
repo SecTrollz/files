@@ -1,0 +1,1 @@
+Permission Denial: can't dump WifiService from from pid=22120, uid=10318
