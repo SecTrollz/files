@@ -1,0 +1,1716 @@
+$ adb shell settings get secure enabled_accessibility_services
+null
+~ $ adb shell pm list packages -i -u
+package:com.android.emergency  installer=null
+package:com.android.traceur.auto_generated_rro_product__  installer=null
+package:com.google.android.documentsui.theme.pixel  installer=null
+package:com.google.android.overlay.glanceablehubsettings2022  installer=null
+package:com.android.mtp  installer=null
+package:com.android.internal.display.cutout.emulation.tall  installer=null
+package:com.android.providers.contacts  installer=null
+package:com.google.android.apps.retaildemo.preload  installer=null
+package:com.google.pixel.livewallpaper  installer=null
+package:com.android.systemui.clocks.inflate  installer=null
+package:com.ilovepdf.www  installer=null
+package:com.android.telephony.imsmedia  installer=null
+package:com.google.android.cellbroadcastreceiver  installer=null
+package:com.google.android.apps.wallpaper.pixel  installer=null
+package:com.android.shell  installer=null
+package:com.google.android.apps.work.oobconfig  installer=null
+package:com.google.android.marvin.talkback  installer=null
+package:com.google.omadm.trigger  installer=null
+package:com.android.wallpaperbackup  installer=null
+package:org.futo.inputmethod.latin.playstore  installer=null
+package:com.google.android.as  installer=null
+package:com.google.android.apps.kids.familylinkhelper  installer=null
+package:com.android.localtransport  installer=null
+package:com.google.android.ondevicepersonalization.services  installer=null
+package:com.android.networkstack.overlay  installer=null
+package:com.google.android.pixelsystemservice  installer=null
+package:com.android.providers.media.overlay.pixel  installer=null
+package:com.google.android.apps.nexuslauncher  installer=null
+package:com.android.phone  installer=null
+package:com.google.android.sdksandbox  installer=null
+package:com.google.android.pixelnfc  installer=null
+package:com.android.providers.calendar  installer=null
+package:com.squareup.cash  installer=null
+package:com.android.providers.downloads  installer=null
+package:com.google.android.bluetooth  installer=null
+package:com.android.cellbroadcastservice.overlay.pixel  installer=null
+package:gov.irs  installer=null
+package:com.android.server.telecom.auto_generated_rro_product__  installer=null
+package:com.android.providers.telephony.auto_generated_characteristics_rro  installer=null
+package:com.google.android.apps.bard  installer=null
+package:io.spck  installer=null
+package:com.android.backupconfirm  installer=null
+package:com.samsung.slsi.telephony.oem.oemrilhookservice  installer=null
+package:com.android.internal.display.cutout.emulation.double  installer=null
+package:android.autoinstalls.config.google.nexus  installer=null
+package:io.tempage.dorycert  installer=null
+package:com.google.android.apps.cbrsnetworkmonitor  installer=null
+package:com.google.android.projection.gearhead  installer=null
+package:com.android.sdm.plugins.dcmo  installer=null
+package:com.google.android.overlay.permissioncontroller  installer=null
+package:com.google.android.avatarpicker  installer=null
+package:com.android.virtualization.terminal  installer=null
+package:com.google.android.accessibility.soundamplifier  installer=null
+package:com.microsoft.intune  installer=null
+package:com.google.android.hardwareinfo  installer=null
+package:com.network.proxy  installer=null
+package:com.android.sharedstoragebackup  installer=null
+package:com.google.android.dialer  installer=null
+package:com.google.assistant.hubui  installer=null
+package:com.google.android.cellbroadcastservice  installer=null
+package:com.google.android.apps.tycho  installer=null
+package:com.shannon.rcsservice  installer=null
+package:com.google.android.microdroid.empty_payload  installer=null
+package:com.google.android.apps.docs  installer=null
+package:com.google.android.adservices.api  installer=null
+package:com.google.android.ext.shared  installer=null
+package:com.google.ar.core  installer=null
+package:cm.aptoide.pt  installer=com.google.android.packageinstaller
+package:com.android.systemui.clocks.growth  installer=null
+package:com.google.android.partnersetup  installer=null
+package:com.android.soundpicker  installer=null
+package:com.android.bookmarkprovider  installer=null
+package:com.google.android.apps.internal.betterbug  installer=null
+package:com.reddit.frontpage  installer=null
+package:com.android.systemui.auto_generated_rro_vendor__  installer=null
+package:net.zedge.android  installer=null
+package:com.android.credentialmanager  installer=null
+package:com.google.android.wifi.resources  installer=null
+package:com.android.intentresolver  installer=null
+package:com.google.android.networkstack  installer=null
+package:com.android.providers.downloads.ui  installer=null
+package:com.google.android.apps.magicportrait  installer=null
+package:com.android.DeviceAsWebcam  installer=null
+package:com.contactoffice.mailfence  installer=null
+package:com.google.euiccpixel.permissions  installer=null
+package:com.aurora.store  installer=com.google.android.packageinstaller
+package:com.android.pixeldisplayservice.auto_generated_rro_product__  installer=null
+package:com.google.android.apps.wellbeing  installer=null
+package:com.google.android.pcs  installer=null
+package:proton.android.pass  installer=null
+package:com.afwsamples.testdpc  installer=null
+package:com.android.companiondevicemanager  installer=null
+package:com.google.android.documentsui  installer=null
+package:com.google.android.apps.scone  installer=null
+package:com.google.android.turboadapter  installer=null
+package:com.google.android.apps.messaging  installer=null
+package:com.google.android.printservice.recommendation  installer=null
+package:com.google.android.gms.supervision  installer=com.android.vending
+package:com.google.android.apps.pixel.support  installer=null
+package:com.android.healthconnect.overlay  installer=null
+package:com.google.android.networkstack.tethering  installer=null
+package:com.android.settings.identitychecksettingsoverlay  installer=null
+package:com.google.android.gsf  installer=null
+package:com.android.managedprovisioning.overlay  installer=null
+package:com.google.euiccpixel.overlay.zumapro  installer=null
+package:com.microsoft.copilot  installer=null
+package:com.google.android.gms  installer=null
+package:com.google.android.carrierlocation  installer=null
+package:com.google.android.as.oss  installer=null
+package:com.google.android.pixel.avatarpicker  installer=null
+package:com.google.android.wallpaper.effects  installer=null
+package:com.android.settings  installer=null
+package:com.google.android.apps.nbu.files  installer=null
+package:com.android.internal.display.cutout.emulation.corner  installer=null
+package:com.google.pixel.camera.services  installer=null
+package:com.android.location.fused  installer=null
+package:com.google.android.wifi.resources.pixel  installer=null
+package:com.pandora.android  installer=null
+package:com.google.android.overlay.trafficlightfaceoverlay  installer=null
+package:com.android.internal.systemui.navbar.gestural  installer=null
+package:com.android.dreams.basic  installer=null
+package:com.google.android.haptics.overlay.tegu  installer=null
+package:com.google.android.apps.maps  installer=null
+package:com.google.android.storagemanager.auto_generated_rro_vendor__  installer=null
+package:com.android.egg  installer=null
+package:com.android.sdm.plugins.diagmon  installer=null
+package:com.google.android.tetheringentitlement  installer=null
+package:com.google.audio.hearing.visualization.accessibility.scribe  installer=null
+package:com.android.managedprovisioning  installer=null
+package:com.google.android.overlay.devicelockcontroller  installer=null
+package:com.android.settings.auto_generated_rro_vendor__  installer=null
+package:com.google.android.settings.future.biometrics.faceenroll  installer=null
+package:com.verizon.mips.services  installer=null
+package:com.google.android.markup  installer=null
+package:com.android.vpndialogs  installer=null
+package:com.xfinity.digitalhome  installer=null
+package:com.android.carrierdefaultapp  installer=null
+package:com.android.providers.partnerbookmarks  installer=null
+package:com.google.android.pixel.setupwizard.overlay2025.midyear  installer=null
+package:android.auto_generated_characteristics_rro  installer=null
+package:com.android.systemui.clocks.calligraphy  installer=null
+package:com.google.mainline.telemetry  installer=null
+package:com.android.providers.blockednumber  installer=null
+package:com.google.SSRestartDetector  installer=null
+package:com.android.settings.auto_generated_rro_product__  installer=null
+package:com.android.mms.service  installer=null
+package:com.android.internal.display.cutout.emulation.hole  installer=null
+package:ch.protonmail.android  installer=null
+package:com.google.ambient.streaming  installer=null
+package:com.google.android.apps.accessibility.voiceaccess  installer=null
+package:com.google.android.apps.camera.services  installer=null
+package:com.google.android.apps.pixel.familyspace  installer=null
+package:com.google.android.googlequicksearchbox.nga_resources  installer=null
+package:com.google.android.apps.pixel.customizationbundle  installer=null
+package:com.android.systemui.clocks.bignum  installer=null
+package:com.google.android.retaildemo  installer=null
+package:com.google.android.systemui.overlay.glanceablehubconfig  installer=null
+package:com.google.android.pixel.setupwizard  installer=null
+package:com.google.android.modulemetadata  installer=null
+package:com.android.systemui.clocks.numoverlap  installer=null
+package:com.android.cts.priv.ctsshim  installer=null
+package:com.android.dynsystem  installer=null
+package:ch.protonvpn.android  installer=null
+package:android.auto_generated_rro_product__  installer=null
+package:com.google.android.apps.wearables.maestro.companion  installer=null
+package:com.google.android.captiveportallogin  installer=null
+package:com.android.cellbroadcastreceiver  installer=null
+package:com.google.android.apps.carrier.log  installer=null
+package:com.android.systemui  installer=null
+package:com.google.android.ext.services  installer=null
+package:android  installer=null
+package:com.google.android.glasses.core  installer=null
+package:net.wigle.wigleandroid  installer=com.android.vending
+package:com.google.android.hotspot2.osulogin  installer=null
+package:com.android.server.telecom  installer=null
+package:com.google.android.appsearch.apk  installer=null
+package:com.google.android.uwb.resources  installer=null
+package:com.server.auditor.ssh.client  installer=null
+package:com.shannon.imsservice  installer=null
+package:com.google.android.overlay.pixelconfig2018  installer=null
+package:com.google.android.providers.media.module  installer=null
+package:com.google.android.apps.wallpaper  installer=null
+package:com.google.android.apps.aiwallpapers  installer=null
+package:com.android.safetyregulatoryinfo  installer=null
+package:com.google.android.devicelockcontroller  installer=null
+package:com.deepseek.chat  installer=com.android.vending
+package:com.textra  installer=com.aurora.store
+package:com.google.android.overlay.glanceablehubsettings  installer=null
+package:com.android.providers.settings.auto_generated_rro_product__  installer=null
+package:com.tortel.syslog  installer=null
+package:com.android.providers.telephony  installer=null
+package:com.google.android.overlay.glanceablehubconfig  installer=null
+package:com.android.privatespace  installer=null
+package:com.android.qns  installer=null
+package:com.android.providers.settings.auto_generated_rro_vendor__  installer=null
+package:com.android.externalstorage  installer=null
+package:com.google.android.overlay.pixelconfig2021  installer=null
+package:io.ente.auth  installer=null
+package:com.google.android.storagemanager  installer=null
+package:com.google.android.uvexposurereporter  installer=null
+package:com.google.android.connectivitythermalpowermanager  installer=null
+package:com.google.android.overlay.pixelconfigcommon  installer=null
+package:com.google.android.factoryota  installer=null
+package:com.facebook.orca  installer=null
+package:com.google.android.apps.recorder  installer=null
+package:com.google.android.crossdeviceaccessservice  installer=null
+package:com.piriform.ccleaner  installer=null
+package:com.google.android.apps.customization.pixel  installer=null
+package:com.android.certinstaller  installer=null
+package:com.google.android.apps.ai.icons  installer=null
+package:com.google.android.apps.safetyhub  installer=null
+package:com.android.companiondevicemanager.auto_generated_characteristics_rro  installer=null
+package:com.android.systemui.clocks.weather  installer=null
+package:com.google.android.storagemanager.auto_generated_rro_product__  installer=null
+package:com.android.providers.contactkeys  installer=null
+package:com.google.android.safetycenter.resources  installer=null
+package:com.google.android.deskclock  installer=null
+package:com.android.imsserviceentitlement  installer=null
+package:com.android.stk  installer=null
+package:com.google.android.apps.pixel.creativeassistant  installer=null
+package:com.google.android.apps.pixel.nowplaying  installer=null
+package:com.speedsoftware.explorer  installer=null
+package:com.google.android.gms.location.history  installer=null
+package:com.android.simappdialog  installer=null
+package:com.google.android.overlay.googleconfig  installer=null
+package:com.google.android.apps.setupwizard.searchselector  installer=null
+package:com.google.android.pixel.setupwizard.overlay.expressive  installer=null
+package:android.auto_generated_rro_vendor__  installer=null
+package:com.android.keychain  installer=null
+package:com.android.settings.overlay.tegu  installer=null
+package:com.google.android.calendar  installer=null
+package:com.android.omadm.service  installer=null
+package:com.google.android.apps.diagnosticstool  installer=null
+package:com.android.pacprocessor  installer=null
+package:com.android.cellbroadcastreceiver.overlay.pixel  installer=null
+package:com.android.chrome  installer=null
+package:com.verizon.services  installer=null
+package:domilopment.apkextractor  installer=null
+package:com.google.android.odad  installer=null
+package:com.google.android.configupdater  installer=null
+package:com.google.android.repairmode  installer=com.google.android.packageinstaller
+package:com.android.inputdevices  installer=null
+package:cellmapper.net.cellmapper  installer=com.android.vending
+package:com.android.se  installer=null
+package:com.android.devicediagnostics  installer=null
+package:com.vrem.wifianalyzer  installer=null
+package:com.google.android.systemui.gxoverlay  installer=null
+package:com.google.android.carriersetup  installer=null
+package:com.android.bips.auto_generated_rro_product__  installer=null
+package:com.google.android.wfcactivation  installer=null
+package:com.google.android.crossdeviceaccessservice.auto_generated_rro_vendor__  installer=null
+package:com.android.htmlviewer  installer=null
+package:com.reqable.android  installer=null
+package:com.grindrapp.android  installer=com.aurora.store
+package:com.android.musicfx  installer=null
+package:com.google.android.GoogleCamera  installer=null
+package:com.google.android.iwlan  installer=null
+package:com.android.internal.display.cutout.emulation.waterfall  installer=null
+package:com.android.providers.telephony.auto_generated_rro_product__  installer=null
+package:com.android.safetyregulatoryinfo.auto_generated_rro_product__  installer=null
+package:com.v2raytun.android  installer=null
+package:com.google.android.flipendo.auto_generated_rro_product__  installer=null
+package:dev.mjandroid.logdroid  installer=ru.gaunqcct.xzyegundr
+package:com.google.android.telephony  installer=null
+package:com.google.android.apps.restore  installer=null
+package:com.google.android.flipendo  installer=null
+package:com.android.devicediagnostics.auto_generated_rro_vendor__  installer=null
+package:com.android.wallpaper.livepicker  installer=null
+package:com.google.android.contacts  installer=null
+package:com.google.android.apps.emojiwallpaper  installer=null
+package:com.google.android.tag  installer=null
+package:com.google.android.videos  installer=null
+package:ru.gaunqcct.xzyegundr  installer=com.google.android.packageinstaller
+package:com.google.android.grilservice  installer=null
+package:com.android.hotwordenrollment.okgoogle  installer=null
+package:com.google.android.systemui.overlay.pixelbatteryhealthconfig  installer=null
+package:com.google.android.overlay.googlewebview  installer=null
+package:com.google.android.federatedcompute  installer=null
+package:com.android.systemui.plugin.globalactions.wallet  installer=null
+package:com.android.traceur  installer=null
+package:com.google.android.systemui.overlay.pixelvpnconfig  installer=null
+package:com.android.captiveportallogin.overlay  installer=null
+package:com.android.pixeldisplayservice  installer=null
+package:com.google.android.webview  installer=null
+package:org.mozilla.firefox  installer=null
+package:com.android.calllogbackup  installer=null
+package:com.google.android.safetycore  installer=null
+package:com.google.android.feedback  installer=null
+package:com.anthropic.claude  installer=null
+package:com.android.providers.settings  installer=null
+package:com.android.hotwordenrollment.xgoogle  installer=null
+package:com.google.android.nfc.overlay  installer=null
+package:com.google.android.apps.pixel.dcservice  installer=null
+package:com.google.android.photopicker  installer=null
+package:com.google.mainline.adservices  installer=null
+package:com.android.traceur.auto_generated_rro_vendor__  installer=null
+package:com.google.android.inputmethod.latin  installer=null
+package:com.google.android.dreamlinerupdater  installer=null
+package:org.torproject.torbrowser  installer=null
+package:com.google.android.overlay.pixelconfig2019midyear  installer=null
+package:com.android.systemui.clocks.metro  installer=null
+package:com.google.RilConfigService  installer=null
+package:com.google.android.verifier.overlay  installer=null
+package:com.vzw.apnlib  installer=null
+package:com.android.role.notes.enabled  installer=null
+package:com.google.android.tts  installer=null
+package:com.android.providers.contacts.auto_generated_rro_product__  installer=null
+package:com.android.nfc  installer=null
+package:com.android.sdm.plugins.connmo  installer=null
+package:com.google.android.apps.dreamliner  installer=null
+package:com.google.android.overlay.pixelconfig2019  installer=null
+package:com.android.cameraextensions  installer=null
+package:com.google.android.carrier  installer=null
+package:com.google.android.server.deviceconfig.resources  installer=null
+package:com.android.bluetoothmidiservice  installer=null
+package:com.google.android.gm  installer=null
+package:com.google.android.calculator  installer=null
+package:com.google.android.packageinstaller  installer=null
+package:tech.ula  installer=null
+package:com.google.android.healthconnect.controller  installer=null
+package:com.termux  installer=com.aurora.store
+package:com.android.ons  installer=null
+package:com.google.android.wifi.dialog  installer=null
+package:com.google.euiccpixel  installer=null
+package:com.android.internal.systemui.navbar.transparent  installer=null
+package:com.google.android.rkpdapp  installer=null
+package:com.tapuniverse.phototopdf  installer=null
+package:com.google.android.crossdeviceaccessservice.auto_generated_rro_product__  installer=null
+package:com.android.phone.auto_generated_rro_vendor__  installer=null
+package:com.google.android.apps.tips  installer=null
+package:com.csdeveloper.imgconverter  installer=null
+package:com.android.devicediagnostics.auto_generated_rro_product__  installer=null
+package:com.google.android.connectivity.resources.overlay  installer=null
+package:com.google.android.accessibility.switchaccess  installer=null
+package:com.google.android.apps.weather  installer=null
+package:com.android.phone.auto_generated_characteristics_rro  installer=null
+package:com.android.phone.auto_generated_rro_product__  installer=null
+package:com.android.providers.userdictionary  installer=null
+package:com.apkmirror.helper.prod  installer=null
+package:com.android.multiuser  installer=null
+package:com.discord  installer=null
+package:com.google.android.nfc  installer=null
+package:com.android.providers.media  installer=null
+package:com.google.android.apps.youtube.music  installer=null
+package:com.samsung.slsi.telephony.oemril  installer=null
+package:com.android.proxyhandler  installer=null
+package:com.google.android.apps.pixel.relationships  installer=null
+package:com.google.android.nfc.overlay.common  installer=null
+package:com.google.android.googlequicksearchbox  installer=null
+package:com.google.android.health.connect.backuprestore  installer=null
+package:com.android.vending.billing.InAppBillingService.BINN  installer=com.google.android.packageinstaller
+package:com.android.cts.ctsshim  installer=null
+package:com.android.systemui.accessibility.accessibilitymenu  installer=null
+package:com.android.printspooler  installer=null
+package:com.google.android.verifier  installer=null
+package:com.android.theme.font.notoserifsource  installer=null
+package:com.android.omadm.service.auto_generated_rro_vendor__  installer=null
+package:com.google.android.apps.turbo  installer=null
+package:com.google.android.apps.photos  installer=null
+package:com.google.android.euicc  installer=null
+package:com.google.android.permissioncontroller  installer=null
+package:com.google.android.connectivity.resources  installer=null
+package:com.google.android.systemui.overlay.pixelbatterylotxconfig  installer=null
+package:com.google.android.settings.intelligence  installer=null
+package:com.android.systemui.accessibility.accessibilitymenu.auto_generated_rro_product__  installer=null
+package:com.google.android.youtube  installer=null
+package:com.google.android.ims  installer=null
+package:com.shannon.imsservice.auto_generated_rro_product__  installer=null
+package:com.google.android.networkstack.tethering.overlay2021  installer=null
+package:com.Yiming.PC  installer=null
+package:com.android.angle  installer=null
+package:com.google.android.compos.payload  installer=null
+package:com.google.android.apps.tachyon  installer=null
+package:com.android.systemui.auto_generated_rro_product__  installer=null
+package:com.google.android.aicore  installer=null
+package:com.google.android.apps.privacy.wildlife  installer=null
+package:com.android.settings.tegu  installer=null
+package:com.google.android.apps.work.clouddpc  installer=null
+package:com.google.android.apps.carrier.carrierwifi  installer=null
+package:com.google.android.setupwizard  installer=null
+package:com.google.android.pixel.setupwizard.overlay2024  installer=null
+package:com.google.android.flipendo.auto_generated_rro_vendor__  installer=null
+package:com.esotech.onellm  installer=null
+package:com.android.bips  installer=null
+package:com.google.android.euiccoverlay  installer=null
+package:com.google.android.settings.overlay.pixelvpnconfig  installer=null
+package:com.castify  installer=null
+package:com.kokoschka.michael.crypto  installer=null
+package:imagetopdf.pdfconverter.jpgtopdf.pdfeditor  installer=null
+package:com.google.android.soundpicker  installer=null
+package:com.android.simappdialog.auto_generated_rro_product__  installer=null
+package:com.google.android.overlay.udfpsoverlay  installer=null
+package:com.google.android.rilextension  installer=null
+package:com.android.internal.systemui.navbar.threebutton  installer=null
+package:com.google.android.overlay.permissioncontroller.safetycenter  installer=null
+package:com.google.android.virtualmachine.res  installer=null
+package:com.android.omadm.service.auto_generated_rro_product__  installer=null
+package:com.android.vending  installer=null
+~ $ adb shell ps -A | grep -v "system\|kernel"
+USER           PID  PPID        VSZ    RSS WCHAN            ADDR S NAME
+root             1     0   10989712   5588 0                   0 S init
+root             2     0          0      0 0                   0 S [kthreadd]
+root             3     2          0      0 0                   0 I [rcu_gp]
+root             4     2          0      0 0                   0 I [slub_flushwq]
+root             5     2          0      0 0                   0 I [netns]
+root             8     2          0      0 0                   0 I [kworker/u16:0-gpu-dvfs-control]
+root             9     2          0      0 0                   0 I [mm_percpu_wq]
+root            11     2          0      0 0                   0 I [rcu_tasks_kthread]
+root            12     2          0      0 0                   0 I [rcu_tasks_trace_kthread]
+root            13     2          0      0 0                   0 S [ksoftirqd/0]
+root            14     2          0      0 0                   0 I [rcu_preempt]
+root            15     2          0      0 0                   0 S [rcuog/0]
+root            16     2          0      0 0                   0 S [rcuop/0]
+root            17     2          0      0 0                   0 S [rcub/0]
+root            18     2          0      0 0                   0 S [rcu_exp_gp_kthread_worker]
+root            19     2          0      0 0                   0 S [rcu_exp_par_gp_kthread_worker]
+root            20     2          0      0 0                   0 S [migration/0]
+root            21     2          0      0 0                   0 S [idle_inject/0]
+root            23     2          0      0 0                   0 S [cpuhp/0]
+root            24     2          0      0 0                   0 S [cpuhp/1]
+root            25     2          0      0 0                   0 S [idle_inject/1]
+root            26     2          0      0 0                   0 S [migration/1]
+root            27     2          0      0 0                   0 S [ksoftirqd/1]
+root            28     2          0      0 0                   0 I [kworker/1:0-events]
+root            30     2          0      0 0                   0 S [rcuop/1]
+root            31     2          0      0 0                   0 S [cpuhp/2]
+root            32     2          0      0 0                   0 S [idle_inject/2]
+root            33     2          0      0 0                   0 S [migration/2]
+root            34     2          0      0 0                   0 S [ksoftirqd/2]
+root            37     2          0      0 0                   0 S [rcuop/2]
+root            38     2          0      0 0                   0 S [cpuhp/3]
+root            39     2          0      0 0                   0 S [idle_inject/3]
+root            40     2          0      0 0                   0 S [migration/3]
+root            41     2          0      0 0                   0 S [ksoftirqd/3]
+root            42     2          0      0 0                   0 I [kworker/3:0-events]
+root            44     2          0      0 0                   0 S [rcuop/3]
+root            45     2          0      0 0                   0 S [cpuhp/4]
+root            46     2          0      0 0                   0 S [idle_inject/4]
+root            47     2          0      0 0                   0 S [migration/4]
+root            48     2          0      0 0                   0 S [ksoftirqd/4]
+root            51     2          0      0 0                   0 S [rcuog/4]
+root            52     2          0      0 0                   0 S [rcuop/4]
+root            53     2          0      0 0                   0 S [cpuhp/5]
+root            54     2          0      0 0                   0 S [idle_inject/5]
+root            55     2          0      0 0                   0 S [migration/5]
+root            56     2          0      0 0                   0 S [ksoftirqd/5]
+root            59     2          0      0 0                   0 S [rcuop/5]
+root            60     2          0      0 0                   0 S [cpuhp/6]
+root            61     2          0      0 0                   0 S [idle_inject/6]
+root            62     2          0      0 0                   0 S [migration/6]
+root            63     2          0      0 0                   0 S [ksoftirqd/6]
+root            65     2          0      0 0                   0 I [kworker/6:0H-fsverity_read_queue]
+root            66     2          0      0 0                   0 S [rcuop/6]
+root            67     2          0      0 0                   0 S [cpuhp/7]
+root            68     2          0      0 0                   0 S [idle_inject/7]
+root            69     2          0      0 0                   0 S [migration/7]
+root            70     2          0      0 0                   0 S [ksoftirqd/7]
+root            73     2          0      0 0                   0 S [rcuop/7]
+root            74     2          0      0 0                   0 I [inet_frag_wq]
+root            75     2          0      0 0                   0 S [kauditd]
+root            76     2          0      0 0                   0 S [khungtaskd]
+root            77     2          0      0 0                   0 S [oom_reaper]
+root            78     2          0      0 0                   0 I [writeback]
+root            79     2          0      0 0                   0 S [kcompactd0]
+root            81     2          0      0 0                   0 I [kblockd]
+root            82     2          0      0 0                   0 I [blkcg_punt_bio]
+root            83     2          0      0 0                   0 I [edac-poller]
+root            84     2          0      0 0                   0 I [devfreq_wq]
+root            85     2          0      0 0                   0 S [watchdogd]
+root            91     2          0      0 0                   0 S [kswapd0]
+root            93     2          0      0 0                   0 S [erofs_worker/0]
+root            94     2          0      0 0                   0 S [erofs_worker/1]
+root            95     2          0      0 0                   0 S [erofs_worker/2]
+root            96     2          0      0 0                   0 S [erofs_worker/3]
+root            97     2          0      0 0                   0 S [erofs_worker/4]
+root            98     2          0      0 0                   0 S [erofs_worker/5]
+root            99     2          0      0 0                   0 S [erofs_worker/6]
+root           100     2          0      0 0                   0 S [erofs_worker/7]
+root           103     2          0      0 0                   0 I [kthrotld]
+root           104     2          0      0 0                   0 S [dmabuf-deferred-free-worker]
+root           105     2          0      0 0                   0 I [nvme-wq]
+root           106     2          0      0 0                   0 I [nvme-reset-wq]
+root           107     2          0      0 0                   0 I [nvme-delete-wq]
+root           108     2          0      0 0                   0 I [uas]
+root           109     2          0      0 0                   0 I [dm_bufio_cache]
+root           110     2          0      0 0                   0 S [hwrng]
+root           111     2          0      0 0                   0 I [mld]
+root           113     2          0      0 0                   0 I [ipv6_addrconf]
+root           114     2          0      0 0                   0 I [kworker/6:1-sock_diag_events]
+root           116     2          0      0 0                   0 S [perf_mon_update_client_task]
+root           117     2          0      0 0                   0 S [irq/27-15110000.acpm_ipc]
+root           118     2          0      0 0                   0 I [acpm_log]
+root           119     2          0      0 0                   0 S [sched_pmu_wq]
+root           132     2          0      0 0                   0 S [irq/161-aerdrv]
+root           133     2          0      0 0                   0 I [pcie_wq]
+root           134     2          0      0 0                   0 S [irq/163-aerdrv]
+root           135     2          0      0 0                   0 I [pcie_wq]
+root           136     2          0      0 0                   0 S [trusty-nop-0]
+root           137     2          0      0 0                   0 S [trusty-nop-1]
+root           138     2          0      0 0                   0 S [trusty-nop-2]
+root           139     2          0      0 0                   0 S [trusty-nop-3]
+root           140     2          0      0 0                   0 S [trusty-nop-4]
+root           141     2          0      0 0                   0 S [trusty-nop-5]
+root           142     2          0      0 0                   0 S [trusty-nop-6]
+root           143     2          0      0 0                   0 S [trusty-nop-7]
+root           146     2          0      0 0                   0 S [irq/168-15260000.exynos-adv_tracer]
+root           147     2          0      0 0                   0 I [kdbgd]
+root           148     2          0      0 0                   0 S [thermal_pressure]
+root           152     2          0      0 0                   0 S [PT_resize]
+root           153     2          0      0 0                   0 I [gnss_spi_wq]
+root           154     2          0      0 0                   0 S [irq/188-eh_error]
+root           155     2          0      0 0                   0 S [eh_comp_thread]
+root           156     2          0      0 0                   0 S [irq/193-1a640000.sysmmu]
+root           157     2          0      0 0                   0 S [irq/194-1a640000.sysmmu]
+root           158     2          0      0 0                   0 S [irq/195-1a870000.sysmmu]
+root           159     2          0      0 0                   0 S [irq/196-1a870000.sysmmu]
+root           160     2          0      0 0                   0 S [irq/197-19840000.sysmmu]
+root           161     2          0      0 0                   0 S [irq/198-19840000.sysmmu]
+root           162     2          0      0 0                   0 S [irq/199-19c40000.sysmmu]
+root           163     2          0      0 0                   0 S [irq/200-19c40000.sysmmu]
+root           164     2          0      0 0                   0 S [irq/201-1c110000.sysmmu]
+root           165     2          0      0 0                   0 S [irq/202-1c110000.sysmmu]
+root           166     2          0      0 0                   0 S [irq/203-1c150000.sysmmu]
+root           167     2          0      0 0                   0 S [irq/204-1c150000.sysmmu]
+root           168     2          0      0 0                   0 S [irq/205-1c190000.sysmmu]
+root           169     2          0      0 0                   0 S [irq/206-1c190000.sysmmu]
+root           170     2          0      0 0                   0 S [irq/207-1d870000.sysmmu]
+root           171     2          0      0 0                   0 S [irq/208-1d870000.sysmmu]
+root           172     2          0      0 0                   0 S [irq/209-1a340000.sysmmu]
+root           173     2          0      0 0                   0 S [irq/210-1a340000.sysmmu]
+root           174     2          0      0 0                   0 S [irq/211-1c870000.sysmmu]
+root           175     2          0      0 0                   0 S [irq/212-1c870000.sysmmu]
+root           176     2          0      0 0                   0 S [irq/213-1cc80000.sysmmu]
+root           177     2          0      0 0                   0 S [irq/214-1cc80000.sysmmu]
+root           178     2          0      0 0                   0 S [irq/215-1ccc0000.sysmmu]
+root           179     2          0      0 0                   0 S [irq/216-1ccc0000.sysmmu]
+root           180     2          0      0 0                   0 S [irq/217-1cd00000.sysmmu]
+root           181     2          0      0 0                   0 S [irq/218-1cd00000.sysmmu]
+root           182     2          0      0 0                   0 S [irq/219-1c4a0000.sysmmu]
+root           183     2          0      0 0                   0 S [irq/220-1c4a0000.sysmmu]
+root           184     2          0      0 0                   0 S [irq/221-1c4e0000.sysmmu]
+root           185     2          0      0 0                   0 S [irq/222-1c4e0000.sysmmu]
+root           186     2          0      0 0                   0 S [irq/223-101c0000.sysmmu]
+root           187     2          0      0 0                   0 S [irq/224-101c0000.sysmmu]
+root           188     2          0      0 0                   0 S [irq/225-1a470000.sysmmu]
+root           189     2          0      0 0                   0 S [irq/226-1a470000.sysmmu]
+root           190     2          0      0 0                   0 S [irq/227-1d0a0000.sysmmu]
+root           191     2          0      0 0                   0 S [irq/228-1d0a0000.sysmmu]
+root           192     2          0      0 0                   0 S [irq/229-11040000.sysmmu]
+root           193     2          0      0 0                   0 S [irq/230-11040000.sysmmu]
+root           194     2          0      0 0                   0 S [irq/231-16440000.sysmmu]
+root           195     2          0      0 0                   0 S [irq/232-16440000.sysmmu]
+root           196     2          0      0 0                   0 S [irq/233-1d4c0000.sysmmu]
+root           197     2          0      0 0                   0 S [irq/234-1d4c0000.sysmmu]
+root           198     2          0      0 0                   0 S [irq/235-16c40000.sysmmu]
+root           199     2          0      0 0                   0 S [irq/236-16c40000.sysmmu]
+root           200     2          0      0 0                   0 S [irq/237-20a50000.sysmmu]
+root           201     2          0      0 0                   0 S [irq/238-20a50000.sysmmu]
+root           202     2          0      0 0                   0 S [irq/239-19090000.sysmmu]
+root           203     2          0      0 0                   0 S [irq/240-19090000.sysmmu]
+root           204     2          0      0 0                   0 S [simpleinteractive]
+root           205     2          0      0 0                   0 S [simpleinteractive]
+root           206     2          0      0 0                   0 S [simpleinteractive]
+root           207     2          0      0 0                   0 S [simpleinteractive]
+root           208     2          0      0 0                   0 S [simpleinteractive]
+root           209     2          0      0 0                   0 S [simpleinteractive]
+root           210     2          0      0 0                   0 S [simpleinteractive]
+root           211     2          0      0 0                   0 S [simpleinteractive]
+root           212     2          0      0 0                   0 S [simpleinteractive]
+root           213     2          0      0 0                   0 S [simpleinteractive]
+root           214     2          0      0 0                   0 S [g2d_completion]
+root           215     2          0      0 0                   0 S [g2d_scheduler]
+root           216     2          0      0 0                   0 S [scsi_eh_0]
+root           217     2          0      0 0                   0 I [scsi_tmf_0]
+root           218     2          0      0 0                   0 I [ufs_mgc_hibern8]
+root           219     2          0      0 0                   0 I [ufs_eh_wq_0]
+root           220     2          0      0 0                   0 I [ufs_clk_gating_]
+root           221     2          0      0 0                   0 S [spi15]
+root           223     2          0      0 0                   0 S [spi20]
+root           224     2          0      0 0                   0 S [spi21]
+root           231     2          0      0 0                   0 I [kworker/7:10-mld]
+root           232     2          0      0 0                   0 I [kworker/7:11-events_power_efficient]
+root           234     2          0      0 0                   0 S [irq/312-s2mpg14-irq]
+root           235     2          0      0 0                   0 I [slg51002wq]
+root           238     2          0      0 0                   0 I [mfc/inst_migrat]
+root           239     2          0      0 0                   0 I [mfc/butler]
+root           240     2          0      0 0                   0 S [irq/358-1a4d0000.MFC-0]
+root           241     2          0      0 0                   0 I [mfc_core/meerka]
+root           242     2          0      0 0                   0 I [mfc_core/idle]
+root           243     2          0      0 0                   0 I [mfc_core/butler]
+root           244     2          0      0 0                   0 I [kworker/u17:1-f2fs_post_read_wq]
+root           245     2          0      0 0                   0 S [spmic-init]
+root           246     2          0      0 0                   0 I [wq_odpm]
+root           247     2          0      0 0                   0 I [wq_odpm]
+root           248     2          0      0 0                   0 S [decon0_kthread]
+root           249     2          0      0 0                   0 S [decon1_kthread]
+root           250     2          0      0 0                   0 I [110f0000.drmdp]
+root           253     2          0      0 0                   0 I [kworker/4:5-events]
+root           256     2          0      0 0                   0 S [irq/405-max77779_pmic_irq]
+root           257     2          0      0 0                   0 S [irq/411-max77779_pmic_sgpio_irq]
+root           258     2          0      0 0                   0 S [irq/408-max77779_charger]
+root           261     2          0      0 0                   0 S [irq/410-max77779_vimon]
+root           262     2          0      0 0                   0 S [wq-tcpm-usb-psy-usb-type]
+root           263     2          0      0 0                   0 S [wq-tcpm-usb-psy]
+root           264     2          0      0 0                   0 I [max77759-bc12]
+root           266     2          0      0 0                   0 S [wq-tcpm-tcpc]
+root           267     2          0      0 0                   0 S [wq-tcpc-dp-notification]
+root           268     2          0      0 0                   0 S [wq-bcl-usb]
+root           269     2          0      0 0                   0 S [i2c-max77759tcpc]
+root           270     2          0      0 0                   0 S [irq/433-i2c-max77759tcpc]
+root           271     2          0      0 0                   0 I [kworker/6:2-mm_percpu_wq]
+root           272     2          0      0 0                   0 I [google,usbc_por]
+root           274     2          0      0 0                   0 I [kworker/2:3-events]
+root           275     2          0      0 0                   0 I [bcl_qos_update]
+root           276     2          0      0 0                   0 S [irq/437-smpl_warn]
+root           277     2          0      0 0                   0 S [irq/438-ocp_gpu]
+root           278     2          0      0 0                   0 S [irq/439-vdroop1]
+root           279     2          0      0 0                   0 S [irq/412-batoilo]
+root           280     2          0      0 0                   0 S [irq/440-batoilo2]
+root           281     2          0      0 0                   0 S [irq/407-max77779_fg_irq]
+root           282     2          0      0 0                   0 I [hbm_workq]
+root           283     2          0      0 0                   0 S [lhbm_kthread]
+root           284     2          0      0 0                   0 S [card0-crtc0]
+root           285     2          0      0 0                   0 S [card0-crtc1]
+root           286     2          0      0 0                   0 I [st_pstate_work]
+root           287     2          0      0 0                   0 I [cp2ap_wakeup_wq]
+root           288     2          0      0 0                   0 I [trigger_cp_cras]
+root           289     2          0      0 0                   0 I [cpif_tpmon_moni]
+root           290     2          0      0 0                   0 I [cpif_tpmon_boos]
+root           291     2          0      0 0                   0 S [tbn_aoc_channel]
+root           293     2          0      0 0                   0 S [f2fs_ckpt-8:10]
+root           294     2          0      0 0                   0 S [f2fs_flush-8:10]
+root           295     2          0      0 0                   0 S [f2fs_discard-8:10]
+root           296     2          0      0 0                   0 S [f2fs_gc-8:10]
+root           298     2          0      0 0                   0 I [kdmflush/254:0]
+root           299     2          0      0 0                   0 I [kdmflush/254:1]
+root           300     2          0      0 0                   0 I [kdmflush/254:2]
+root           301     2          0      0 0                   0 I [kdmflush/254:3]
+root           302     2          0      0 0                   0 I [kdmflush/254:4]
+root           303     2          0      0 0                   0 I [kdmflush/254:5]
+root           304     2          0      0 0                   0 I [kdmflush/254:6]
+root           305     2          0      0 0                   0 I [kdmflush/254:7]
+root           306     2          0      0 0                   0 I [kdmflush/254:8]
+root           307     2          0      0 0                   0 I [kdmflush/254:9]
+root           308     2          0      0 0                   0 I [kdmflush/254:10]
+root           309     2          0      0 0                   0 I [kdmflush/254:11]
+root           310     2          0      0 0                   0 I [kdmflush/254:12]
+root           311     2          0      0 0                   0 I [kverityd]
+root           312     2          0      0 0                   0 I [ext4-rsv-conver]
+root           313     2          0      0 0                   0 I [kdmflush/254:13]
+root           314     2          0      0 0                   0 I [kverityd]
+root           315     2          0      0 0                   0 I [ext4-rsv-conver]
+root           316     2          0      0 0                   0 I [kdmflush/254:14]
+root           317     2          0      0 0                   0 I [kverityd]
+root           318     2          0      0 0                   0 I [ext4-rsv-conver]
+root           319     2          0      0 0                   0 I [kdmflush/254:15]
+root           320     2          0      0 0                   0 I [kverityd]
+root           322     2          0      0 0                   0 I [ext4-rsv-conver]
+root           323     2          0      0 0                   0 I [kdmflush/254:16]
+root           324     2          0      0 0                   0 I [kverityd]
+root           325     2          0      0 0                   0 I [ext4-rsv-conver]
+root           326     2          0      0 0                   0 I [kdmflush/254:17]
+root           327     2          0      0 0                   0 I [kverityd]
+root           328     2          0      0 0                   0 I [ext4-rsv-conver]
+root           332     1   10861228   3608 0                   0 S init
+root           333     1   10973220   4416 0                   0 S ueventd
+root           351     2          0      0 0                   0 I [kworker/3:1H-fsverity_read_queue]
+root           394     2          0      0 0                   0 I [kdmflush/254:20]
+root           395     2          0      0 0                   0 I [kdmflush/254:21]
+root           397     2          0      0 0                   0 I [kdmflush/254:23]
+root           398     2          0      0 0                   0 I [kdmflush/254:24]
+root           401     2          0      0 0                   0 I [kdmflush/254:27]
+root           403     2          0      0 0                   0 I [kdmflush/254:29]
+root           404     2          0      0 0                   0 I [kdmflush/254:30]
+root           405     2          0      0 0                   0 I [kdmflush/254:31]
+root           406     2          0      0 0                   0 I [kdmflush/254:32]
+root           407     2          0      0 0                   0 I [kdmflush/254:33]
+root           409     2          0      0 0                   0 I [kdmflush/254:35]
+root           410     2          0      0 0                   0 I [kdmflush/254:36]
+root           412     2          0      0 0                   0 I [kdmflush/254:38]
+root           414     2          0      0 0                   0 I [kdmflush/254:40]
+root           415     2          0      0 0                   0 I [kdmflush/254:41]
+root           416     2          0      0 0                   0 I [kdmflush/254:42]
+root           418     2          0      0 0                   0 I [kdmflush/254:44]
+root           419     2          0      0 0                   0 I [kdmflush/254:45]
+root           422     2          0      0 0                   0 I [kdmflush/254:48]
+root           423     2          0      0 0                   0 I [kdmflush/254:49]
+root           424     2          0      0 0                   0 I [kdmflush/254:50]
+root           425     2          0      0 0                   0 I [kdmflush/254:51]
+root           426     2          0      0 0                   0 I [kdmflush/254:52]
+root           427     2          0      0 0                   0 I [kdmflush/254:53]
+root           428     2          0      0 0                   0 I [kdmflush/254:54]
+root           429     2          0      0 0                   0 I [kdmflush/254:55]
+root           431     2          0      0 0                   0 I [kdmflush/254:57]
+root           433     2          0      0 0                   0 I [kdmflush/254:59]
+root           434     2          0      0 0                   0 I [kdmflush/254:60]
+root           436     2          0      0 0                   0 I [kdmflush/254:62]
+root           441     2          0      0 0                   0 I [ext4-rsv-conver]
+root           442     2          0      0 0                   0 I [ext4-rsv-conver]
+root           443     2          0      0 0                   0 I [ext4-rsv-conver]
+root           444     2          0      0 0                   0 I [ext4-rsv-conver]
+root           449     2          0      0 0                   0 S [f2fs_ckpt-8:1]
+root           450     2          0      0 0                   0 S [f2fs_flush-8:1]
+root           451     2          0      0 0                   0 S [f2fs_discard-8:1]
+root           452     2          0      0 0                   0 S [f2fs_gc-8:1]
+prng_seeder    454     1   10884476   3524 0                   0 S prng_seeder
+logd           456     1   10966744   6456 0                   0 S logd
+lmkd           457     1   10860264   4840 0                   0 S lmkd
+root           461     2          0      0 0                   0 S [psimon]
+root           475     2          0      0 0                   0 S [sugov:0]
+root           476     2          0      0 0                   0 S [sugov:4]
+root           477     2          0      0 0                   0 S [sugov:7]
+root           480     1   10898928   5272 0                   0 S vold
+root           481     2          0      0 0                   0 I [ext4-rsv-conver]
+root           484     2          0      0 0                   0 I [kdmflush/254:63]
+keystore       492     1   11010724   9816 0                   0 S keystore2
+root           493     1   10799960   5088 0                   0 S android.hardware.boot-service.default-pixel
+hsm            494     1   11005724   5416 0                   0 S android.hardware.security.keymint-service.citadel
+nobody         496     1   10903468   4632 0                   0 S android.hardware.security.keymint-service.rust.trusty
+root           497     2          0      0 0                   0 I [kworker/u17:2-f2fs_post_read_wq]
+hsm            498     1   10958484   3888 0                   0 S citadeld
+root           526     2          0      0 0                   0 S [krfcommd]
+root           570     2          0      0 0                   0 I [cfg80211]
+root           571     2          0      0 0                   0 I [pa_kill]
+root           572     2          0      0 0                   0 I [gpu-dvfs-contro]
+root           573     2          0      0 0                   0 I [gpu-dvfs-clockd]
+root           574     2          0      0 0                   0 I [free_pages_work]
+root           575     2          0      0 0                   0 S [mali_apc_thread]
+root           576     2          0      0 0                   0 I [gxp_power_work_]
+root           577     2          0      0 0                   0 S [irq/461-gxp_aurora_mcu_wdg]
+root           578     2          0      0 0                   0 S [gxp_response_4]
+root           579     2          0      0 0                   0 S [gxp_response_3]
+root           580     2          0      0 0                   0 S [gxp_response_5]
+root           582     2          0      0 0                   0 D [mali-gpuq-kthread]
+root           583     2          0      0 0                   0 S [mali-kcpuq-kthread]
+root           584     2          0      0 0                   0 I [sched_deferred_]
+root           585     2          0      0 0                   0 S [lwis_s_top]
+root           586     2          0      0 0                   0 S [lwis_t_isp-fe]
+root           587     2          0      0 0                   0 S [lwis_t_gdc0]
+root           588     2          0      0 0                   0 S [lwis_t_gdc1]
+root           589     2          0      0 0                   0 S [csf_kcpu_worker]
+root           591     2          0      0 0                   0 S [lwis_t_mcsc]
+root           594     2          0      0 0                   0 S [lwis_t_gse]
+root           595     2          0      0 0                   0 S [lwis_t_be-core]
+root           596     2          0      0 0                   0 S [lwis_t_gtnr-merge]
+root           597     2          0      0 0                   0 S [lwis_t_gtnr-align]
+root           598     2          0      0 0                   0 S [lwis_t_lme]
+root           599     2          0      0 0                   0 S [lwis_t_votf]
+root           600     2          0      0 0                   0 S [lwis_I2C_Bus_5]
+root           601     2          0      0 0                   0 S [lwis_I2C_Bus_3]
+root           602     2          0      0 0                   0 S [lwis_I2C_Bus_2]
+root           603     2          0      0 0                   0 S [lwis_I2C_Bus_4]
+root           622     2          0      0 0                   0 I [nitrous_nl_wq]
+root           637     2          0      0 0                   0 S [f2fs_ckpt-254:63]
+root           638     2          0      0 0                   0 S [f2fs_flush-254:63]
+root           639     2          0      0 0                   0 S [f2fs_discard-254:63]
+root           640     2          0      0 0                   0 S [f2fs_gc-254:63]
+root           642     2          0      0 0                   0 S [f2fs_ckpt-8:5]
+root           643     2          0      0 0                   0 S [f2fs_flush-8:5]
+root           644     2          0      0 0                   0 S [f2fs_discard-8:5]
+root           645     2          0      0 0                   0 S [f2fs_gc-8:5]
+root           647     2          0      0 0                   0 S [f2fs_ckpt-8:6]
+root           648     2          0      0 0                   0 S [f2fs_flush-8:6]
+root           649     2          0      0 0                   0 S [f2fs_discard-8:6]
+root           650     2          0      0 0                   0 S [f2fs_gc-8:6]
+root           652     2          0      0 0                   0 S [f2fs_ckpt-8:7]
+root           653     2          0      0 0                   0 S [f2fs_flush-8:7]
+root           654     2          0      0 0                   0 S [f2fs_discard-8:7]
+root           655     2          0      0 0                   0 S [f2fs_gc-8:7]
+root           656     1   11013756   7676 0                   0 S android.hardware.power-service.pixel-libperfmgr
+tombstoned     663     1   10781848   2196 0                   0 S tombstoned
+root           759     2          0      0 0                   0 I [kverityd]
+root           762     2          0      0 0                   0 I [ext4-rsv-conver]
+root           763     2          0      0 0                   0 I [ext4-rsv-conver]
+root           766     2          0      0 0                   0 I [ext4-rsv-conver]
+root           767     2          0      0 0                   0 I [kverityd]
+root           768     2          0      0 0                   0 I [kverityd]
+root           769     2          0      0 0                   0 I [ext4-rsv-conver]
+root           771     2          0      0 0                   0 I [kverityd]
+root           772     2          0      0 0                   0 I [ext4-rsv-conver]
+root           773     2          0      0 0                   0 I [ext4-rsv-conver]
+root           774     2          0      0 0                   0 I [ext4-rsv-conver]
+root           775     2          0      0 0                   0 I [ext4-rsv-conver]
+root           776     2          0      0 0                   0 I [kverityd]
+root           777     2          0      0 0                   0 I [ext4-rsv-conver]
+root           778     2          0      0 0                   0 I [ext4-rsv-conver]
+root           779     2          0      0 0                   0 I [ext4-rsv-conver]
+root           780     2          0      0 0                   0 I [kverityd]
+root           781     2          0      0 0                   0 I [kverityd]
+root           782     2          0      0 0                   0 I [ext4-rsv-conver]
+root           783     2          0      0 0                   0 I [kverityd]
+root           784     2          0      0 0                   0 I [ext4-rsv-conver]
+root           785     2          0      0 0                   0 I [ext4-rsv-conver]
+root           786     2          0      0 0                   0 I [kverityd]
+root           787     2          0      0 0                   0 I [ext4-rsv-conver]
+root           788     2          0      0 0                   0 I [kverityd]
+root           789     2          0      0 0                   0 I [ext4-rsv-conver]
+root           790     2          0      0 0                   0 I [ext4-rsv-conver]
+root           791     2          0      0 0                   0 I [kverityd]
+root           792     2          0      0 0                   0 I [kverityd]
+root           793     2          0      0 0                   0 I [kverityd]
+root           794     2          0      0 0                   0 I [ext4-rsv-conver]
+root           795     2          0      0 0                   0 I [kverityd]
+root           797     2          0      0 0                   0 I [ext4-rsv-conver]
+root           798     2          0      0 0                   0 I [ext4-rsv-conver]
+root           799     2          0      0 0                   0 I [ext4-rsv-conver]
+root           800     2          0      0 0                   0 I [ext4-rsv-conver]
+root           801     2          0      0 0                   0 I [ext4-rsv-conver]
+root           802     2          0      0 0                   0 I [ext4-rsv-conver]
+root           803     2          0      0 0                   0 I [ext4-rsv-conver]
+root           804     2          0      0 0                   0 I [kverityd]
+root           805     2          0      0 0                   0 I [kverityd]
+root           806     2          0      0 0                   0 I [kverityd]
+root           807     2          0      0 0                   0 I [ext4-rsv-conver]
+root           808     2          0      0 0                   0 I [ext4-rsv-conver]
+root           809     2          0      0 0                   0 I [ext4-rsv-conver]
+root           810     2          0      0 0                   0 I [ext4-rsv-conver]
+root           811     2          0      0 0                   0 I [kverityd]
+root           812     2          0      0 0                   0 I [kverityd]
+root           813     2          0      0 0                   0 I [ext4-rsv-conver]
+root           814     2          0      0 0                   0 I [ext4-rsv-conver]
+root           815     2          0      0 0                   0 I [kverityd]
+root           816     2          0      0 0                   0 I [kverityd]
+root           817     2          0      0 0                   0 I [ext4-rsv-conver]
+root           818     2          0      0 0                   0 I [kverityd]
+root           820     2          0      0 0                   0 I [ext4-rsv-conver]
+root           821     2          0      0 0                   0 I [ext4-rsv-conver]
+root           822     2          0      0 0                   0 I [ext4-rsv-conver]
+root           823     2          0      0 0                   0 I [ext4-rsv-conver]
+root           824     2          0      0 0                   0 I [kverityd]
+root           825     2          0      0 0                   0 I [ext4-rsv-conver]
+root           826     2          0      0 0                   0 I [kverityd]
+root           827     2          0      0 0                   0 I [kverityd]
+root           828     2          0      0 0                   0 I [kverityd]
+root           829     2          0      0 0                   0 I [kverityd]
+root           830     2          0      0 0                   0 I [kverityd]
+root           831     2          0      0 0                   0 I [kverityd]
+root           832     2          0      0 0                   0 I [ext4-rsv-conver]
+root           833     2          0      0 0                   0 I [kverityd]
+root           834     2          0      0 0                   0 I [ext4-rsv-conver]
+root           835     2          0      0 0                   0 I [ext4-rsv-conver]
+root           836     2          0      0 0                   0 I [ext4-rsv-conver]
+root           837     2          0      0 0                   0 I [ext4-rsv-conver]
+root           838     2          0      0 0                   0 I [ext4-rsv-conver]
+root           839     2          0      0 0                   0 I [ext4-rsv-conver]
+root           840     2          0      0 0                   0 I [ext4-rsv-conver]
+root           868     2          0      0 0                   0 I [kworker/6:9H-fsverity_read_queue]
+root           871     2          0      0 0                   0 I [kworker/4:6H-fsverity_read_queue]
+root           884     1   10863668   3752 0                   0 S sscoredump
+root           886     1   11169708   8468 0                   0 S netd
+statsd         887     1   11014956   5508 0                   0 S statsd
+root           888     1   14963224 162832 0                   0 S zygote64
+root           895   886   10859876   3384 0                   0 S iptables-restore
+root           896   886   10780004   3296 0                   0 S ip6tables-restore
+audioserver    907     1   10857532   4032 0                   0 S vendor.google.whitechapel.audio.hal.parserservice
+audioserver    908     1   11960424  10488 0                   0 S android.hardware.audio.service-aidl.aoc
+hsm            909     1   10948212   3924 0                   0 S android.hardware.authsecret-service.citadel
+bluetooth      910     1   11099028   6128 0                   0 S android.hardware.bluetooth-service.bcmbtlinux
+context_hub    912     1   11004160   6428 0                   0 S android.hardware.contexthub-service.generic
+media          913     1   10900440   4800 0                   0 S android.hardware.drm-service.clearkey
+hsm            923     1   11034496   5340 0                   0 S android.hardware.oemlock-service.citadel
+secure_element 925     1   10887068   4976 0                   0 S android.hardware.secure_element-service.uicc
+secure_element 926     1   10911568   4860 0                   0 S android.hardware.secure_element-service.uicc
+secure_element 927     1   10778472   4540 0                   0 S android.hardware.secure_element-service.thales
+nobody         930     1   10852492   2744 0                   0 S android.hardware.security.secretkeeper.trusty
+hsm            934     1   10927180   5356 0                   0 S android.hardware.weaver-service.citadel
+mediacodec     936     1   11506800  12080 0                   0 S google.hardware.media.c2@2.0-service
+graphics       937     1   10831096   4752 0                   0 S android.hardware.memtrack-service.pixel
+nfc            938     1   10881828   5416 0                   0 S android.hardware.nfc-service.st
+mediacodec     939     1   11561036  12376 0                   0 S samsung.hardware.media.c2@1.2-service
+radio          953     1   10990804   3828 0                   0 S vendor.google.radioext@1.0-service
+media          959     1   10900120   3888 0                   0 S android.hardware.cas-service.example
+media          968     1   10928880   4100 0                   0 S android.hardware.drm-service.widevine
+wifi           969     1   10956068   8744 0                   0 S vendor.google.wifi_ext-service-vendor
+audioserver    971     1   11769984  16100 0                   0 S audioserver
+credstore      975     1   10816536   3356 0                   0 S credstore
+gpu_service    981     1   10911736   5116 0                   0 S gpuservice
+root           983     1   10840900   2160 0                   0 S gs_watchdogd
+radio          984     1   10982944   4660 0                   0 S shared_modem_platform
+radio          985     1   10971508   6024 0                   0 S modem_ml_svc_sit
+gps           1000     1   11103788   5248 0                   0 S android.hardware.gnss-service.pixel
+drm           1076     1   10884280   5836 0                   0 S drmserver
+root          1090     2          0      0 0                   0 S [dhd_rx_pktpool_thread]
+root          1091     2          0      0 0                   0 S [dhd_watchdog_thread]
+root          1092     2          0      0 0                   0 S [dhd_rpm_state_thread]
+nobody        1094     1   10831500   2796 0                   0 S traced_probes
+root          1095     2          0      0 0                   0 S [dhd_logtrace_thread]
+nobody        1099     1   11468600   5332 0                   0 S traced
+root          1108     1   10932488   2200 0                   0 S wfc-pkt-router
+cameraserver  1110     1   11377596  11568 0                   0 S cameraserver
+incidentd     1114     1   10844676   3608 0                   0 S incidentd
+root          1115     1   10984564   5836 0                   0 S installd
+mediaex       1116     1   11364156  13356 0                   0 S media.extractor
+media         1117     1   11148864   5732 0                   0 S media.metrics
+media         1119     1   11413008  16320 0                   0 S mediaserver
+root          1120     1   10998596   4348 0                   0 S storaged
+wifi          1122     1   10916704   5612 0                   0 S wificond
+radio         1124     1   10828820   3724 0                   0 S cbd
+gps           1127     1   11351544   5268 0                   0 S gnssd
+radio         1130     1   10905096   4112 0                   0 S rfsd
+radio         1131     1   11871336   5012 0                   0 S rild_exynos
+mediacodec    1134     1   11626428  15724 0                   0 S media.swcodec
+root          1136     1   11038836   4576 0                   0 S update_engine
+root          1141     1   10866704   2736 0                   0 S aocd
+root          1143     1   10894560   4500 0                   0 S aocxd
+shell         1242     1   11038328   7884 0                   0 S adbd
+root          1255     2          0      0 0                   0 I [syna_reflash]
+mdnsr         1275     1   10782064   3236 0                   0 S mdnsd
+root          1390     2          0      0 0                   0 S [irq/502-cs40l26 IRQ1 Controller]
+root          1441     2          0      0 0                   0 S [irq/501-synaptics_tcm]
+root          1442     2          0      0 0                   0 S [irq/442-dwc3]
+root          1453     2          0      0 0                   0 S [com.google.usf]
+root          1455     2          0      0 0                   0 S [com.google.usf.non_wake_up]
+root          1457     2          0      0 0                   0 S [com.google.chre]
+root          1459     2          0      0 0                   0 S [com.google.chre.non_wake_up]
+root          1630     2          0      0 0                   0 S [irq/500-dhdpcie_host_wake]
+root          1716     2          0      0 0                   0 S [irq/191-155d0000.serial]
+root          1725     2          0      0 0                   0 S [csf_kcpu_worker]
+root          1745     2          0      0 0                   0 S [irq/537-gf]
+nobody        2010     1   10905996   7476 0                   0 S android.hardware.input.processor-service
+root          2015     2          0      0 0                   0 I [dhd_eventd]
+wifi          2066     1   10971432   5928 0                   0 S wpa_supplicant
+webview_zygote 2103  888   42163316  92228 0                   0 S webview_zygote
+u0_a272       2115   888   16727356 112556 0                   0 S com.google.android.flipendo
+network_stack 2150   888   16835812 133316 0                   0 S com.android.networkstack.process
+u0_a179       2172   888   17409356 172996 0                   0 S com.google.android.gms.supervision
+u0_a253       2189   888   16523644  99280 0                   0 S com.google.android.grilservice
+radio         2191   888   16540936 101004 0                   0 S com.samsung.slsi.telephony.oem.oemrilhookservice
+secure_element 2198  888   16558340 106884 0                   0 S com.android.se
+u0_a249       2215   888   16829120 118872 0                   0 S com.shannon.rcsservice
+nfc           2234   888   16704540 123276 0                   0 S com.google.android.nfc
+u0_a258       2253   888   17001540 128272 0                   0 S com.shannon.imsservice
+u0_a169       2272   888   16523588 100816 0                   0 S com.google.android.apps.cbrsnetworkmonitor
+u0_a240       2289   888   16562312 115688 0                   0 S com.android.pixeldisplayservice
+u0_a255       2294   888   16611576 106728 0                   0 S com.samsung.slsi.telephony.oemril
+radio         2314   888   17287880 150260 0                   0 S com.android.phone
+u0_a242       2324   888   16541036 105732 0                   0 S com.google.android.rilextension
+radio         2331   888   16559704 103056 0                   0 S com.android.telephony.imsmedia
+u0_a254       2338   888   17975428 293528 0                   0 S com.google.android.apps.nexuslauncher
+u0_a280       2365   888   16851140 119120 0                   0 S com.google.android.ext.services
+u0_a296       2371   888   16917468 118736 0                   0 S com.google.android.permissioncontroller
+root          2441     2          0      0 0                   0 S [csf_kcpu_worker]
+root          2512     2          0      0 0                   0 S [csf_kcpu_worker]
+root          2523     2          0      0 0                   0 I [kworker/u17:4-f2fs_post_read_wq]
+u0_a129       2544   888   18437600 305340 0                   0 S com.google.android.gms.persistent
+u0_a301       2621   888   16613776 112156 0                   0 S com.google.android.cellbroadcastreceiver
+u0_a174       2668   888   16897164 125728 0                   0 S com.google.android.euicc
+u0_a239       2688   888   16596768 109728 0                   0 S com.google.euiccpixel
+bluetooth     2764   888   17038248 122772 0                   0 S com.google.android.bluetooth
+u0_a357       2792   888   18289044 277180 0                   0 S org.futo.inputmethod.latin.playstore
+root          2793     1   11157032  24640 0                   0 S twoshay
+u0_a129       2850   888   44135848 246340 0                   0 S com.google.android.gms
+u0_a190       2868   888   16674796 109260 0                   0 S com.google.android.apps.dreamliner:locked
+mmd           2958     1   10858484   4248 0                   0 S mmd
+u0_a164       2966   888   17332848 139908 0                   0 S com.google.android.apps.scone
+u0_a128       2995   888   17154848 124428 0                   0 S com.google.android.dialer
+u0_a177       3034   888   17230172 160940 0                   0 S com.google.android.apps.wellbeing
+u0_a138       3157   888   16705288 117072 0                   0 S com.google.android.carrier
+u0_a89        3161   888   16647160 123212 0                   0 S android.process.acore
+u0_a249       3201   888   16583164 110336 0                   0 S com.shannon.rcsservice:shannonrcsservice
+u0_a258       3222   888   16596488 108336 0                   0 S .ShannonImsService
+root          3326     2          0      0 0                   0 S [csf_kcpu_worker]
+u0_a145       3393   888   17506428 111264 0                   0 S com.google.android.apps.camera.services
+u0_a285       3397   888   17055948 132792 0                   0 S com.google.android.providers.media.module
+u0_a143       3421   888   18426624 160040 0                   0 S com.google.android.googlequicksearchbox:interactor
+u0_a132       3443   888   18763280 255492 0                   0 S com.google.android.as
+u0_a134       3458   888   17008608 150196 0                   0 S com.google.android.apps.messaging:rcs
+u0_a265       3495   888   16513496  98908 0                   0 S com.google.android.connectivitythermalpowermanager
+u0_a114       3584   888   16810572 100984 0                   0 S com.android.printspooler
+u0_a322       3622   888   19052016 267156 0                   0 S ch.protonvpn.android
+u0_a192       3633   888   16667304 110352 0                   0 S com.google.android.apps.work.oobconfig
+u0_a172       3641   888   17224640 122336 0                   0 S com.google.android.apps.recorder
+root          3647     2          0      0 0                   0 S [csf_kcpu_worker]
+u0_a260       3708   888   16797660 100044 0                   0 S com.google.android.carriersetup
+u0_a133       3799   888   16558908 103876 0                   0 S com.google.omadm.trigger
+u0_a322       3936  3622   10872332   3240 0                   0 S logcat
+u0_a257       3949   888   18021892 125688 0                   0 S com.verizon.mips.services
+u0_a94        3990   888   16876980 118712 0                   0 S android.process.media
+u0_a184       3997   888   17597576 202288 0                   0 S com.google.android.apps.tips
+u0_a294       4061   888   16717936 109116 0                   0 S com.google.android.rkpdapp
+u0_a168       4120   888   16813864 114228 0                   0 S com.google.android.as.oss
+u0_a134       4141   888   17890872 205504 0                   0 S com.google.android.apps.messaging
+u0_a264       4240   888   17076496 122296 0                   0 S com.google.android.apps.wallpaper
+u0_a146       4313   888   16901144 105584 0                   0 S com.google.android.apps.pixel.familyspace
+u0_a210       4373   888   17702696 110724 0                   0 S com.google.android.apps.aiwallpapers
+u0_a214       4429   888   17237112 121964 0                   0 S com.google.android.contacts
+u0_a227       4500   888   16911052 114900 0                   0 S com.google.android.apps.emojiwallpaper
+u0_a132       4501   888   16882976 121172 0                   0 S com.google.android.as:captions
+u0_a257       4546   888   17405128 104260 0                   0 S com.verizon.mips.services:remote
+u0_a161       4627   888   16904820 123480 0                   0 S com.google.android.apps.pixel.customizationbundle
+u0_a153       4734   888   16634644 109848 0                   0 S com.google.pixel.livewallpaper
+u0_a166       4788   888   16545472 104744 0                   0 S com.android.imsserviceentitlement
+radio         4810   888   16810036 102136 0                   0 S com.google.RilConfigService
+u0_a180       4828   888   16721940 115092 0                   0 S com.google.android.apps.carrier.carrierwifi
+u0_a175       4891   888   16615464 107196 0                   0 S com.google.android.wfcactivation
+u0_a270       4929   888   16732044 109868 0                   0 S com.google.android.crossdeviceaccessservice
+u0_a189       4945   888   17185828 147540 0                   0 S com.google.android.apps.turbo
+u0_a124       5000   888   16546228 107880 0                   0 S com.android.traceur
+u0_a144       5024   888   18530344 136404 0                   0 S com.google.android.GoogleCamera
+u0_a129       5125   888   42672320 216988 0                   0 S com.google.android.gms.ui
+u0_a309       5165   888   19722360 136852 0                   0 S com.facebook.orca
+u0_a270       5190   888   16557008 103560 0                   0 S com.google.android.crossdeviceaccessservice:com.google.android.crossdeviceaccessservice
+u0_a361       5249   888   16528752 103664 0                   0 S net.wigle.wigleandroid
+root          5250     2          0      0 0                   0 S [csf_kcpu_worker]
+root          5251     2          0      0 0                   0 S [csf_kcpu_worker]
+u0_a194       5399   888   16542608 105016 0                   0 S com.android.angle
+u0_a107       5451   888   16528652 102596 0                   0 S com.android.devicediagnostics
+u0_a266       5511   888   16593288 105184 0                   0 S com.google.android.turboadapter
+u0_a186       5545   888   16523344 104168 0                   0 S com.android.hotwordenrollment.okgoogle
+u0_a187       5608   888   16523344 102240 0                   0 S com.android.hotwordenrollment.xgoogle
+u0_a104       5632   888   16511644 102160 0                   0 S com.android.managedprovisioning
+nfc           5664   888   16523168 100680 0                   0 S com.android.nfc
+u0_a97        5690   888   16541140 109332 0                   0 S com.android.providers.calendar
+shell         5729   888   16541372 104816 0                   0 S com.android.shell
+u0_a156       5752   888   16577156 104456 0                   0 S com.google.android.apps.carrier.log
+u0_a135       5773   888   17049716 143764 0                   0 S com.google.android.apps.safetyhub
+u0_a230       5776   888   17603988 150860 0                   0 S com.google.android.apps.docs
+u0_a191       5817   888   17950892 178144 0                   0 S com.android.vending
+u0_a281       5891   888   16802644 116584 0                   0 S com.google.android.adservices.api
+u0_a190       6018   888   16782004 110800 0                   0 S com.google.android.apps.dreamliner
+u0_a129       6042   888   17388304 179592 0                   0 S com.google.android.gms.unstable
+u0_a222       6083   888   18409612 181544 0                   0 S com.google.android.apps.maps
+u0_a222       6313   888   17429248 104524 0                   0 S com.google.android.apps.maps:server_recovery_process
+root          6337     2          0      0 0                   0 S [csf_kcpu_worker]
+u0_a185       6353   888   17127224 147408 0                   0 S com.google.android.apps.nbu.files
+root          6380     2          0      0 0                   0 S [csf_kcpu_worker]
+u0_a142       6389   888   16811244 110088 0                   0 S com.google.android.odad
+root          6461     2          0      0 0                   0 S [csf_kcpu_worker]
+root          6488     2          0      0 0                   0 S [csf_kcpu_worker]
+u0_a195       6559   888   16874792 130156 0                   0 S com.google.android.apps.pixel.support
+u0_a151       6610   888   16954620 118600 0                   0 S com.google.android.apps.privacy.wildlife
+u0_a137       6656   888   16687288 107180 0                   0 S com.google.android.apps.setupwizard.searchselector
+u0_a189       6675   888   16671224 116024 0                   0 S com.google.android.apps.turbo:aab
+u0_a189       6692   888   16653536 112912 0                   0 S com.google.android.apps.turbo:ssb
+u0_a139       6708   888   16981760 124148 0                   0 S com.google.android.apps.wearables.maestro.companion
+u0_a212       6740   888   16966468 123700 0                   0 S com.google.android.apps.work.clouddpc
+u0_a218       6833   888   18787240 162160 0                   0 S com.google.android.apps.youtube.music
+u0_a188       6917   888   16593836 112696 0                   0 S com.google.android.configupdater
+u0_a167       6932   888   16874088 109240 0                   0 S com.google.android.deskclock
+u0_a288       6981   888   16775316  97784 0                   0 S com.google.android.federatedcompute
+u0_a217       6997   888   18600820 226796 0                   0 S com.google.android.gm
+u0_a127       7089   888   16540640 106948 0                   0 S com.google.android.hardwareinfo
+u0_a297       7110   888   16807080 103160 0                   0 S com.google.android.healthconnect.controller
+u0_a207       7138   888   17556596 134740 0                   0 S com.google.android.inputmethod.latin
+u0_a287       7193   888   16794580  98676 0                   0 S com.google.android.ondevicepersonalization.services
+u0_a106       7206   888   16509200 102396 0                   0 S com.google.android.packageinstaller
+u0_a181       7220   888   16685716 117936 0                   0 S com.google.android.setupwizard
+u0_a200       7256   888   17082260 119456 0                   0 S com.google.android.tts
+u0_a191       7295   888   17570464 137548 0                   0 S com.android.vending:background
+u0_a237       7321   888   16523184 101112 0                   0 S com.google.android.uvexposurereporter
+u0_a231       7343   888   24775652 208408 0                   0 S com.google.android.youtube
+u0_a360       7417   888   17618796 123048 0                   0 S cellmapper.net.cellmapper
+u0_a307       7450   888   19391968 110228 0                   0 S ch.protonmail.android
+u0_a339       7582   888   17839600 136248 0                   0 S cm.aptoide.pt
+u0_a339       7685  7582   10773268   2812 0                   0 S sh
+u0_a311       7708   888   16539164 103144 0                   0 S com.afwsamples.testdpc
+u0_a338       7728   888   16723040 112940 0                   0 S com.aurora.store
+u0_a221       7744   888   18228072 140448 0                   0 S com.google.android.apps.photos
+u0_a326       7772   888   16964924 106836 0                   0 S com.contactoffice.mailfence
+u0_a303       7820   888   16976720 126648 0                   0 S com.google.android.safetycore
+u0_a345       7855   888   18018092 153544 0                   0 S com.ilovepdf.www
+u0_a312       7944   888   18116812 160280 0                   0 S com.microsoft.intune
+u0_a332       8075   888   44631288 211624 0                   0 S com.pandora.android
+u0_a314       8231   888   18369128 128324 0                   0 S com.piriform.ccleaner
+u0_a356       8317   888   18267020 176840 0                   0 S com.reddit.frontpage
+u0_a304       8418   888   17211752 211420 0                   0 S com.termux
+u0_a331       8440   888   17747784 126328 0                   0 S com.xfinity.digitalhome
+u0_a354       8609   888   16923256 120848 0                   0 S domilopment.apkextractor
+u0_a306       8820   888   22181476 170224 0                   0 S org.mozilla.firefox
+u0_a306       8891   888   16741708 107580 0                   0 S org.mozilla.firefox:crashhelper
+u0_a358       8943   888   20621776 123300 0                   0 S org.torproject.torbrowser
+u0_a317       9006   888   18868660 155592 0                   0 S proton.android.pass
+u0_a306       9025   888   19807596 115608 0                   0 S org.mozilla.firefox:tab8
+u0_a286       9094   888   16547600 105180 0                   0 S com.google.android.photopicker
+u0_a155       9111   888   16928004 112996 0                   0 S com.android.omadm.service
+u0_a102       9127   888   16558172 106496 0                   0 S com.android.externalstorage
+u0_a337       9146   888   17333296 103380 0                   0 S ru.gaunqcct.xzyegundr
+u0_a154       9171   888   16903336 115048 0                   0 S com.google.assistant.hubui:search
+u0_a150       9202   888   17215908 156996 0                   0 S com.google.android.apps.weather
+u0_a152       9229   888   17675276 125932 0                   0 S com.google.android.settings.intelligence
+u0_a147       9319   888   16810520 103052 0                   0 S com.android.sdm.plugins.connmo
+u0_a358       9348   888   16890120 104484 0                   0 S org.torproject.torbrowser:tab17
+root          9360     2          0      0 0                   0 I [kworker/3:3H-kblockd]
+u0_a358       9434  8943   11054616   2760 0                   0 S libTor.so
+u0_a158       9475   888   16792700 101308 0                   0 S com.android.sdm.plugins.dcmo
+root          9698     2          0      0 0                   0 S [csf_kcpu_worker]
+statsd        9720     1   10888244   3508 0                   0 S perfetto
+root          9921     2          0      0 0                   0 I [kworker/0:5H-fsverity_read_queue]
+u0_a213      10223   888   43383492 285292 0                   0 S com.android.chrome
+u0_a213      10287   888   42776636 190712 0                   0 S com.android.chrome:privileged_process0
+root         10330     2          0      0 0                   0 S [csf_kcpu_worker]
+root         10360     2          0      0 0                   0 S [csf_kcpu_worker]
+u0_a213      10381   888   41306944  92944 0                   0 S com.android.chrome_zygote
+u0_a109      10791   888   16523060 105388 0                   0 S com.android.providers.partnerbookmarks
+root         10860     2          0      0 0                   0 I [kworker/1:6H-fsverity_read_queue]
+u0_a306      10932   888   18223444 184648 0                   0 S org.mozilla.firefox:gpu
+root         11008     2          0      0 0                   0 S [csf_kcpu_worker]
+u0_a306      11094   888   36681932 114088 0                   0 S org.mozilla.firefox:tab25
+root         11521     2          0      0 0                   0 I [kworker/1:3-events]
+root         11530     2          0      0 0                   0 I [kworker/0:2-events]
+root         11552     2          0      0 0                   0 S [csf_kcpu_worker]
+u0_a325      11584   888   18563940 262924 0                   0 S com.deepseek.chat
+u0_a91       11769   888   17239840 153828 0                   0 S com.google.android.documentsui
+u0_a328      11819   888   16804056 104424 0                   0 S com.tortel.syslog
+root         11867     2          0      0 0                   0 I [kworker/u16:1-events_unbound]
+root         11961     2          0      0 0                   0 I [kworker/5:2-mm_percpu_wq]
+root         12096     2          0      0 0                   0 S [csf_kcpu_worker]
+u0_a304      12114  8418   10911084   4108 0                   0 S bash
+root         12538     2          0      0 0                   0 S [csf_kcpu_worker]
+root         12607     2          0      0 0                   0 I [kworker/4:0-mm_percpu_wq]
+root         12610     2          0      0 0                   0 I [kworker/2:3H-kverityd]
+root         12611     2          0      0 0                   0 I [kworker/2:5H-fsverity_read_queue]
+root         12612     2          0      0 0                   0 I [kworker/2:6H-kblockd]
+root         12613     2          0      0 0                   0 I [kworker/6:1H-fsverity_read_queue]
+root         12614     2          0      0 0                   0 I [kworker/6:2H-fsverity_read_queue]
+root         12615     2          0      0 0                   0 I [kworker/6:3H-fsverity_read_queue]
+root         12616     2          0      0 0                   0 I [kworker/6:4H-fsverity_read_queue]
+root         12617     2          0      0 0                   0 I [kworker/6:5H-events_highpri]
+root         12618     2          0      0 0                   0 I [kworker/4:0H-kblockd]
+root         12619     2          0      0 0                   0 I [kworker/3:0H-fsverity_read_queue]
+root         12628     2          0      0 0                   0 I [kworker/0:0H-fsverity_read_queue]
+root         12629     2          0      0 0                   0 I [kworker/5:1H-kverityd]
+root         12758     2          0      0 0                   0 I [kworker/u17:0-ipa_ctrl_wq]
+u0_a206      12953   888   17891444 288992 0                   0 S com.google.android.apps.tycho
+root         13003     2          0      0 0                   0 S [csf_kcpu_worker]
+u0_a206      13024   888   17033264 165248 0                   0 S com.google.android.apps.tycho:persistent
+u0_a206      13138   888   17083708 165960 0                   0 S com.google.android.apps.tycho:ims
+u0_a171      13290   888   17141472 114276 0                   0 S com.google.android.apps.pixel.relationships
+root         13323     2          0      0 0                   0 I [kworker/5:3H-fsverity_read_queue]
+root         13438     2          0      0 0                   0 R [kworker/u16:3-events_unbound]
+root         13595     2          0      0 0                   0 I [kworker/1:1-events]
+u0_i5        13652 10381  329191144 187328 0                   0 S com.android.chrome:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:5
+u0_i6        13678 10381  329174456 153760 0                   0 S com.android.chrome:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:6
+u0_a179      13726   888   17373488 249500 0                   0 S com.google.android.gms.supervision.ui
+root         13738     2          0      0 0                   0 I [kworker/7:1H-kverityd]
+root         13739     2          0      0 0                   0 I [kworker/7:3H-kblockd]
+root         13798     2          0      0 0                   0 I [kworker/1:2H-fsverity_read_queue]
+root         13799     2          0      0 0                   0 I [kworker/1:3H-kblockd]
+root         13845     2          0      0 0                   0 I [kworker/3:2-pm]
+root         13852     2          0      0 0                   0 I [kworker/0:0-pm]
+u0_a304      13949     1   10990920   7556 0                   0 S adb
+root         14030     2          0      0 0                   0 I [kworker/6:6H-fsverity_read_queue]
+root         14032     2          0      0 0                   0 I [kworker/6:8H-kblockd]
+root         14111     2          0      0 0                   0 I [kworker/3:2H-fsverity_read_queue]
+root         14112     2          0      0 0                   0 I [kworker/1:4H-fsverity_read_queue]
+root         14322     2          0      0 0                   0 I [kworker/2:1-events]
+u0_i9002     14406  2103   41951832 104396 0                   0 S com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+u0_a204      14472   888   16918336 109376 0                   0 S com.google.android.webview:webview_service
+root         14514     2          0      0 0                   0 I [kworker/u17:3-alsa_pcm_period_work_1]
+u0_a259      14652   888   16838392 133792 0                   0 S com.google.android.apps.pixel.dcservice
+u0_a318      14841   888   44920176 442488 0                   0 S com.anthropic.claude
+root         14854     2          0      0 0                   0 I [kworker/5:0-events]
+u0_i9003     14975  2103  271305064 333168 0                   0 S com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+root         15146     2          0      0 0                   0 I [kworker/3:4H-fsverity_read_queue]
+root         15159     2          0      0 0                   0 S [csf_kcpu_worker]
+root         15176     2          0      0 0                   0 S [csf_kcpu_worker]
+root         15258     2          0      0 0                   0 I [kworker/1:2]
+root         15354     2          0      0 0                   0 I [kworker/6:0]
+u0_i9004     15727  2103  270999292 136176 0                   0 S com.google.android.webview:js_sandboxed_process0:org.chromium.android_webview.js_sandbox.service.J
+u0_a143      15755   888   18024092 203892 0                   0 S com.google.android.googlequicksearchbox:search
+root         15848     2          0      0 0                   0 S [csf_kcpu_worker]
+root         15880     2          0      0 0                   0 I [kworker/u16:2-events_unbound]
+root         15882     2          0      0 0                   0 I [kworker/3:1]
+root         15945     2          0      0 0                   0 I [kworker/5:0H-fsverity_read_queue]
+root         15988     2          0      0 0                   0 I [kworker/3:5H-fsverity_read_queue]
+root         15989     2          0      0 0                   0 I [kworker/3:6H-fsverity_read_queue]
+root         15990     2          0      0 0                   0 I [kworker/3:7H-fsverity_read_queue]
+root         15993     2          0      0 0                   0 I [kworker/5:2H-kblockd]
+root         15994     2          0      0 0                   0 I [kworker/0:1H-events_highpri]
+root         16014     2          0      0 0                   0 I [kworker/3:8H-kblockd]
+root         16015     2          0      0 0                   0 I [kworker/3:9H-kblockd]
+root         16016     2          0      0 0                   0 I [kworker/0:2H-fsverity_read_queue]
+root         16017     2          0      0 0                   0 I [kworker/0:3H-fsverity_read_queue]
+root         16018     2          0      0 0                   0 I [kworker/0:4H-fsverity_read_queue]
+root         16019     2          0      0 0                   0 I [kworker/0:6H-fsverity_read_queue]
+root         16020     2          0      0 0                   0 I [kworker/0:7H]
+root         16021     2          0      0 0                   0 I [kworker/6:7H]
+root         16091     2          0      0 0                   0 I [kworker/2:0]
+u0_a304      16105 12114   10870644   6608 0                   0 S adb
+u0_a304      16106 12114   10815172   3888 0                   0 R grep
+shell        16107  1242   10811084   5192 0                   0 R ps
+~ $ adb shell ss -tunap
+Netid  State      Recv-Q Send-Q Local Address:Port               Peer Address:Port
+Cannot open netlink socket: Permission denied
+Cannot open netlink socket: Permission denied
+udp    ESTAB      0      0      10.2.0.2:43952              216.239.34.223:443
+udp    UNCONN     0      0      0.0.0.0:40141              0.0.0.0:*
+udp    ESTAB      0      0      10.2.0.2:48919              216.239.36.223:443
+udp    ESTAB      0      0      10.2.0.2:36849              160.79.104.10:443
+udp    UNCONN     0      0      0.0.0.0:57371              0.0.0.0:*
+udp    ESTAB      4352   0      10.0.0.64:68                 10.0.0.1:67
+udp    UNCONN     0      0      0.0.0.0:37403              0.0.0.0:*
+udp    UNCONN     0      0      0.0.0.0:5353               0.0.0.0:*
+udp    ESTAB      0      0      10.2.0.2:54584              142.251.157.119:443
+udp    ESTAB      0      0      10.2.0.2:46524              172.217.194.100:443
+udp    UNCONN     0      0      0.0.0.0:34878              0.0.0.0:*
+udp    UNCONN     0      0      0.0.0.0:39182              0.0.0.0:*
+udp    UNCONN     0      0         *:44678                 *:*
+udp    UNCONN     0      0         *:546                   *:*
+udp    UNCONN     0      0         *:33972                 *:*
+udp    UNCONN     0      0         *:5353                  *:*
+udp    UNCONN     0      0         *:5353                  *:*
+tcp    LISTEN     0      0      127.0.0.1:5037               0.0.0.0:*
+tcp    ESTAB      0      0      127.0.0.1:45509              127.0.0.1:5037
+tcp    TIME-WAIT  0      0      127.0.0.1:5037               127.0.0.1:57111
+tcp    TIME-WAIT  0      0      127.0.0.1:5037               127.0.0.1:56059
+tcp    ESTAB      0      0      10.2.0.2:37438              160.79.104.10:443
+tcp    ESTAB      0      0      10.2.0.2:42250              172.217.194.100:443
+tcp    ESTAB      0      0      10.2.0.2:46174              160.79.104.10:443
+tcp    TIME-WAIT  0      0      127.0.0.1:5037               127.0.0.1:51909
+tcp    ESTAB      0      0      10.2.0.2:48910              34.36.57.103:443
+tcp    ESTAB      0      0      10.2.0.2:46086              160.79.104.10:443
+tcp    TIME-WAIT  0      0      127.0.0.1:5037               127.0.0.1:34245
+tcp    TIME-WAIT  0      0      127.0.0.1:5037               127.0.0.1:51849
+tcp    ESTAB      0      0      10.2.0.2:47118              34.54.194.141:443
+tcp    TIME-WAIT  0      0      127.0.0.1:5037               127.0.0.1:37687
+tcp    ESTAB      0      0      10.2.0.2:37414              160.79.104.10:443
+tcp    TIME-WAIT  0      0      127.0.0.1:5037               127.0.0.1:59419
+tcp    ESTAB      0      0      10.2.0.2:46126              160.79.104.10:443
+tcp    ESTAB      0      0      10.2.0.2:48896              74.125.130.95:443
+tcp    ESTAB      0      0      10.2.0.2:51184              10.2.0.1:65432
+tcp    ESTAB      0      0      10.2.0.2:46112              160.79.104.10:443
+tcp    TIME-WAIT  0      0      127.0.0.1:5037               127.0.0.1:40181
+tcp    TIME-WAIT  0      0      127.0.0.1:5037               127.0.0.1:40533
+tcp    ESTAB      0      0      10.2.0.2:46102              160.79.104.10:443
+tcp    ESTAB      0      0      10.2.0.2:42262              172.217.194.100:443
+tcp    ESTAB      0      199    127.0.0.1:5037               127.0.0.1:45509
+tcp    TIME-WAIT  0      0      127.0.0.1:5037               127.0.0.1:41963
+tcp    ESTAB      0      0      10.2.0.2:46140              160.79.104.10:443
+tcp    ESTAB      0      46     127.0.0.1:51583              127.0.0.1:35163
+tcp    ESTAB      0      0      10.0.0.64:51260              149.50.211.139:443
+tcp    TIME-WAIT  0      0      127.0.0.1:5037               127.0.0.1:34161
+tcp    ESTAB      0      0      10.2.0.2:37434              160.79.104.10:443
+tcp    LISTEN     0      0        [::ffff:127.0.0.1]:46481                 *:*
+tcp    LISTEN     0      0         *:35163                 *:*
+tcp    LISTEN     0      0        [::ffff:127.0.0.1]:43635                 *:*
+tcp    ESTAB      0      0        [::ffff:127.0.0.1]:35163                [::ffff:127.0.0.1]:51583
+tcp    ESTAB      0      0         [::ffff:10.2.0.2]:56128                 [::ffff:34.8.116.182]:443
+tcp    TIME-WAIT  0      0         [::ffff:10.2.0.2]:49474                [::ffff:160.79.104.10]:443
+tcp    TIME-WAIT  0      0         [::ffff:10.2.0.2]:46118                [::ffff:160.79.104.10]:443
+tcp    TIME-WAIT  0      0         [::ffff:10.2.0.2]:56750                [::ffff:160.79.104.10]:443
+tcp    TIME-WAIT  0      0         [::ffff:10.2.0.2]:48894                 [::ffff:34.36.57.103]:443
+tcp    ESTAB      0      0         [::ffff:10.2.0.2]:41302                [::ffff:34.149.66.154]:443
+tcp    ESTAB      0      0        [2601:8c0:c87:1360:6d08:1334:7947:966]:47436              [2607:f8b0:4023:c06::bc]:5228
+tcp    CLOSE-WAIT 1      0         [::ffff:10.2.0.2]:55786               [::ffff:216.239.32.223]:443
+~ $ adb shell dumpsys vpn
+Can't find service: vpn
+~ $ adb shell ls /data/misc/user/0/cacerts-added/
+ls: /data/misc/user/0/cacerts-added/: Permission denied
+~ $ adb shell dumpsys activity services | grep -E "ServiceRecord|packageName"
+  * ServiceRecord{d746593 u0 com.google.android.gms/.nearby.presence.service.LifeCycleService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{3533d8b u0 com.google.pixel.camera.services/.BinderService c:com.google.pixel.camera.services}
+    packageName=com.google.pixel.camera.services
+  * ServiceRecord{3dee9fb u0 com.google.android.gms/.play.integrity.api.service.IntegrityApiPersistentService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{c0cf u0 com.google.android.gms/.chimera.PersistentInternalBoundBrokerService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{ef731b3 u0 com.google.android.gms/.ads.identifier.service.AdvertisingIdService c:com.google.android.youtube}
+    packageName=com.google.android.gms
+  * ServiceRecord{9c0b521 u0 com.google.android.rilextension/.RilExtService c:com.google.android.rilextension}
+    packageName=com.google.android.rilextension
+  * ServiceRecord{fa51cd3 u0 com.google.android.apps.scone/.awareness.AwarenessService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{f581c0c u0 com.google.android.apps.messaging/com.google.android.ims.service.JibeService c:com.google.android.apps.messaging}
+    packageName=com.google.android.apps.messaging
+  * ServiceRecord{cd80e5e u0 org.torproject.torbrowser/org.mozilla.gecko.process.GeckoChildProcessServices$tab17 c:org.torproject.torbrowser}
+    packageName=org.torproject.torbrowser
+  * ServiceRecord{eba350c u0 com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService c:android}
+    packageName=com.google.android.networkstack.tethering
+  * ServiceRecord{d68fb41 u0 com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService c:android}
+    packageName=com.google.android.ext.services
+  * ServiceRecord{272bb8c u0 com.google.android.gms/.chimera.PersistentInternalApiService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{1d6d184 u0 com.anthropic.claude/org.chromium.android_webview.js_sandbox.service.JsSandboxService0 c:com.anthropic.claude}
+    packageName=com.anthropic.claude
+  * ServiceRecord{147e28b u0 com.google.android.adservices.api/com.android.adservices.measurement.MeasurementService c:com.google.android.googlequicksearchbox}
+    packageName=com.google.android.adservices.api
+  * ServiceRecord{8df0d9c u0 com.android.pixeldisplayservice/.DisplayService c:com.android.pixeldisplayservice}
+    packageName=com.android.pixeldisplayservice
+  * ServiceRecord{a5db711 u0 com.google.android.gms/.nearby.sharing.ReceiveSurfaceService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{714498f u0 com.shannon.imsservice/.ShannonImsService c:com.android.phone}
+    packageName=com.shannon.imsservice
+  * ServiceRecord{466cb1f u0 com.android.vending/com.google.android.finsky.setup.dse.impl.DseService c:com.google.android.apps.setupwizard.searchselector}
+    packageName=com.android.vending
+  * ServiceRecord{e0feb69 u0 com.pandora.android/org.chromium.content.app.SandboxedProcessService0:0 c:com.pandora.android}
+    packageName=com.pandora.android
+  * ServiceRecord{edd735c u0 com.google.android.gms/.remotegestures.api.RemoteGesturesService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{116cf12 u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSpeechRecognitionService c:android}
+    packageName=com.google.android.as
+  * ServiceRecord{d6a7d1b u0 com.android.systemui/.wallpapers.GradientColorWallpaper c:android}
+    packageName=com.android.systemui
+  * ServiceRecord{d838732 u0 com.google.android.gms/.tapandpay.hce.service.TpHceService c:com.google.android.nfc}
+    packageName=com.google.android.gms
+  * ServiceRecord{44e5fba u0 com.android.systemui/.keyguard.KeyguardService c:android}
+    packageName=com.android.systemui
+  * ServiceRecord{d3c2a91 u0 com.android.chrome/org.chromium.content.app.SandboxedProcessService0:5 c:com.android.chrome}
+    packageName=com.android.chrome
+  * ServiceRecord{6508242 u0 com.android.chrome/org.chromium.content.app.SandboxedProcessService0:6 c:com.android.chrome}
+    packageName=com.android.chrome
+  * ServiceRecord{72efff3 u0 com.google.android.gms.supervision/com.google.android.gms.chimera.PersistentInternalBoundBrokerService c:com.google.android.gms.supervision}
+    packageName=com.google.android.gms.supervision
+  * ServiceRecord{de332a8 u0 com.android.vending/com.google.android.finsky.billing.iab.InAppBillingService c:com.deepseek.chat}
+    packageName=com.android.vending
+  * ServiceRecord{8f8bbfa u0 org.mozilla.firefox/org.mozilla.gecko.process.GeckoChildProcessServices$tab25 c:org.mozilla.firefox}
+    packageName=org.mozilla.firefox
+  * ServiceRecord{c9c17d1 u0 com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService c:com.pandora.android}
+    packageName=com.google.android.webview
+  * ServiceRecord{42da8b u0 com.google.android.gms.supervision/com.google.android.gms.kids.apk.binding.appservice.KidsSupervisionAppService c:android}
+    packageName=com.google.android.gms.supervision
+  * ServiceRecord{733a013 u0 com.xfinity.digitalhome/com.google.firebase.sessions.SessionLifecycleService c:com.xfinity.digitalhome}
+    packageName=com.xfinity.digitalhome
+  * ServiceRecord{5750515 u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService c:android}
+    packageName=com.google.android.as
+  * ServiceRecord{19065d8 u0 com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService c:android}
+    packageName=com.google.android.as
+  * ServiceRecord{bc045e u0 com.google.android.gms/.personalsafety.service.SndDetectionService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{745ce08 u0 com.google.android.as/com.google.android.apps.miphone.aiai.textclassifier.service.QAiaiTextClassifierService c:android}
+    packageName=com.google.android.as                         * ServiceRecord{61deeb4 u0 com.google.android.as/com.google.android.apps.miphone.aiai.common.superpacks.impl.AiAiSuperpacksService c:com.google.android.as}
+    packageName=com.google.android.as
+  * ServiceRecord{93a9749 u0 com.google.android.gms/.auth.setup.devicesignals.LockScreenService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{37fff88 u0 com.google.android.gms/.gcm.GcmService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{adcb72e u0 com.android.qns/.QualifiedNetworksServiceImpl c:com.android.phone}
+    packageName=com.android.qns
+  * ServiceRecord{4c1558d u0 com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps c:com.google.android.gms}
+    packageName=com.google.android.gms                        * ServiceRecord{d77b1f6 u0 com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService c:com.google.android.gms}      packageName=com.google.android.gms
+  * ServiceRecord{6792642 u0 com.google.android.iwlan/.IwlanNetworkService c:com.android.phone}
+    packageName=com.google.android.iwlan                      * ServiceRecord{3cd877c u0 com.piriform.ccleaner/com.google.firebase.sessions.SessionLifecycleService c:com.piriform.ccleaner}
+    packageName=com.piriform.ccleaner                         * ServiceRecord{c7435bd u0 com.google.pixel.camera.services/.CameraIdRemapperService c:com.google.pixel.camera.services}
+    packageName=com.google.pixel.camera.services              * ServiceRecord{4c7d6b1 u0 com.google.android.gms/.location.gnssassistance.GnssAssistanceService c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{e8f9b6d u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService c:android}
+    packageName=com.google.android.as                         * ServiceRecord{9e9fc13 u0 com.google.android.apps.messaging/com.google.android.ims.binding.SystemBindingService c:android}                                                           packageName=com.google.android.apps.messaging             * ServiceRecord{d538c85 u0 com.google.android.gms/.chimera.PersistentApiService c:com.google.android.gms.supervision}     packageName=com.google.android.gms                        * ServiceRecord{1ac0ac1 u0 com.google.android.apps.privacy.wildlife/androidx.room.MultiInstanceInvalidationService c:com.google.android.apps.privacy.wildlife}                        packageName=com.google.android.apps.privacy.wildlife      * ServiceRecord{a020d9a u0 com.google.SSRestartDetector/.SSRestartDetectorService c:com.google.SSRestartDetector}         packageName=com.google.SSRestartDetector
+  * ServiceRecord{faa9b7 u0 com.android.systemui/.wallpapers.ImageWallpaper c:android}
+    packageName=com.android.systemui
+  * ServiceRecord{aeef36e u0 com.google.android.gms/.location.geocode.GeocodeService c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{c32218d u0 com.google.android.apps.scone/.modem.ModemService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{edaffd5 u0 com.android.phone/com.android.internal.telephony.CellularNetworkService c:com.android.phone}
+    packageName=com.android.phone
+  * ServiceRecord{cc3af40 u0 com.google.android.apps.scone/.speedboost.SSBService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{65f1348 u0 com.google.android.gms/.magictether.service.TetherService c:com.android.systemui}
+    packageName=com.google.android.gms
+  * ServiceRecord{ff810c8 u0 com.google.android.pixelsystemservice/.common.ServiceBinderManagerService c:com.google.android.pixelsystemservice}
+    packageName=com.google.android.pixelsystemservice
+  * ServiceRecord{5bc73c3 u0 org.mozilla.firefox/org.mozilla.gecko.process.GeckoChildProcessServices$gpu c:org.mozilla.firefox}
+    packageName=org.mozilla.firefox
+  * ServiceRecord{49b87d4 u0 com.google.android.apps.scone/.bluetooth.BluetoothStatsService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{ab87af8 u0 com.google.android.gms/.chimera.PersistentBoundBrokerService c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{9f93c71 u0 com.google.android.iwlan/.IwlanDataService c:com.android.phone}
+    packageName=com.google.android.iwlan
+  * ServiceRecord{8e1865d u0 cm.aptoide.pt/com.google.firebase.sessions.SessionLifecycleService c:cm.aptoide.pt}
+    packageName=cm.aptoide.pt
+  * ServiceRecord{594f2cc u0 com.google.android.apps.tycho/com.google.android.ims.integration.VoiceLibraryService c:com.google.android.apps.tycho}
+    packageName=com.google.android.apps.tycho
+  * ServiceRecord{8b8716 u0 com.google.android.gms/.chimera.GmsBoundBrokerService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{fe1202a u0 com.google.android.gms/.chimera.GmsApiService c:com.google.android.apps.tycho}
+    packageName=com.google.android.gms                        * ServiceRecord{58fe635 u0 com.google.android.as/androidx.room.MultiInstanceInvalidationService c:com.google.android.as}                                                              packageName=com.google.android.as
+  * ServiceRecord{1f2a0f1 u0 com.google.android.apps.tycho/.services.NovaCarrierService c:com.google.android.apps.tycho}
+    packageName=com.google.android.apps.tycho
+  * ServiceRecord{eac6638 u0 com.google.android.apps.tycho/.activation.ActivationService c:com.google.android.apps.tycho}
+    packageName=com.google.android.apps.tycho
+  * ServiceRecord{77299ae u0 com.google.android.as.oss/com.google.android.apps.miphone.astrea.conversationid.service.ConversationIdUpdateService c:com.google.android.as}
+    packageName=com.google.android.as.oss
+  * ServiceRecord{1431d6f u0 com.google.android.apps.scone/.perfstats.PerfStatsService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{f9b9ec3 u0 com.pandora.android/.PandoraService c:com.pandora.android}
+    packageName=com.pandora.android
+  * ServiceRecord{5c47c75 u0 com.google.android.apps.scone/.cbrs.CbrsNetworkManagerService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{4a4df43 u0 com.google.android.GoogleCamera/com.google.android.apps.camera.prewarm.NoOpPrewarmService c:com.google.android.GoogleCamera}
+    packageName=com.google.android.GoogleCamera
+  * ServiceRecord{5fb8722 u0 com.google.android.gms/.location.provider.gnss.GnssLocationService c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{d2d3d5a u0 org.mozilla.firefox/org.mozilla.gecko.process.GeckoChildProcessServices$tab8 c:org.mozilla.firefox}
+    packageName=org.mozilla.firefox
+  * ServiceRecord{aae7ea0 u0 com.google.android.gms/.tensorgps.service.TensorGpsProxyService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{124ceb3 u0 com.google.android.gms/.nearby.sharing.SendSurfaceService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{153dc1b u0 com.google.android.apps.scone/.connectivitymonitor.service.ConnectivityMonitorService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{31d6b1f u0 com.google.android.gms/com.google.android.location.fused.FusedLocationService c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{e3326b2 u0 com.anthropic.claude/org.chromium.content.app.SandboxedProcessService0:0 c:com.anthropic.claude}
+    packageName=com.anthropic.claude
+  * ServiceRecord{3cb7681 u0 com.google.android.apps.scone/.perfstats.RelayMetricsService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{7d9ad40 u0 com.verizon.mips.services/com.vzw.apnservice.VZWAPNServiceNew c:com.verizon.mips.services}
+    packageName=com.verizon.mips.services
+  * ServiceRecord{9c0b478 u0 com.google.android.gms/.gcm.nts.SchedulerService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{7b55313 u0 com.google.android.gms/.gp.gameservice.GameService c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{a55d57d u0 com.google.android.gms/.auth.trustagent.ActiveUnlockTrustAgent c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{1faa592 u0 com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl c:android}
+    packageName=com.google.android.ext.services
+  * ServiceRecord{9f303f2 u0 com.verizon.mips.services/com.google.firebase.sessions.SessionLifecycleService c:com.verizon.mips.services}
+    packageName=com.verizon.mips.services
+  * ServiceRecord{b2ba289 u0 com.google.android.gms/.auth.api.proxy.AuthService c:com.google.android.gm}
+    packageName=com.google.android.gms                        * ServiceRecord{c9cb597 u0 com.google.android.as.oss/com.google.android.apps.miphone.astrea.conversationid.service.ConversationIdListenerService c:com.google.android.inputmethod.latin}
+    packageName=com.google.android.as.oss
+  * ServiceRecord{767db1b u0 com.google.android.dialer/com.google.apps.tiktok.concurrent.AndroidFuturesService c:com.google.android.dialer}
+    packageName=com.google.android.dialer                     * ServiceRecord{ff89fb u0 com.android.systemui/.selectiontoolbar.app.service.SysUiSelectionToolbarRenderService c:android}
+    packageName=com.android.systemui
+  * ServiceRecord{ba6c3c7 u0 com.google.android.as/com.google.android.apps.miphone.aiai.adaptiveaudio.service.AdaptiveAudioBackgroundService c:com.google.android.as}                   packageName=com.google.android.as
+  * ServiceRecord{d7fbeb9 u0 com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl c:android}
+    packageName=com.google.android.providers.media.module
+  * ServiceRecord{256f42a u0 com.android.phone/com.android.internal.telephony.data.CellularDataService c:com.android.phone}                                                             packageName=com.android.phone
+  * ServiceRecord{8428168 u0 com.google.android.apps.tycho/.tickle.FcmService c:com.google.android.apps.tycho}
+    packageName=com.google.android.apps.tycho                 * ServiceRecord{b440334 u0 com.google.android.apps.scone/.coex.StateService c:com.google.android.apps.scone}              packageName=com.google.android.apps.scone
+  * ServiceRecord{e8ae982 u0 com.google.android.gms/.thunderbird.EmergencyPersistentService c:com.google.android.gms}       packageName=com.google.android.gms
+  * ServiceRecord{38f8510 u0 com.google.android.pixelsystemservice/.DumpHelper c:com.google.android.pixelsystemservice}     packageName=com.google.android.pixelsystemservice
+  * ServiceRecord{eb88329 u0 com.android.systemui/.SystemUIService c:android}
+    packageName=com.android.systemui                          * ServiceRecord{7659b0e u0 com.google.android.apps.photos/.backup.apiservice.grpc.PhotosBackupGrpcService c:com.google.android.gms}                                                   packageName=com.google.android.apps.photos
+  * ServiceRecord{3e6a981 u0 com.android.chrome/org.chromium.content.app.PrivilegedProcessService0 c:com.android.chrome}
+    packageName=com.android.chrome
+  * ServiceRecord{5c5f3aa u0 com.google.android.gms/.cast.devicesuggestions.SuggestionsProviderChimeraService c:com.google.android.gms}                                                 packageName=com.google.android.gms
+  * ServiceRecord{e2c41bf u0 android/.hardware.location.GeofenceHardwareService c:android}
+    packageName=android                                       * ServiceRecord{c01b857 u0 com.android.se/.SecureElementService c:com.android.se}                                         packageName=com.android.se
+  * ServiceRecord{3bf3e6 u0 org.futo.inputmethod.latin.playstore/org.futo.inputmethod.latin.LatinIME c:android}             packageName=org.futo.inputmethod.latin.playstore
+  * ServiceRecord{fc82052 u0 com.google.android.gms/.chimera.PersistentDirectBootAwareApiService c:com.google.android.gms.supervision}
+    packageName=com.google.android.gms
+  * ServiceRecord{40587a9 u0 ch.protonvpn.android/com.protonvpn.android.vpn.wireguard.WireguardWrapperService c:ch.protonvpn.android}
+    packageName=ch.protonvpn.android
+  * ServiceRecord{fe06c5a u0 com.google.android.gms/.personalsafety.service.PSAService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{872066 u0 com.google.android.gms/.geotimezone.GeoTimeZoneService c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{3a88ec2 u0 com.google.android.gms/.auth.trustagent.GoogleTrustAgent c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{6f56863 u0 com.google.android.gms/.location.persistent.LocationPersistentService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{f179dce u0 com.google.android.gms/.nearby.discovery.service.DiscoveryService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{64f9885 u0 com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{4a3b67c u0 com.google.pixel.camera.services/.CameraClientTrackingService c:com.google.pixel.camera.services}
+    packageName=com.google.pixel.camera.services
+  * ServiceRecord{5616c61 u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService c:android}
+    packageName=com.google.android.as
+  * ServiceRecord{acf0820 u0 com.google.android.gms/.dck.service.DckPersistentService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{546a42c u0 com.google.android.bluetooth/com.android.bluetooth.btservice.AdapterService c:android}
+    packageName=com.google.android.bluetooth
+  * ServiceRecord{8643d2f u0 com.google.android.gms/.chimera.UiIntentOperationService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{66c01c2 u0 com.google.android.gms/.fido.authenticator.service.AuthenticatorService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{6d3fe70 u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentCaptureService c:android}
+    packageName=com.google.android.as
+  * ServiceRecord{29e2ffe u0 com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService c:com.google.android.gms}                                         packageName=com.google.android.gms
+  * ServiceRecord{fc9a328 u0 com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService c:com.google.android.gms}                                           packageName=com.google.android.gms                        * ServiceRecord{fb4bb93 u0 com.android.systemui/.dump.SystemUIAuxiliaryDumpService c:com.android.systemui}
+    packageName=com.android.systemui
+  * ServiceRecord{727df55 u0 com.google.android.gms/com.google.android.location.network.NetworkLocationService c:android}
+    packageName=com.google.android.gms                        * ServiceRecord{3ee0246 u0 com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService c:android}
+    packageName=com.google.android.gms                        * ServiceRecord{1ef4c79 u0 com.google.android.gms.supervision/com.google.android.gms.kids.SupervisionService c:android}                                                               packageName=com.google.android.gms.supervision
+  * ServiceRecord{9342dfa u0 com.shannon.rcsservice/.registration.ShannonRcsServiceProxy c:com.android.phone}
+    packageName=com.shannon.rcsservice
+  * ServiceRecord{72345eb u0 com.termux/.app.TermuxService c:com.termux}                                                    packageName=com.termux
+  * ServiceRecord{611ddc u0 com.google.android.apps.tycho/androidx.work.multiprocess.RemoteWorkManagerService c:com.google.android.apps.tycho}                                          packageName=com.google.android.apps.tycho                 * ServiceRecord{7b837a6 u0 com.android.server.telecom/.components.TelecomService c:android}
+    packageName=com.android.server.telecom
+  * ServiceRecord{d40eb74 u0 com.google.android.networkstack/com.android.server.NetworkStackService c:android}
+    packageName=com.google.android.networkstack
+  * ServiceRecord{9a0097b u0 com.google.android.gms/.home.wifipresence.WifiPresencePersistentService c:com.google.android.gms}
+    packageName=com.google.android.gms                        * ServiceRecord{deac61d u0 com.android.systemui/com.google.android.systemui.power.batteryevent.domain.BatteryEventService c:com.android.systemui}                                     packageName=com.android.systemui
+  * ServiceRecord{447082 u0 com.google.android.apps.scone/.cqe.CqeService c:com.google.android.apps.scone}                  packageName=com.google.android.apps.scone
+  * ServiceRecord{9591f3a u0 com.facebook.orca/com.facebook.video.heroplayer.service.HeroKeepAliveService c:com.facebook.orca}
+    packageName=com.facebook.orca                             * ServiceRecord{87ebdd5 u0 com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService c:android}                                          packageName=com.google.android.googlequicksearchbox       * ServiceRecord{8ba5629 u0 com.google.android.gms/.crisisalerts.init.CrisisAlertsPersistentService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{153d259 u0 com.android.phone/.vvm.RemoteVvmTaskManager c:com.android.phone}
+    packageName=com.android.phone
+  * ServiceRecord{85ca8d4 u0 com.google.android.as/com.google.android.apps.miphone.aiai.common.notification.service.AiAiNotificationAssistantService c:android}
+    packageName=com.google.android.as                         * ServiceRecord{b080c21 u0 com.android.ons/.OpportunisticNetworkService c:com.android.ons}                                packageName=com.android.ons                               * ServiceRecord{e1819ad u0 com.android.telephony.imsmedia/.ImsMediaController c:com.shannon.imsservice}
+    packageName=com.android.telephony.imsmedia
+  * ServiceRecord{64e84a6 u0 com.google.android.gms/.common.stats.GmsCoreStatsService c:com.google.android.gms}
+    packageName=com.google.android.gms                        * ServiceRecord{39ad87a u0 com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService c:android}
+    packageName=com.google.android.gms                        * ServiceRecord{b2e8bba u0 com.google.android.gms/.dtdi.lifecycle.LifecycleService c:com.google.android.gms}              packageName=com.google.android.gms                        * ServiceRecord{9fdce8a u0 com.google.android.gms/.chimera.GmsInternalBoundBrokerService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{9c05953 u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentSuggestionsService c:android}                                                    packageName=com.google.android.as
+  * ServiceRecord{8428675 u0 com.samsung.slsi.telephony.oemril/.service.OemRilService c:com.samsung.slsi.telephony.oemril}                                                              packageName=com.samsung.slsi.telephony.oemril             * ServiceRecord{2d69c5f u0 com.google.pixel.camera.services/.LyricConfigProviderService c:com.google.pixel.camera.services}
+    packageName=com.google.pixel.camera.services
+  * ServiceRecord{2273703 u0 com.google.android.apps.scone/.perfstats.ModemMetricsService c:com.google.android.apps.scone}                                                              packageName=com.google.android.apps.scone                 * ServiceRecord{df475aa u0 com.google.android.apps.camera.services/.connectivity.service.ProxyCameraProviderService c:com.google.pixel.camera.services}                               packageName=com.google.android.apps.camera.services       * ServiceRecord{b46e2b2 u0 org.mozilla.firefox/org.mozilla.gecko.crashhelper.CrashHelper c:org.mozilla.firefox}           packageName=org.mozilla.firefox
+  * ServiceRecord{1d6a923 u0 com.shannon.rcsservice/.deviceprovisioning.DeviceProvisioningService c:com.shannon.rcsservice}
+    packageName=com.shannon.rcsservice
+  * ServiceRecord{1e78725 u0 com.google.android.as/com.google.android.apps.miphone.aiai.captions.downloadservice.CaptionsDownloadService c:com.google.android.as}
+    packageName=com.google.android.as
+  * ServiceRecord{e339eec u0 com.google.android.adservices.api/com.android.adservices.common.AdServicesCommonService c:com.google.android.gms}                                          packageName=com.google.android.adservices.api             * ServiceRecord{a95efab u0 com.shannon.rcsservice/.ShannonRcsService c:com.shannon.rcsservice}
+    packageName=com.shannon.rcsservice
+  * ServiceRecord{46ed8be u0 com.android.systemui/com.google.android.systemui.columbus.ColumbusServiceProxy c:com.android.systemui}                                                     packageName=com.android.systemui
+  * ServiceRecord{c9e379 u0 com.google.android.apps.carrier.carrierwifi/.mobility.MobilityDetectionService c:com.google.android.apps.carrier.carrierwifi}                               packageName=com.google.android.apps.carrier.carrierwifi   * ServiceRecord{888a5c3 u0 com.google.android.gms/.personalsafety.service.PersonalSafetyService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{96e4856 u0 com.android.phone/.TelephonyDebugService c:com.android.phone}
+    packageName=com.android.phone                             * ServiceRecord{bb4d7f6 u0 com.android.vending/com.google.android.finsky.services.LicensingService c:com.deepseek.chat}                                                               packageName=com.android.vending                           * ServiceRecord{e3ec533 u0 com.google.android.gms/.advancedprotection.service.AdvancedProtectionSyncService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{3cdb155 u0 com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService c:com.android.systemui}
+    packageName=com.google.android.apps.nexuslauncher         * ServiceRecord{f73e0da u0 com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService c:com.android.phone}
+    packageName=com.google.android.cellbroadcastservice       * ServiceRecord{51fa6e0 u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSearchUiService c:android}                                                              packageName=com.google.android.as
+  * ServiceRecord{89476e0 u0 com.google.android.gms/.personalsafety.service.LockingTrustAgentService c:android}
+    packageName=com.google.android.gms
+~ $ adb shell dumpsys activity services | grep -E "ServiceRecord|packageName"                                             * ServiceRecord{d746593 u0 com.google.android.gms/.nearby.presence.service.LifeCycleService c:com.google.android.gms}
+    packageName=com.google.android.gms                        * ServiceRecord{3533d8b u0 com.google.pixel.camera.services/.BinderService c:com.google.pixel.camera.services}            packageName=com.google.pixel.camera.services              * ServiceRecord{3dee9fb u0 com.google.android.gms/.play.integrity.api.service.IntegrityApiPersistentService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{c0cf u0 com.google.android.gms/.chimera.PersistentInternalBoundBrokerService c:com.google.android.gms}    packageName=com.google.android.gms
+  * ServiceRecord{ef731b3 u0 com.google.android.gms/.ads.identifier.service.AdvertisingIdService c:com.google.android.youtube}                                                          packageName=com.google.android.gms                        * ServiceRecord{9c0b521 u0 com.google.android.rilextension/.RilExtService c:com.google.android.rilextension}
+    packageName=com.google.android.rilextension
+  * ServiceRecord{fa51cd3 u0 com.google.android.apps.scone/.awareness.AwarenessService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{f581c0c u0 com.google.android.apps.messaging/com.google.android.ims.service.JibeService c:com.google.android.apps.messaging}
+    packageName=com.google.android.apps.messaging             * ServiceRecord{cd80e5e u0 org.torproject.torbrowser/org.mozilla.gecko.process.GeckoChildProcessServices$tab17 c:org.torproject.torbrowser}                                           packageName=org.torproject.torbrowser
+  * ServiceRecord{eba350c u0 com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService c:android}
+    packageName=com.google.android.networkstack.tethering
+  * ServiceRecord{d68fb41 u0 com.google.android.ext.services/com.android.textclassifier.DefaultTextClassifierService c:android}
+    packageName=com.google.android.ext.services               * ServiceRecord{272bb8c u0 com.google.android.gms/.chimera.PersistentInternalApiService c:com.google.android.gms}         packageName=com.google.android.gms                        * ServiceRecord{1d6d184 u0 com.anthropic.claude/org.chromium.android_webview.js_sandbox.service.JsSandboxService0 c:com.anthropic.claude}                                             packageName=com.anthropic.claude
+  * ServiceRecord{147e28b u0 com.google.android.adservices.api/com.android.adservices.measurement.MeasurementService c:com.google.android.googlequicksearchbox}
+    packageName=com.google.android.adservices.api             * ServiceRecord{8df0d9c u0 com.android.pixeldisplayservice/.DisplayService c:com.android.pixeldisplayservice}
+    packageName=com.android.pixeldisplayservice
+  * ServiceRecord{a5db711 u0 com.google.android.gms/.nearby.sharing.ReceiveSurfaceService c:com.google.android.gms}         packageName=com.google.android.gms                        * ServiceRecord{714498f u0 com.shannon.imsservice/.ShannonImsService c:com.android.phone}
+    packageName=com.shannon.imsservice
+  * ServiceRecord{466cb1f u0 com.android.vending/com.google.android.finsky.setup.dse.impl.DseService c:com.google.android.apps.setupwizard.searchselector}
+    packageName=com.android.vending                           * ServiceRecord{e0feb69 u0 com.pandora.android/org.chromium.content.app.SandboxedProcessService0:0 c:com.pandora.android}                                                             packageName=com.pandora.android                           * ServiceRecord{edd735c u0 com.google.android.gms/.remotegestures.api.RemoteGesturesService c:com.google.android.gms}     packageName=com.google.android.gms
+  * ServiceRecord{116cf12 u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSpeechRecognitionService c:android}
+    packageName=com.google.android.as
+  * ServiceRecord{d6a7d1b u0 com.android.systemui/.wallpapers.GradientColorWallpaper c:android}
+    packageName=com.android.systemui
+  * ServiceRecord{d838732 u0 com.google.android.gms/.tapandpay.hce.service.TpHceService c:com.google.android.nfc}           packageName=com.google.android.gms                        * ServiceRecord{44e5fba u0 com.android.systemui/.keyguard.KeyguardService c:android}
+    packageName=com.android.systemui
+  * ServiceRecord{d3c2a91 u0 com.android.chrome/org.chromium.content.app.SandboxedProcessService0:5 c:com.android.chrome}
+    packageName=com.android.chrome                            * ServiceRecord{6508242 u0 com.android.chrome/org.chromium.content.app.SandboxedProcessService0:6 c:com.android.chrome}                                                               packageName=com.android.chrome                            * ServiceRecord{72efff3 u0 com.google.android.gms.supervision/com.google.android.gms.chimera.PersistentInternalBoundBrokerService c:com.google.android.gms.supervision}
+    packageName=com.google.android.gms.supervision
+  * ServiceRecord{de332a8 u0 com.android.vending/com.google.android.finsky.billing.iab.InAppBillingService c:com.deepseek.chat}
+    packageName=com.android.vending                           * ServiceRecord{8f8bbfa u0 org.mozilla.firefox/org.mozilla.gecko.process.GeckoChildProcessServices$tab25 c:org.mozilla.firefox}
+    packageName=org.mozilla.firefox                           * ServiceRecord{c9c17d1 u0 com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService c:com.pandora.android}                                               packageName=com.google.android.webview
+  * ServiceRecord{42da8b u0 com.google.android.gms.supervision/com.google.android.gms.kids.apk.binding.appservice.KidsSupervisionAppService c:android}
+    packageName=com.google.android.gms.supervision
+  * ServiceRecord{733a013 u0 com.xfinity.digitalhome/com.google.firebase.sessions.SessionLifecycleService c:com.xfinity.digitalhome}
+    packageName=com.xfinity.digitalhome                       * ServiceRecord{5750515 u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService c:android}                                                     packageName=com.google.android.as
+  * ServiceRecord{19065d8 u0 com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService c:android}
+    packageName=com.google.android.as
+  * ServiceRecord{bc045e u0 com.google.android.gms/.personalsafety.service.SndDetectionService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{745ce08 u0 com.google.android.as/com.google.android.apps.miphone.aiai.textclassifier.service.QAiaiTextClassifierService c:android}                                    packageName=com.google.android.as                         * ServiceRecord{61deeb4 u0 com.google.android.as/com.google.android.apps.miphone.aiai.common.superpacks.impl.AiAiSuperpacksService c:com.google.android.as}
+    packageName=com.google.android.as
+  * ServiceRecord{93a9749 u0 com.google.android.gms/.auth.setup.devicesignals.LockScreenService c:com.google.android.gms}                                                               packageName=com.google.android.gms
+  * ServiceRecord{37fff88 u0 com.google.android.gms/.gcm.GcmService c:com.google.android.gms}                               packageName=com.google.android.gms                        * ServiceRecord{adcb72e u0 com.android.qns/.QualifiedNetworksServiceImpl c:com.android.phone}                             packageName=com.android.qns
+  * ServiceRecord{4c1558d u0 com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{d77b1f6 u0 com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService c:com.google.android.gms}
+    packageName=com.google.android.gms                        * ServiceRecord{6792642 u0 com.google.android.iwlan/.IwlanNetworkService c:com.android.phone}
+    packageName=com.google.android.iwlan                      * ServiceRecord{3cd877c u0 com.piriform.ccleaner/com.google.firebase.sessions.SessionLifecycleService c:com.piriform.ccleaner}                                                        packageName=com.piriform.ccleaner
+  * ServiceRecord{c7435bd u0 com.google.pixel.camera.services/.CameraIdRemapperService c:com.google.pixel.camera.services}
+    packageName=com.google.pixel.camera.services
+  * ServiceRecord{4c7d6b1 u0 com.google.android.gms/.location.gnssassistance.GnssAssistanceService c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{e8f9b6d u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService c:android}                                                            packageName=com.google.android.as                         * ServiceRecord{9e9fc13 u0 com.google.android.apps.messaging/com.google.android.ims.binding.SystemBindingService c:android}
+    packageName=com.google.android.apps.messaging
+  * ServiceRecord{d538c85 u0 com.google.android.gms/.chimera.PersistentApiService c:com.google.android.gms.supervision}     packageName=com.google.android.gms
+  * ServiceRecord{1ac0ac1 u0 com.google.android.apps.privacy.wildlife/androidx.room.MultiInstanceInvalidationService c:com.google.android.apps.privacy.wildlife}
+    packageName=com.google.android.apps.privacy.wildlife
+  * ServiceRecord{a020d9a u0 com.google.SSRestartDetector/.SSRestartDetectorService c:com.google.SSRestartDetector}
+    packageName=com.google.SSRestartDetector
+  * ServiceRecord{faa9b7 u0 com.android.systemui/.wallpapers.ImageWallpaper c:android}
+    packageName=com.android.systemui
+  * ServiceRecord{aeef36e u0 com.google.android.gms/.location.geocode.GeocodeService c:android}                             packageName=com.google.android.gms
+  * ServiceRecord{c32218d u0 com.google.android.apps.scone/.modem.ModemService c:com.google.android.apps.scone}             packageName=com.google.android.apps.scone                 * ServiceRecord{edaffd5 u0 com.android.phone/com.android.internal.telephony.CellularNetworkService c:com.android.phone}
+    packageName=com.android.phone                             * ServiceRecord{cc3af40 u0 com.google.android.apps.scone/.speedboost.SSBService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{65f1348 u0 com.google.android.gms/.magictether.service.TetherService c:com.android.systemui}              packageName=com.google.android.gms
+  * ServiceRecord{ff810c8 u0 com.google.android.pixelsystemservice/.common.ServiceBinderManagerService c:com.google.android.pixelsystemservice}                                         packageName=com.google.android.pixelsystemservice         * ServiceRecord{5bc73c3 u0 org.mozilla.firefox/org.mozilla.gecko.process.GeckoChildProcessServices$gpu c:org.mozilla.firefox}
+    packageName=org.mozilla.firefox
+  * ServiceRecord{49b87d4 u0 com.google.android.apps.scone/.bluetooth.BluetoothStatsService c:com.google.android.apps.scone}                                                            packageName=com.google.android.apps.scone
+  * ServiceRecord{ab87af8 u0 com.google.android.gms/.chimera.PersistentBoundBrokerService c:android}                        packageName=com.google.android.gms                        * ServiceRecord{9f93c71 u0 com.google.android.iwlan/.IwlanDataService c:com.android.phone}                                packageName=com.google.android.iwlan
+  * ServiceRecord{8e1865d u0 cm.aptoide.pt/com.google.firebase.sessions.SessionLifecycleService c:cm.aptoide.pt}
+    packageName=cm.aptoide.pt
+  * ServiceRecord{594f2cc u0 com.google.android.apps.tycho/com.google.android.ims.integration.VoiceLibraryService c:com.google.android.apps.tycho}
+    packageName=com.google.android.apps.tycho
+  * ServiceRecord{8b8716 u0 com.google.android.gms/.chimera.GmsBoundBrokerService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{fe1202a u0 com.google.android.gms/.chimera.GmsApiService c:com.google.android.apps.tycho}                 packageName=com.google.android.gms
+  * ServiceRecord{58fe635 u0 com.google.android.as/androidx.room.MultiInstanceInvalidationService c:com.google.android.as}
+    packageName=com.google.android.as
+  * ServiceRecord{1f2a0f1 u0 com.google.android.apps.tycho/.services.NovaCarrierService c:com.google.android.apps.tycho}    packageName=com.google.android.apps.tycho
+  * ServiceRecord{eac6638 u0 com.google.android.apps.tycho/.activation.ActivationService c:com.google.android.apps.tycho}                                                               packageName=com.google.android.apps.tycho                 * ServiceRecord{77299ae u0 com.google.android.as.oss/com.google.android.apps.miphone.astrea.conversationid.service.ConversationIdUpdateService c:com.google.android.as}
+    packageName=com.google.android.as.oss
+  * ServiceRecord{1431d6f u0 com.google.android.apps.scone/.perfstats.PerfStatsService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone                 * ServiceRecord{f9b9ec3 u0 com.pandora.android/.PandoraService c:com.pandora.android}
+    packageName=com.pandora.android
+  * ServiceRecord{5c47c75 u0 com.google.android.apps.scone/.cbrs.CbrsNetworkManagerService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{4a4df43 u0 com.google.android.GoogleCamera/com.google.android.apps.camera.prewarm.NoOpPrewarmService c:com.google.android.GoogleCamera}                               packageName=com.google.android.GoogleCamera               * ServiceRecord{5fb8722 u0 com.google.android.gms/.location.provider.gnss.GnssLocationService c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{d2d3d5a u0 org.mozilla.firefox/org.mozilla.gecko.process.GeckoChildProcessServices$tab8 c:org.mozilla.firefox}
+    packageName=org.mozilla.firefox                           * ServiceRecord{aae7ea0 u0 com.google.android.gms/.tensorgps.service.TensorGpsProxyService c:com.google.android.gms}
+    packageName=com.google.android.gms                        * ServiceRecord{124ceb3 u0 com.google.android.gms/.nearby.sharing.SendSurfaceService c:com.google.android.gms}            packageName=com.google.android.gms                        * ServiceRecord{153dc1b u0 com.google.android.apps.scone/.connectivitymonitor.service.ConnectivityMonitorService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{31d6b1f u0 com.google.android.gms/com.google.android.location.fused.FusedLocationService c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{e3326b2 u0 com.anthropic.claude/org.chromium.content.app.SandboxedProcessService0:0 c:com.anthropic.claude}                                                           packageName=com.anthropic.claude                          * ServiceRecord{3cb7681 u0 com.google.android.apps.scone/.perfstats.RelayMetricsService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{7d9ad40 u0 com.verizon.mips.services/com.vzw.apnservice.VZWAPNServiceNew c:com.verizon.mips.services}
+    packageName=com.verizon.mips.services
+  * ServiceRecord{9c0b478 u0 com.google.android.gms/.gcm.nts.SchedulerService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{7b55313 u0 com.google.android.gms/.gp.gameservice.GameService c:android}                                  packageName=com.google.android.gms                        * ServiceRecord{a55d57d u0 com.google.android.gms/.auth.trustagent.ActiveUnlockTrustAgent c:android}
+    packageName=com.google.android.gms                        * ServiceRecord{1faa592 u0 com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl c:android}
+    packageName=com.google.android.ext.services
+  * ServiceRecord{9f303f2 u0 com.verizon.mips.services/com.google.firebase.sessions.SessionLifecycleService c:com.verizon.mips.services}
+    packageName=com.verizon.mips.services                     * ServiceRecord{b2ba289 u0 com.google.android.gms/.auth.api.proxy.AuthService c:com.google.android.gm}                    packageName=com.google.android.gms                        * ServiceRecord{c9cb597 u0 com.google.android.as.oss/com.google.android.apps.miphone.astrea.conversationid.service.ConversationIdListenerService c:com.google.android.inputmethod.latin}
+    packageName=com.google.android.as.oss
+  * ServiceRecord{767db1b u0 com.google.android.dialer/com.google.apps.tiktok.concurrent.AndroidFuturesService c:com.google.android.dialer}
+    packageName=com.google.android.dialer                     * ServiceRecord{ff89fb u0 com.android.systemui/.selectiontoolbar.app.service.SysUiSelectionToolbarRenderService c:android}                                                            packageName=com.android.systemui
+  * ServiceRecord{ba6c3c7 u0 com.google.android.as/com.google.android.apps.miphone.aiai.adaptiveaudio.service.AdaptiveAudioBackgroundService c:com.google.android.as}
+    packageName=com.google.android.as
+  * ServiceRecord{d7fbeb9 u0 com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl c:android}
+    packageName=com.google.android.providers.media.module     * ServiceRecord{256f42a u0 com.android.phone/com.android.internal.telephony.data.CellularDataService c:com.android.phone}                                                             packageName=com.android.phone
+  * ServiceRecord{8428168 u0 com.google.android.apps.tycho/.tickle.FcmService c:com.google.android.apps.tycho}
+    packageName=com.google.android.apps.tycho
+  * ServiceRecord{b440334 u0 com.google.android.apps.scone/.coex.StateService c:com.google.android.apps.scone}              packageName=com.google.android.apps.scone
+  * ServiceRecord{e8ae982 u0 com.google.android.gms/.thunderbird.EmergencyPersistentService c:com.google.android.gms}       packageName=com.google.android.gms                        * ServiceRecord{38f8510 u0 com.google.android.pixelsystemservice/.DumpHelper c:com.google.android.pixelsystemservice}     packageName=com.google.android.pixelsystemservice
+  * ServiceRecord{eb88329 u0 com.android.systemui/.SystemUIService c:android}                                               packageName=com.android.systemui
+  * ServiceRecord{7659b0e u0 com.google.android.apps.photos/.backup.apiservice.grpc.PhotosBackupGrpcService c:com.google.android.gms}
+    packageName=com.google.android.apps.photos                * ServiceRecord{3e6a981 u0 com.android.chrome/org.chromium.content.app.PrivilegedProcessService0 c:com.android.chrome}
+    packageName=com.android.chrome                            * ServiceRecord{5c5f3aa u0 com.google.android.gms/.cast.devicesuggestions.SuggestionsProviderChimeraService c:com.google.android.gms}                                                 packageName=com.google.android.gms
+  * ServiceRecord{e2c41bf u0 android/.hardware.location.GeofenceHardwareService c:android}
+    packageName=android
+  * ServiceRecord{c01b857 u0 com.android.se/.SecureElementService c:com.android.se}
+    packageName=com.android.se                                * ServiceRecord{3bf3e6 u0 org.futo.inputmethod.latin.playstore/org.futo.inputmethod.latin.LatinIME c:android}
+    packageName=org.futo.inputmethod.latin.playstore          * ServiceRecord{fc82052 u0 com.google.android.gms/.chimera.PersistentDirectBootAwareApiService c:com.google.android.gms.supervision}                                                  packageName=com.google.android.gms
+  * ServiceRecord{40587a9 u0 ch.protonvpn.android/com.protonvpn.android.vpn.wireguard.WireguardWrapperService c:ch.protonvpn.android}
+    packageName=ch.protonvpn.android
+  * ServiceRecord{fe06c5a u0 com.google.android.gms/.personalsafety.service.PSAService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{872066 u0 com.google.android.gms/.geotimezone.GeoTimeZoneService c:android}                               packageName=com.google.android.gms                        * ServiceRecord{3a88ec2 u0 com.google.android.gms/.auth.trustagent.GoogleTrustAgent c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{6f56863 u0 com.google.android.gms/.location.persistent.LocationPersistentService c:com.google.android.gms}
+    packageName=com.google.android.gms                        * ServiceRecord{f179dce u0 com.google.android.gms/.nearby.discovery.service.DiscoveryService c:com.google.android.gms}
+    packageName=com.google.android.gms                        * ServiceRecord{64f9885 u0 com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService c:com.google.android.gms}                                         packageName=com.google.android.gms
+  * ServiceRecord{4a3b67c u0 com.google.pixel.camera.services/.CameraClientTrackingService c:com.google.pixel.camera.services}
+    packageName=com.google.pixel.camera.services
+  * ServiceRecord{5616c61 u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService c:android}
+    packageName=com.google.android.as                         * ServiceRecord{acf0820 u0 com.google.android.gms/.dck.service.DckPersistentService c:com.google.android.gms}             packageName=com.google.android.gms                        * ServiceRecord{546a42c u0 com.google.android.bluetooth/com.android.bluetooth.btservice.AdapterService c:android}
+    packageName=com.google.android.bluetooth
+  * ServiceRecord{8643d2f u0 com.google.android.gms/.chimera.UiIntentOperationService c:com.google.android.gms}
+    packageName=com.google.android.gms                        * ServiceRecord{66c01c2 u0 com.google.android.gms/.fido.authenticator.service.AuthenticatorService c:com.google.android.gms}                                                          packageName=com.google.android.gms                        * ServiceRecord{6d3fe70 u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentCaptureService c:android}
+    packageName=com.google.android.as                         * ServiceRecord{29e2ffe u0 com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{fc9a328 u0 com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{fb4bb93 u0 com.android.systemui/.dump.SystemUIAuxiliaryDumpService c:com.android.systemui}                packageName=com.android.systemui                          * ServiceRecord{727df55 u0 com.google.android.gms/com.google.android.location.network.NetworkLocationService c:android}
+    packageName=com.google.android.gms
+  * ServiceRecord{3ee0246 u0 com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService c:android}                                                        packageName=com.google.android.gms
+  * ServiceRecord{1ef4c79 u0 com.google.android.gms.supervision/com.google.android.gms.kids.SupervisionService c:android}                                                               packageName=com.google.android.gms.supervision            * ServiceRecord{9342dfa u0 com.shannon.rcsservice/.registration.ShannonRcsServiceProxy c:com.android.phone}
+    packageName=com.shannon.rcsservice
+  * ServiceRecord{72345eb u0 com.termux/.app.TermuxService c:com.termux}
+    packageName=com.termux
+  * ServiceRecord{611ddc u0 com.google.android.apps.tycho/androidx.work.multiprocess.RemoteWorkManagerService c:com.google.android.apps.tycho}
+    packageName=com.google.android.apps.tycho
+  * ServiceRecord{7b837a6 u0 com.android.server.telecom/.components.TelecomService c:android}                               packageName=com.android.server.telecom                    * ServiceRecord{d40eb74 u0 com.google.android.networkstack/com.android.server.NetworkStackService c:android}
+    packageName=com.google.android.networkstack
+  * ServiceRecord{9a0097b u0 com.google.android.gms/.home.wifipresence.WifiPresencePersistentService c:com.google.android.gms}
+    packageName=com.google.android.gms                        * ServiceRecord{deac61d u0 com.android.systemui/com.google.android.systemui.power.batteryevent.domain.BatteryEventService c:com.android.systemui}
+    packageName=com.android.systemui                          * ServiceRecord{447082 u0 com.google.android.apps.scone/.cqe.CqeService c:com.google.android.apps.scone}                  packageName=com.google.android.apps.scone                 * ServiceRecord{9591f3a u0 com.facebook.orca/com.facebook.video.heroplayer.service.HeroKeepAliveService c:com.facebook.orca}
+    packageName=com.facebook.orca
+  * ServiceRecord{87ebdd5 u0 com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService c:android}
+    packageName=com.google.android.googlequicksearchbox
+  * ServiceRecord{8ba5629 u0 com.google.android.gms/.crisisalerts.init.CrisisAlertsPersistentService c:com.google.android.gms}                                                          packageName=com.google.android.gms                        * ServiceRecord{153d259 u0 com.android.phone/.vvm.RemoteVvmTaskManager c:com.android.phone}
+    packageName=com.android.phone
+  * ServiceRecord{85ca8d4 u0 com.google.android.as/com.google.android.apps.miphone.aiai.common.notification.service.AiAiNotificationAssistantService c:android}                         packageName=com.google.android.as
+  * ServiceRecord{b080c21 u0 com.android.ons/.OpportunisticNetworkService c:com.android.ons}                                packageName=com.android.ons                               * ServiceRecord{e1819ad u0 com.android.telephony.imsmedia/.ImsMediaController c:com.shannon.imsservice}                   packageName=com.android.telephony.imsmedia
+  * ServiceRecord{64e84a6 u0 com.google.android.gms/.common.stats.GmsCoreStatsService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{39ad87a u0 com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService c:android}                                                    packageName=com.google.android.gms
+  * ServiceRecord{b2e8bba u0 com.google.android.gms/.dtdi.lifecycle.LifecycleService c:com.google.android.gms}              packageName=com.google.android.gms                        * ServiceRecord{9fdce8a u0 com.google.android.gms/.chimera.GmsInternalBoundBrokerService c:com.google.android.gms}        packageName=com.google.android.gms
+  * ServiceRecord{9c05953 u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentSuggestionsService c:android}
+    packageName=com.google.android.as
+  * ServiceRecord{8428675 u0 com.samsung.slsi.telephony.oemril/.service.OemRilService c:com.samsung.slsi.telephony.oemril}
+    packageName=com.samsung.slsi.telephony.oemril
+  * ServiceRecord{2d69c5f u0 com.google.pixel.camera.services/.LyricConfigProviderService c:com.google.pixel.camera.services}                                                           packageName=com.google.pixel.camera.services              * ServiceRecord{2273703 u0 com.google.android.apps.scone/.perfstats.ModemMetricsService c:com.google.android.apps.scone}
+    packageName=com.google.android.apps.scone
+  * ServiceRecord{df475aa u0 com.google.android.apps.camera.services/.connectivity.service.ProxyCameraProviderService c:com.google.pixel.camera.services}
+    packageName=com.google.android.apps.camera.services
+  * ServiceRecord{b46e2b2 u0 org.mozilla.firefox/org.mozilla.gecko.crashhelper.CrashHelper c:org.mozilla.firefox}           packageName=org.mozilla.firefox                           * ServiceRecord{1d6a923 u0 com.shannon.rcsservice/.deviceprovisioning.DeviceProvisioningService c:com.shannon.rcsservice}
+    packageName=com.shannon.rcsservice
+  * ServiceRecord{1e78725 u0 com.google.android.as/com.google.android.apps.miphone.aiai.captions.downloadservice.CaptionsDownloadService c:com.google.android.as}                       packageName=com.google.android.as
+  * ServiceRecord{e339eec u0 com.google.android.adservices.api/com.android.adservices.common.AdServicesCommonService c:com.google.android.gms}                                          packageName=com.google.android.adservices.api             * ServiceRecord{a95efab u0 com.shannon.rcsservice/.ShannonRcsService c:com.shannon.rcsservice}
+    packageName=com.shannon.rcsservice
+  * ServiceRecord{46ed8be u0 com.android.systemui/com.google.android.systemui.columbus.ColumbusServiceProxy c:com.android.systemui}
+    packageName=com.android.systemui                          * ServiceRecord{c9e379 u0 com.google.android.apps.carrier.carrierwifi/.mobility.MobilityDetectionService c:com.google.android.apps.carrier.carrierwifi}                               packageName=com.google.android.apps.carrier.carrierwifi   * ServiceRecord{888a5c3 u0 com.google.android.gms/.personalsafety.service.PersonalSafetyService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{96e4856 u0 com.android.phone/.TelephonyDebugService c:com.android.phone}
+    packageName=com.android.phone
+  * ServiceRecord{bb4d7f6 u0 com.android.vending/com.google.android.finsky.services.LicensingService c:com.deepseek.chat}
+    packageName=com.android.vending
+  * ServiceRecord{e3ec533 u0 com.google.android.gms/.advancedprotection.service.AdvancedProtectionSyncService c:com.google.android.gms}
+    packageName=com.google.android.gms
+  * ServiceRecord{3cdb155 u0 com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService c:com.android.systemui}
+    packageName=com.google.android.apps.nexuslauncher
+  * ServiceRecord{f73e0da u0 com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService c:com.android.phone}
+    packageName=com.google.android.cellbroadcastservice       * ServiceRecord{51fa6e0 u0 com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSearchUiService c:android}
+    packageName=com.google.android.as
+  * ServiceRecord{89476e0 u0 com.google.android.gms/.personalsafety.service.LockingTrustAgentService c:android}
+    packageName=com.google.android.gms                      ~ $
