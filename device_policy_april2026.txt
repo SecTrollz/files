@@ -1,0 +1,1147 @@
+adb shell ls -la /data/adb/
+ls: /data/adb/: Permission denied
+~ $ adb shell ls -la /data/adb
+ls: /data/adb: Permission denied
+~ $ adb shell ls -la /data/
+ls: /data/: Permission denied
+~ $ adb shell ls -la /data
+ls: /data: Permission denied
+~ $ adb shell dumpsys device_policy
+Current Device Policy Manager state:
+  Immutable state:
+    mHasFeature=true
+    mIsWatch=false
+    mIsAutomotive=false
+    mHasTelephonyFeature=true
+    mSafetyChecker=null
+  Profile Owner (User 0):
+    admin=ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}
+    package=com.google.android.gms.supervision
+    isOrganizationOwnedDevice=false
+
+  Admin Services:
+    User: 0
+      Package: com.google.android.gms.supervision
+        com.google.android.gms.supervision/com.google.android.gms.kids.SupervisionService u0 [bound] [connected]
+          Next backoff(sec): 3600
+          Connected: 1  Disconnected: 0  Died: 0  Duration: +19m1s898ms
+
+
+  Enabled Device Admins (User 0, provisioningState: 0):
+    com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver:
+      uid=10179
+      testOnlyAdmin=false
+      policies:
+        limit-password
+        watch-login
+        force-lock
+        expire-password
+        encrypted-storage
+        disable-camera
+        disable-keyguard-features
+      passwordQuality=0x0
+      minimumPasswordLength=0
+      passwordHistoryLength=0
+      minimumPasswordUpperCase=0
+      minimumPasswordLowerCase=0
+      minimumPasswordLetters=1
+      minimumPasswordNumeric=1
+      minimumPasswordSymbols=1
+      minimumPasswordNonLetter=0
+      maximumTimeToUnlock=0
+      strongAuthUnlockTimeout=0
+      maximumFailedPasswordsForWipe=0
+      specifiesGlobalProxy=false
+      passwordExpirationTimeout=0
+      passwordExpirationDate=0
+      encryptionRequested=false
+      disableCallerId=false
+      disableContactsSearch=false
+      disableBluetoothContactSharing=true
+      forceEphemeralUsers=false
+      isNetworkLoggingEnabled=false
+      disabledKeyguardFeatures=0
+      crossProfileWidgetProviders=null
+      organizationColor=-16746133
+      defaultEnabledRestrictionsAlreadySet={}
+      managedProfileCallerIdPolicy:
+      managedProfileContactsPolicy:
+      credentialManagerPolicy:
+      isParent=false
+      mCrossProfileCalendarPackages=[]
+      mCrossProfilePackages=[]
+      mSuspendPersonalApps=false
+      mProfileMaximumTimeOffMillis=0
+      mProfileOffDeadline=0
+      mAlwaysOnVpnPackage=null
+      mAlwaysOnVpnLockdown=false
+      mCommonCriteriaMode=false
+      mPasswordComplexity=0
+      mNearbyNotificationStreamingPolicy=3
+      mNearbyAppStreamingPolicy=3
+      mAdminCanGrantSensorsPermissions=false
+      mWifiMinimumSecurityLevel=0
+      mPreferentialNetworkServiceConfigs:
+        networkId=0
+        isEnabled=false
+        allowFallbackToDefaultConnection=true
+        blockNonMatchingNetworks=false
+        includedUids=[]
+        excludedUids=[]
+      mtePolicy=0
+      accountTypesWithManagementDisabled={}
+      mDialerPackage=null
+      mSmsPackage=null
+      mProvisioningContext=null
+      DeviceAdminInfo:
+        mVisible: true
+        mUsesPolicies: 971
+        mSupportsTransferOwnership: true
+        mHeadlessDeviceOwnerMode: 0
+        Receiver:
+          name=com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver
+          packageName=com.google.android.gms.supervision
+          labelRes=0x7f1503a6 nonLocalizedLabel=null icon=0x7f080158 banner=0x0
+          attributionTags=[com.google.android.gms.kids]
+          enabled=true exported=true directBootAware=false
+          description=2132083588
+          permission=android.permission.BIND_DEVICE_ADMIN
+          taskAffinity=com.google.android.gms.supervision targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+          launchMode=LAUNCH_MULTIPLE flags=0x10000 privateFlags=0x0 theme=0x0
+          lockTaskLaunchMode=LOCK_TASK_LAUNCH_MODE_DEFAULT
+          resizeMode=RESIZE_MODE_RESIZEABLE
+          knownActivityEmbeddingCerts={}
+          requireContentUriPermissionFromCaller=CONTENT_URI_PERMISSION_NONE
+          ApplicationInfo:
+            name=com.google.android.gms.common.app.GmsApplication
+            packageName=com.google.android.gms.supervision
+            labelRes=0x7f1507aa nonLocalizedLabel=null icon=0x7f0801de banner=0x0
+            className=com.google.android.gms.common.app.GmsApplication
+            processName=com.google.android.gms.supervision
+            taskAffinity=com.google.android.gms.supervision
+            uid=10179 flags=0x20c83ec5 privateFlags=0x8c081108 theme=0x0
+            requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+            sourceDir=/data/app/~~y_hOfzYb82SdLr_bAiiv6g==/com.google.android.gms.supervision-cLlN9ZpV0wPhC9irZWgZLQ==/base.apk
+            splitSourceDirs=[/data/app/~~y_hOfzYb82SdLr_bAiiv6g==/com.google.android.gms.supervision-cLlN9ZpV0wPhC9irZWgZLQ==/split_config.xxhdpi.apk]
+            resourceDirs=[/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk]
+            overlayPaths=[/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk, /data/resource-cache/com.android.systemui-neutral-0vE0.frro, /data/resource-cache/com.android.systemui-accent-sy7c.frro, /data/resource-cache/com.android.systemui-dynamic-AIe8.frro]
+            seinfo=default:privapp:targetSdkVersion=36:partition=product
+            seinfoUser=:complete
+            dataDir=/data/user/0/com.google.android.gms.supervision
+            deviceProtectedDataDir=/data/user_de/0/com.google.android.gms.supervision
+            credentialProtectedDataDir=/data/user/0/com.google.android.gms.supervision
+            sharedLibraryFiles=[/system/framework/org.apache.http.legacy.jar, /system_ext/framework/androidx.window.extensions.jar, /system_ext/framework/androidx.window.sidecar.jar]
+            splitClassLoaderNames=[null]
+            enabled=true minSdkVersion=33 targetSdkVersion=36 versionCode=111562 targetSandboxVersion=1
+            supportsRtl=true
+            fullBackupContent=true
+            crossProfile=false
+            category=7
+            HiddenApiEnforcementPolicy=2
+            usesNonSdkApi=false
+            allowsPlaybackCapture=true
+            nativeHeapZeroInitialized=0
+            enableOnBackInvokedCallback=true
+            allowCrossUidActivitySwitchFromBelow=true
+            mPageSizeAppCompatFlags=0
+            isAppLockSupported=false
+            isAppLockEnabled=false
+            createTimestamp=9863
+
+    mPasswordOwner=-1
+    mPasswordTokenHandle=0
+    mAppsSuspended=false
+    mUserSetupComplete=true
+    mAffiliationIds={}
+    mNewUserDisclaimer=null
+
+
+  Enabled Device Admins (User 11, provisioningState: 0):
+
+    mPasswordOwner=-1
+    mPasswordTokenHandle=0
+    mAppsSuspended=false
+    mUserSetupComplete=true
+    mAffiliationIds={}
+    mNewUserDisclaimer=null
+
+
+  Enabled Device Admins (User 12, provisioningState: 0):
+
+    mPasswordOwner=-1
+    mPasswordTokenHandle=0
+    mAppsSuspended=false
+    mUserSetupComplete=true
+    mAffiliationIds={}
+    mNewUserDisclaimer=null
+
+
+  Constants:
+    DAS_DIED_SERVICE_RECONNECT_BACKOFF_SEC: 3600
+    DAS_DIED_SERVICE_RECONNECT_BACKOFF_INCREASE: 2.0
+    DAS_DIED_SERVICE_RECONNECT_MAX_BACKOFF_SEC: 86400
+    DAS_DIED_SERVICE_STABLE_CONNECTION_THRESHOLD_SEC: 120
+
+  Stats:
+    LockGuard.guard(): count=58017, total=1233.5ms, avg=0.021ms, max calls/s=7455 max dur/s=157.6ms max time=38.3ms
+
+  Local Policies:
+    User 0:
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.videos}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePermissionPolicyKey{mIdentifier= permissionGrant; mPackageName= com.google.android.gms; mPermissionName= android.permission.WRITE_CONTACTS}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            IntegerPolicyValue { mValue= 1 }
+        Resolved Policy (MostRestrictive):
+          IntegerPolicyValue { mValue= 1 }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.apps.accessibility.voiceaccess}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePolicyKey{mPolicyKey= applicationRestrictions; mPackageName= com.chrome.dev}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BundlePolicyValue { mValue= Bundle[{RestrictAccountsToPatterns=[abominable.butthead@gmail.com], ForceBrowserSignin=true}] }
+        Resolved Policy (MostRecent):
+          null
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.apps.ai.icons}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.apps.pixel.creativeassistant}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePermissionPolicyKey{mIdentifier= permissionGrant; mPackageName= com.google.android.gms.supervision; mPermissionName= android.permission.READ_CONTACTS}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            IntegerPolicyValue { mValue= 1 }
+        Resolved Policy (MostRestrictive):
+          IntegerPolicyValue { mValue= 1 }
+
+      PackagePolicyKey{mPolicyKey= packageUninstallBlocked; mPackageName= com.google.android.googlequicksearchbox}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePermissionPolicyKey{mIdentifier= permissionGrant; mPackageName= com.google.android.gms; mPermissionName= android.permission.GET_ACCOUNTS}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            IntegerPolicyValue { mValue= 1 }
+        Resolved Policy (MostRestrictive):
+          IntegerPolicyValue { mValue= 1 }
+
+      PackagePermissionPolicyKey{mIdentifier= permissionGrant; mPackageName= com.google.android.gms; mPermissionName= android.permission.READ_CONTACTS}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            IntegerPolicyValue { mValue= 1 }
+        Resolved Policy (MostRestrictive):
+          IntegerPolicyValue { mValue= 1 }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.apps.nbu.files}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= false }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= false }
+
+      PackagePolicyKey{mPolicyKey= packageUninstallBlocked; mPackageName= com.google.android.safetycore}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePermissionPolicyKey{mIdentifier= permissionGrant; mPackageName= com.google.android.gms.supervision; mPermissionName= android.permission.READ_PHONE_STATE}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            IntegerPolicyValue { mValue= 1 }
+        Resolved Policy (MostRestrictive):
+          IntegerPolicyValue { mValue= 1 }
+
+      PackagePolicyKey{mPolicyKey= packageUninstallBlocked; mPackageName= com.google.android.apps.kids.familylinkhelper}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.apps.chromecast.app}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= false }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= false }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.apps.tips}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= false }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= false }
+
+      PackagePolicyKey{mPolicyKey= applicationRestrictions; mPackageName= com.google.android.googlequicksearchbox}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BundlePolicyValue { mValue= Bundle[{enable_google_search=true, whitelisted_google_account_names=[abominable.butthead@gmail.com]}] }
+        Resolved Policy (MostRecent):
+          null
+
+      PackagePermissionPolicyKey{mIdentifier= permissionGrant; mPackageName= com.google.android.gms; mPermissionName= android.permission.READ_PHONE_STATE}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            IntegerPolicyValue { mValue= 1 }
+        Resolved Policy (MostRestrictive):
+          IntegerPolicyValue { mValue= 1 }
+
+      PackagePolicyKey{mPolicyKey= packageUninstallBlocked; mPackageName= com.google.android.gms}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= false }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= false }
+
+      UserRestrictionPolicyKey userRestriction_no_add_clone_profile
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.apps.diagnosticstool}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePermissionPolicyKey{mIdentifier= permissionGrant; mPackageName= com.google.android.gms; mPermissionName= android.permission.POST_NOTIFICATIONS}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            IntegerPolicyValue { mValue= 1 }
+        Resolved Policy (MostRestrictive):
+          IntegerPolicyValue { mValue= 1 }
+
+      PackagePolicyKey{mPolicyKey= applicationRestrictions; mPackageName= com.chrome.beta}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BundlePolicyValue { mValue= Bundle[{RestrictAccountsToPatterns=[abominable.butthead@gmail.com], ForceBrowserSignin=true}] }
+        Resolved Policy (MostRecent):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_safe_boot
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePolicyKey{mPolicyKey= applicationRestrictions; mPackageName= com.android.chrome}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BundlePolicyValue { mValue= Bundle[{BrowserSignin=2, ForceGoogleSafeSearch=true}] }
+        Resolved Policy (MostRecent):
+          null
+
+      PackagePolicyKey{mPolicyKey= applicationRestrictions; mPackageName= com.google.android.apps.kids.familylinkhelper}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BundlePolicyValue { mValue= Bundle[{EnableSecondaryAccountSignIn=true}] }
+        Resolved Policy (MostRecent):
+          null
+
+      DefaultPolicyKey keyguardDisabledFeatures
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            IntegerPolicyValue { mValue= 416 }
+        Resolved Policy (FlagUnion):
+          IntegerPolicyValue { mValue= 416 }
+
+      UserRestrictionPolicyKey userRestriction_no_debugging_features
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_camera
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      PackagePolicyKey{mPolicyKey= applicationRestrictions; mPackageName= com.google.android.apps.kids.familylink}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BundlePolicyValue { mValue= Bundle[{EnableSecondaryAccountSignIn=true}] }
+        Resolved Policy (MostRecent):
+          null
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.apps.walletnfcrel}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= false }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= false }
+
+      UserRestrictionPolicyKey userRestriction_no_add_managed_profile
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      UserRestrictionPolicyKey userRestriction_disallow_config_default_apps
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_share_location
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_grant_admin
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      UserRestrictionPolicyKey userRestriction_no_install_unknown_sources
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      DefaultPolicyKey resetPasswordToken
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            LongPolicyValue { mValue= -7098503936889912526 }
+        Resolved Policy (MostRecent):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_add_private_profile
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      DefaultPolicyKey userControlDisabledPackages
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            PackageNameSetPolicyValue { [com.google.android.gms, com.android.settings] }
+        Resolved Policy (PackageSetUnion):
+          PackageNameSetPolicyValue { [com.google.android.gms, com.android.settings] }
+
+      PackagePolicyKey{mPolicyKey= applicationRestrictions; mPackageName= com.google.android.gms}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BundlePolicyValue { mValue= Bundle[{suppressLocationDialog=true}] }
+        Resolved Policy (MostRecent):
+          null
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.music}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= false }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= false }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.apps.youtube.kids}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= false }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= false }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.calendar}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePolicyKey{mPolicyKey= applicationRestrictions; mPackageName= com.chrome.canary}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BundlePolicyValue { mValue= Bundle[{RestrictAccountsToPatterns=[abominable.butthead@gmail.com], ForceBrowserSignin=true}] }
+        Resolved Policy (MostRecent):
+          null
+
+      PackagePolicyKey{mPolicyKey= applicationRestrictions; mPackageName= com.google.android.apps.classroom}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BundlePolicyValue { mValue= Bundle[{EnableSchoolAccountsOnUnicornDevices=true}] }
+        Resolved Policy (MostRecent):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_config_location
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.play.games}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= false }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= false }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.projection.gearhead}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.android.stk}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePolicyKey{mPolicyKey= applicationRestrictions; mPackageName= com.google.android.apps.chrome}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BundlePolicyValue { mValue= Bundle[{RestrictAccountsToPatterns=[abominable.butthead@gmail.com], ForceBrowserSignin=true}] }
+        Resolved Policy (MostRecent):
+          null
+
+      PackagePolicyKey{mPolicyKey= packageUninstallBlocked; mPackageName= com.google.android.gms.supervision}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      UserRestrictionPolicyKey userRestriction_no_config_date_time
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePermissionPolicyKey{mIdentifier= permissionGrant; mPackageName= com.google.android.gms; mPermissionName= android.permission.CALL_PHONE}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            IntegerPolicyValue { mValue= 1 }
+        Resolved Policy (MostRestrictive):
+          IntegerPolicyValue { mValue= 1 }
+
+      PackagePermissionPolicyKey{mIdentifier= permissionGrant; mPackageName= com.google.android.gms.supervision; mPermissionName= android.permission.WRITE_CONTACTS}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            IntegerPolicyValue { mValue= 1 }
+        Resolved Policy (MostRestrictive):
+          IntegerPolicyValue { mValue= 1 }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.apps.tachyon}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      UserRestrictionPolicyKey userRestriction_no_factory_reset
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePermissionPolicyKey{mIdentifier= permissionGrant; mPackageName= com.google.android.gms.supervision; mPermissionName= android.permission.POST_NOTIFICATIONS}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            IntegerPolicyValue { mValue= 1 }
+        Resolved Policy (MostRestrictive):
+          IntegerPolicyValue { mValue= 1 }
+
+      PackagePermissionPolicyKey{mIdentifier= permissionGrant; mPackageName= com.google.android.gms.supervision; mPermissionName= android.permission.GET_ACCOUNTS}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            IntegerPolicyValue { mValue= 1 }
+        Resolved Policy (MostRestrictive):
+          IntegerPolicyValue { mValue= 1 }
+
+      UserRestrictionPolicyKey userRestriction_no_config_credentials
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.google.android.apps.books}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= false }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= false }
+
+      PackagePolicyKey{mPolicyKey= applicationHidden; mPackageName= com.android.virtualization.terminal}
+        Per-admin Policy:
+          EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+            BooleanPolicyValue { mValue= true }
+        Resolved Policy (MostRestrictive):
+          BooleanPolicyValue { mValue= true }
+
+    User 11:
+      UserRestrictionPolicyKey userRestriction_no_config_location
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_add_clone_profile
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_remove_user
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_share_location
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_grant_admin
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_install_unknown_sources
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_safe_boot
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_add_user
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_add_private_profile
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_camera
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_debugging_features
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_factory_reset
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_config_credentials
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_add_managed_profile
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_disallow_config_default_apps
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+    User 12:
+      UserRestrictionPolicyKey userRestriction_no_config_location
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_add_clone_profile
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_remove_user
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_share_location
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_grant_admin
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_install_unknown_sources
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_safe_boot
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_add_user
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_add_private_profile
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_camera
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_debugging_features
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_factory_reset
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_config_credentials
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_no_add_managed_profile
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+      UserRestrictionPolicyKey userRestriction_disallow_config_default_apps
+        Per-admin Policy:
+          null
+        Resolved Policy (MostRestrictive):
+          null
+
+
+  Global Policies:
+    UserRestrictionPolicyKey userRestriction_no_config_location
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    UserRestrictionPolicyKey userRestriction_no_add_clone_profile
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    DefaultPolicyKey autoTimezone
+      Per-admin Policy:
+        EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+          IntegerPolicyValue { mValue= 2 }
+      Resolved Policy (TopPriority):
+        IntegerPolicyValue { mValue= 2 }
+
+    UserRestrictionPolicyKey userRestriction_no_share_location
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    UserRestrictionPolicyKey userRestriction_no_remove_user
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    UserRestrictionPolicyKey userRestriction_no_grant_admin
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    UserRestrictionPolicyKey userRestriction_no_install_unknown_sources
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    UserRestrictionPolicyKey userRestriction_no_safe_boot
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    UserRestrictionPolicyKey userRestriction_no_add_user
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    UserRestrictionPolicyKey userRestriction_no_add_private_profile
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    UserRestrictionPolicyKey userRestriction_no_camera
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    UserRestrictionPolicyKey userRestriction_no_debugging_features
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    UserRestrictionPolicyKey userRestriction_no_factory_reset
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    DefaultPolicyKey autoTime
+      Per-admin Policy:
+        EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null }
+          IntegerPolicyValue { mValue= 2 }
+      Resolved Policy (TopPriority):
+        IntegerPolicyValue { mValue= 2 }
+
+    UserRestrictionPolicyKey userRestriction_no_config_credentials
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    UserRestrictionPolicyKey userRestriction_no_add_managed_profile
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+    UserRestrictionPolicyKey userRestriction_disallow_config_default_apps
+      Per-admin Policy:
+        null
+      Resolved Policy (MostRestrictive):
+        null
+
+
+  Default admin policy size limit: -1
+  Current admin policy size limit: -1
+  Admin Policies size:
+  User 0:
+    Admin : EnforcingAdmin { mPackageName= com.google.android.gms.supervision, mComponentName= ComponentInfo{com.google.android.gms.supervision/com.google.android.gms.kids.account.receiver.ProfileOwnerReceiver}, mAuthorities= [enterprise], mUserId= 0, mIsRoleAuthority= false, mSystemEntity = null } : 6376
+
+Encryption Status: per-user
+Logout user: -10000
+
+no pending user created callback tokens
+
+Device policy cache:
+  Screen capture disallowed users: []
+  Password quality: {0=0, 11=0, 12=0}
+  Permission policy: {0=0}
+  Content protection policy: {}
+  Admin can grant sensors permission: false
+  Shortcuts overrides: {}
+
+Device state cache:
+  Device provisioned: true
+  Device Owner Type: -1
+  Has PO:
+  User 0: true
+
+PersonalAppsSuspensionHelper
+  critical packages: 7 apps
+    0: com.google.android.apps.wellbeing
+    1: com.android.vending
+    2: com.google.android.gms
+    3: com.android.systemui
+    4: com.android.settings
+    5: com.google.android.apps.pixelmigrate
+    6: com.google.android.apps.restore
+  launcher packages: 2 apps
+    0: com.google.android.apps.nexuslauncher
+    1: com.android.settings
+  accessibility services: empty
+  input method packages: 2 apps
+    0: org.futo.inputmethod.latin.playstore
+    1: com.google.android.inputmethod.latin
+  SMS package: com.google.android.apps.messaging
+  Settings package: com.android.settings
+  Packages subject to suspension: 70 apps
+    0: com.apkmirror.helper.prod
+    1: com.google.android.youtube
+    2: com.google.android.apps.weather
+    3: com.afwsamples.testdpc
+    4: tech.ula
+    5: com.discord
+    6: ch.protonmail.android
+    7: com.google.android.apps.safetyhub
+    8: ru.gaunqcct.xzyegundr
+    9: com.speedsoftware.explorer
+    10: com.reddit.frontpage
+    11: dev.mjandroid.logdroid
+    12: com.deepseek.chat
+    13: com.vrem.wifianalyzer
+    14: com.google.android.deskclock
+    15: com.tortel.syslog
+    16: com.google.android.gm
+    17: com.aurora.store
+    18: ch.protonvpn.android
+    19: com.microsoft.intune
+    20: imagetopdf.pdfconverter.jpgtopdf.pdfeditor
+    21: com.squareup.cash
+    22: com.csdeveloper.imgconverter
+    23: com.reqable.android
+    24: com.google.android.apps.nbu.files
+    25: com.google.android.apps.bard
+    26: com.google.android.apps.docs
+    27: com.google.android.apps.maps
+    28: com.google.android.apps.tips
+    29: com.pandora.android
+    30: com.kokoschka.michael.crypto
+    31: com.google.android.contacts
+    32: net.wigle.wigleandroid
+    33: com.server.auditor.ssh.client
+    34: gov.irs
+    35: com.google.android.calculator
+    36: com.android.chrome
+    37: net.zedge.android
+    38: com.google.android.ims
+    39: org.torproject.torbrowser
+    40: com.tapuniverse.phototopdf
+    41: com.google.android.apps.photos
+    42: com.android.vending.billing.InAppBillingService.BINN
+    43: com.google.android.apps.pixel.nowplaying
+    44: domilopment.apkextractor
+    45: com.facebook.orca
+    46: com.grindrapp.android
+    47: com.microsoft.copilot
+    48: org.mozilla.firefox
+    49: com.Yiming.PC
+    50: com.ilovepdf.www
+    51: com.termux
+    52: com.google.android.apps.tycho
+    53: com.anthropic.claude
+    54: com.xfinity.digitalhome
+    55: proton.android.pass
+    56: com.v2raytun.android
+    57: com.piriform.ccleaner
+    58: com.google.android.apps.recorder
+    59: cellmapper.net.cellmapper
+    60: com.network.proxy
+    61: com.contactoffice.mailfence
+    62: io.ente.auth
+    63: com.google.android.apps.youtube.music
+    64: io.tempage.dorycert
+    65: cm.aptoide.pt
+    66: com.castify
+    67: com.esotech.onellm
+    68: io.spck
+    69: com.google.android.GoogleCamera
+Subscription changed listener : null
+DPM global setting ALLOW_WORK_PROFILE_TELEPHONY_FOR_NON_DPM_ROLE_HOLDERS : null
+OverlayPackagesProvider
+  required_apps_managed_device: 10 apps
+    0: com.android.documentsui
+    1: com.android.providers.downloads
+    2: com.android.providers.downloads.ui
+    3: com.android.contacts
+    4: com.android.stk
+    5: com.android.webview
+    6: com.android.cellbroadcastreceiver
+    7: com.android.dialer
+    8: com.android.settings
+    9: com.android.systemui
+  required_apps_managed_user: 9 apps
+    0: com.android.documentsui
+    1: com.android.providers.downloads
+    2: com.android.providers.downloads.ui
+    3: com.android.contacts
+    4: com.android.stk
+    5: com.android.webview
+    6: com.android.dialer
+    7: com.android.settings
+    8: com.android.systemui
+  required_apps_managed_profile: 7 apps
+    0: com.android.documentsui
+    1: com.android.providers.downloads
+    2: com.android.providers.downloads.ui
+    3: com.android.contacts
+    4: com.android.webview
+    5: com.android.settings
+    6: com.android.systemui
+  disallowed_apps_managed_device: empty
+  disallowed_apps_managed_user: empty
+  disallowed_apps_managed_device: empty
+  vendor_required_apps_managed_device: 28 apps
+    0: com.google.android.googlequicksearchbox
+    1: com.android.launcher
+    2: com.google.android.apps.messaging
+    3: com.google.android.trichromelibrary
+    4: com.google.android.apps.safetyhub
+    5: com.android.vending
+    6: com.google.android.apps.accessibility.voiceaccess
+    7: com.google.android.launcher
+    8: com.android.settings.intelligence
+    9: com.google.android.apps.searchlite
+    10: com.google.android.setupwizard
+    11: com.google.android.apps.wellbeing
+    12: com.google.android.dialer
+    13: com.google.android.apps.nbu.files
+    14: com.google.android.apps.tips
+    15: com.google.android.webview
+    16: com.google.android.contacts
+    17: com.google.android.apps.internal.gyotaku
+    18: com.google.android.gms
+    19: com.google.android.apps.nexuslauncher
+    20: com.google.android.documentsui
+    21: com.google.android.apps.internal.betterbug
+    22: com.google.android.settings.intelligence
+    23: com.google.android.projection.gearhead
+    24: com.google.android.apps.tycho
+    25: com.google.android.apps.assistant
+    26: com.google.android.cellbroadcastreceiver
+    27: com.google.android.GoogleCamera
+  vendor_required_apps_managed_user: 15 apps
+    0: com.google.android.googlequicksearchbox
+    1: com.android.launcher
+    2: com.google.android.apps.messaging
+    3: com.google.android.trichromelibrary
+    4: com.android.vending
+    5: com.google.android.apps.accessibility.voiceaccess
+    6: com.google.android.launcher
+    7: com.google.android.apps.wellbeing
+    8: com.google.android.dialer
+    9: com.google.android.apps.nbu.files
+    10: com.google.android.webview
+    11: com.google.android.contacts
+    12: com.google.android.gms
+    13: com.google.android.documentsui
+    14: com.google.android.apps.pixel.creativeassistant
+  vendor_required_apps_managed_profile: 24 apps
+    0: com.google.android.googlequicksearchbox
+    1: com.google.android.trichromelibrary
+    2: com.google.android.apps.internal.nexusuploader
+    3: com.google.inputmethod.ink.strokes.showcase
+    4: com.android.vending
+    5: com.google.android.apps.accessibility.voiceaccess
+    6: com.google.android.as
+    7: com.android.ramdump
+    8: com.google.android.apps.searchlite
+    9: com.google.android.netgrapher
+    10: com.google.android.volta
+    11: com.google.android.apps.wellbeing
+    12: com.google.android.apps.nbu.files
+    13: com.google.android.apps.overlay
+    14: com.google.android.webview
+    15: com.google.android.contacts
+    16: com.google.android.apps.internal.gyotaku
+    17: com.google.android.gms
+    18: com.google.android.documentsui
+    19: com.google.android.apps.internal.betterbug
+    20: com.google.android.projection.gearhead
+    21: com.google.android.apps.assistant
+    22: com.google.android.apps.pixel.creativeassistant
+    23: com.google.mds
+  vendor_disallowed_apps_managed_user: 1 app
+    0: com.google.android.apps.healthdata
+  vendor_disallowed_apps_managed_device: 1 app
+    0: com.google.android.apps.healthdata
+  vendor_disallowed_apps_managed_profile: 2 apps
+    0: com.google.android.apps.stargate
+    1: com.google.android.apps.healthdata
+
+Other overlayable app resources
+  cross_profile_apps: empty
+  vendor_cross_profile_apps: 5 apps
+    0: com.google.android.googlequicksearchbox
+    1: com.google.android.inputmethod.latin
+    2: com.google.android.projection.gearhead
+    3: com.google.android.inputmethod.latin.dev
+    4: com.google.android.inputmethod.latin.canary
+  config_packagesExemptFromSuspension: 7 apps
+    0: com.google.android.apps.wellbeing
+    1: com.android.vending
+    2: com.google.android.gms
+    3: com.android.systemui
+    4: com.android.settings
+    5: com.google.android.apps.pixelmigrate
+    6: com.google.android.apps.restore
+  policy_exempt_apps: empty
+  vendor_policy_exempt_apps: empty
+
+~ $
