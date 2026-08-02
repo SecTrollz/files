@@ -1,0 +1,46 @@
+========== [FORENSIC] ELEVATED SCAN ==========
+Timestamp: Tue Jun 30 15:48:25 EDT 2026
+Running as: shell (UID: 2000)
+SELinux Enforce: Enforcing
+
+========== 1. HARDWARE PRESENCE (Avoiding HAL hooks) ==========
+No euicc HAL found via lshal
+193	econtroller: [com.android.internal.telephony.euicc.IEuiccController]
+196	euicc_card_controller: [com.android.internal.telephony.euicc.IEuiccCardController]
+
+========== 2. SYSTEM PROPERTIES (Unfiltered) ==========
+[gsm.current.phone-type]: [1,1]
+[gsm.network.type]: [LTE,IWLAN]
+[gsm.operator.alpha]: [Spectrum,]
+[gsm.operator.iso-country]: [us,]
+[gsm.operator.isroaming]: [false,false]
+[gsm.operator.numeric]: [311480,]
+[gsm.sim.operator.alpha]: [Spectrum,]
+[gsm.sim.operator.iso-country]: [us,]
+[gsm.sim.operator.numeric]: [311480,]
+[gsm.sim.state]: [LOADED,NOT_READY]
+[gsm.version.baseband]: [g5300t-260317-260505-B-15346003,g5300t-260317-260505-B-15346003]
+[gsm.version.ril-impl]: [Samsung S.LSI Vendor RIL 5400 V2.3 Build 2026-04-30 04:46:29]
+[init.svc.secure_element_uicc_hal_service-sim1]: [running]
+[init.svc.secure_element_uicc_hal_service-sim2]: [running]
+[masterclear.allow_retain_esim_profiles_after_fdr]: [true]
+[ro.setupwizard.esim_cid_ignore]: [00000001]
+
+========== 3. PACKAGE FORENSICS (Hidden/Disabled/Installed) ==========
+
+========== 4. FILE SYSTEM OVERLAYS & HIDDEN DATA ==========
+
+========== 5. DIRECT SERVICE CALL (Bypassing dumpsys) ==========
+Raw Binder call to euicc failed (service dead/missing)
+Result: Parcel(	00000000    '....')
+
+========== 6. DPC / DEVICE ADMIN RAW CHECK ==========
+active_admin.xml not found (No admins).
+cat: /data/system/device_policies.xml: Permission denied
+
+========== 7. KERNEL MODULES & WAKELOCKS (Persistence) ==========
+cat: /proc/wakelocks: No such file or directory
+
+========== 8. LAST BUT NOT LEAST: CONTENT PROVIDERS ==========
+
+========== [FORENSIC] SCAN COMPLETE ==========
